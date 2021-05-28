@@ -1,0 +1,133 @@
+body:lang(TC),
+body:lang(SC)
+{
+    h1,h2,h3, a, 
+    #wrapper .nav_links .nav-link{
+        font-weight: 400;
+    }
+    #AboutWE .about-p,
+    .hero-header .hero-intro2, p{
+        font-weight: 100;
+    }
+    #AboutWE .about-h2{
+        font-weight: 500;
+        font-family: $fontNotoSansTC;
+    }
+    .deco-content{
+        font-weight: 100;
+    } 
+    .break_Chi{
+        display: block;
+    }  
+    .hero-title {
+        font-weight: 400;
+    }  
+    .service-title {
+        font-weight: 500;  
+    }
+    .game-icon-container h4{
+        font-weight: 500;
+    }
+    #liveGame .lottery .header-deco {
+        width: 190px;
+    }
+   
+    #liveGame .hero-header h1{
+        font-weight: 500;
+    }
+    .secondaryBtn,
+    .main-footer .footer-subscribe .btn{
+        font-family: $fontNotoSansTC;
+        font-weight: 300;
+    }
+    .gametab-game-title h4{
+        font-weight: 500;
+    }
+    #thankyou-popup .secondaryBtn{
+        font-size: 15px;
+    }
+    @media (min-width: 768px){
+        #ContactUs .contact-main{
+            padding-top: 2em;
+        }
+        #allLiveGame .allLiveGame-main .game-item-wrap .game-item-text p{
+            font-size: 15px;
+        }
+    }
+    @media (min-width: 992px){
+        #newsFeed .frame-detail h6 {
+            font-weight: 800;
+        }
+        #newsFeed .frame-detail .frame-date {
+            font-size: 25px;
+        }
+    }
+    @media (min-width: 1200px){
+    }
+}
+
+body:lang(TC)
+{
+    body,h1,h2,h3,h4, h5, h6, p, span,
+    .feature-flexbox h2,
+    .live-game-main .feature-header,
+    #AboutWE .about-h2, #AboutWE .about-h4, #AboutWE .about-p,
+    .main-footer li, .main-footer h6, .main-footer p, .main-footer .subscribe-form input,
+    #allLiveGame .allLiveGame-main .game-item-wrap .game-item-text h2,
+    #allLiveGame .allLiveGame-main .game-item-wrap .game-item-text h4,
+    #allLiveGame .allLiveGame-main .game-item-wrap .game-item-text p,
+    #MahjongLuckyWheel .hero-header .GOF-series, #GodofFortuneSicBo .hero-header .GOF-series, #GodofFortuneRoulette .hero-header .GOF-series,
+    #wrapper .nav_links .nav-link{
+        font-family: $fontNotoSansTC;
+    }
+    #newsFeed .frame-detail h6 {
+        font-weight: 500;
+    }
+    
+}
+body:lang(SC)
+{
+    body,h1,h2,h3,h4, h5, h6, p, span,
+    .feature-flexbox h2,
+    .live-game-main .feature-header,
+    #AboutWE .about-h2, #AboutWE .about-h4, #AboutWE .about-p,
+    .main-footer li, .main-footer h6, .main-footer p, .main-footer .subscribe-form input,
+    #allLiveGame .allLiveGame-main .game-item-wrap .game-item-text h2,
+    #allLiveGame .allLiveGame-main .game-item-wrap .game-item-text h4,
+    #allLiveGame .allLiveGame-main .game-item-wrap .game-item-text p,
+    #MahjongLuckyWheel .hero-header .GOF-series, #GodofFortuneSicBo .hero-header .GOF-series, #GodofFortuneRoulette .hero-header .GOF-series,
+    #wrapper .nav_links .nav-link{
+        font-family: $fontNotoSansSC;
+    }
+    #newsFeed .frame-detail h6 {
+        font-weight: 800;
+    }
+}
+body:lang(EN)
+{
+    #ContactUs  .hyperlink{
+        font-weight: 400;
+    }
+    #AboutWE .about-p, 
+    .main-footer li
+    {
+        font-family: $fontBarlowLight;
+    }
+    #AboutWE .about-h2, #AboutWE .about-h4,
+    .main-footer h6,
+    .game-icon-wrap,
+    #allLiveGame .allLiveGame-main .game-item-wrap .game-item-text h2
+    {
+        font-family: $fontFuturaMedium;
+    }
+    #allLiveGame .allLiveGame-main .game-item-wrap .game-item-text p,
+    .main-footer p, .main-footer .subscribe-form input{
+        font-family: $fontBarlowRegular; 
+    
+    }
+    #allLiveGame .allLiveGame-main .game-item-wrap .game-item-text h4{
+        font-family: $fontFuturaCondensedMedium;
+        
+    }
+    
+}

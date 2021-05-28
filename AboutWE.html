@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie-edge" />
+        <!-- critical css -->
+        <!-- <style>
+            @import url(https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap);@import url(https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&display=swap);@import url(//db.onlinewebfonts.com/c/da950f2527dc01bebcbedd536e38c145?family=Futura);a,body,div,h1,h2,h3,h4,h6,html,img,li,nav,p,section,span,ul{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}nav,section{display:block}body{line-height:1}ul{list-style:none}@font-face{font-family:Futura-Medium;src:url(fonts/FuturaMedium.eot);src:url(fonts/FuturaMedium.eot?#iefix) format("embedded-opentype"),url(fonts/FuturaMedium.svg) format("svg");font-weight:400;font-style:normal}@font-face{font-family:Futura-Light;src:url(fonts/Futura-Light.eot?#iefix) format("embedded-opentype"),url(fonts/Futura-Light.woff2) format("woff2"),url(fonts/Futura-Light.woff) format("woff");font-weight:400;font-style:normal;font-display:swap}*{margin:0;padding:0;-webkit-box-sizing:border-box;box-sizing:border-box;z-index:0}body,html{margin:0;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;font-family:Barlow,sans-serif,Arial,Helvetica;color:#fff;background-color:#060b1a;line-height:1.6;scroll-behavior:smooth}img{width:100%;height:100%}h1{font-family:Futura-pt,Arial,sans-serif;font-size:60px;font-style:normal;font-variant:normal;font-weight:700;line-height:70px}h2{font-family:Futura-pt,Arial,sans-serif;font-size:30px;font-style:normal;font-variant:normal;font-weight:500;line-height:26.4px}h3{font-family:Futura-pt,Arial,sans-serif;font-size:24px;font-style:normal;font-variant:normal;font-weight:700;line-height:26.4px}h4{font-family:"Barlow Regular",sans-serif,Arial,Helvetica;font-size:18px;font-style:normal;font-variant:normal;font-weight:700;line-height:26.4px}h6{font-family:Futura-Medium,Futura-pt,Arial,sans-serif;font-size:16px;font-style:normal;font-variant:normal;font-weight:100;line-height:1px}img{width:100%;height:100%}#wrapper{width:100%;min-width:300px;height:auto;overflow:hidden}.hero-header-bkg{height:500px}.hero-header-bkg img{width:100%;background-position:50% 10%;background-size:cover;height:100%;-o-object-fit:cover;object-fit:cover}.hero-header .hero-intro1,.hero-header .hero-intro2{padding-left:2rem;padding-right:2rem;margin:0 auto}.hero-intro1{font-family:"Barlow Regular",sans-serif,Arial,Helvetica;font-size:18px;font-weight:100;color:#d8d8d8;letter-spacing:0}.hero-intro2{font-family:"Barlow Light",sans-serif,Arial,Helvetica;font-weight:100;color:#979797;line-height:1.5;font-size:20px;letter-spacing:1px}.secondaryBtn{font-size:13px;font-family:Futura-Medium,Futura-pt,Arial,sans-serif;letter-spacing:3px;text-align:center;text-decoration:none;text-transform:uppercase;color:#fff;width:200px;height:46px;padding:0;display:inline-block;position:relative;-webkit-box-shadow:0 0 6px 0 rgba(157,96,212,.5);box-shadow:0 0 6px 0 rgba(157,96,212,.5);border:transparent;background-image:linear-gradient(rgba(255,255,255,0),rgba(255,255,255,0)),linear-gradient(130deg,#caac85,#89663d,#89663d,#89663d);background-origin:border-box;background-clip:content-box,border-box;-webkit-box-shadow:1px 1000px 1px #906c4d inset;box-shadow:1px 1000px 1px #906c4d inset;position:relative}.secondaryBtn::after{content:"";position:absolute;top:0;left:0;width:100%;height:100%;background:#b0936d;z-index:-1;-webkit-transform:scaleX(0);transform:scaleX(0);-webkit-transform-origin:left;transform-origin:left}.hero-title{font-weight:100}.hero-float{max-width:712px;margin:0 auto;padding-top:15rem}.hero-intro1{padding-top:1rem;padding-bottom:3rem}.hero-intro2{padding-top:1rem}@media (min-width:768px){.hero-intro1{font-size:22px}.hero-intro2{font-size:17px}.hero-header-bkg{height:inherit}}@media (min-width:992px){.hero-intro1{font-size:26px}.hero-intro2{font-size:20px}.secondaryBtn{width:200px;font-size:13px}}#nav-area a,li{font-family:Futura,Trebuchet MS,Arial,sans-serif;font-weight:500;font-size:16px;color:#fff;text-decoration:none}#wrapper{position:relative}.nav-wrap{position:fixed;top:0;z-index:5;left:50%;-webkit-transform:translate(-50%,0);transform:translate(-50%,0);width:100%;height:70px}.show{opacity:1}.nav-wrap li.dropdown .game-menu{opacity:0;position:fixed;top:36px;z-index:-1;left:50%;-webkit-transform:translate(-50%,0);transform:translate(-50%,0);margin-top:27px;padding:3.3rem 0;font-family:Futura Medium,Trebuchet MS,Arial,sans-serif;letter-spacing:3px;font-weight:100;font-size:16px;color:#979797;text-decoration:none;padding-bottom:5px;margin:0;width:120%}.nav-wrap li.dropdown .game-menu::after{content:'';position:absolute;top:28px;left:0;z-index:-1;background-color:#011d3a;width:100vw;left:calc(-1 * ((100vw - 100%)/ 2))}.game-menu-wrapper{margin:0 auto;width:100%}.game-icon-wrap{min-width:200px;max-width:260px;height:174px;width:20%}.tab-pane{position:absolute;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%)}#nav-area .game-icon-wrap a{font-family:inherit}.game-icon-container{position:relative}.game-icon-container .game-icon-bkg-wrap img{width:100%;background-position:50% 10%;background-size:cover;height:100%;-o-object-fit:cover;object-fit:cover;background-size:100%;border:1px solid rgba(137,102,61,.5)}.gametab-game-title{height:50px;overflow:hidden}#gameSubtab{padding-bottom:35px}#wrapper .nav_links .nav-game-link{font-family:Futura Medium,Trebuchet MS,Arial,sans-serif;letter-spacing:3px;font-weight:100;font-size:16px;color:#979797;text-decoration:none;margin:0 13px;text-decoration:none;white-space:nowrap;text-transform:uppercase}#wrapper .nav_links #gameSubtab .active{position:relative;color:#d8d8d8}#wrapper .nav_links #gameSubtab .active::after{content:"";position:absolute;left:0;bottom:0;width:100%;height:1px;background:#b0936d;-webkit-transform:scaleX(1);transform:scaleX(1)}.game-menu .sub-tab-content{padding-bottom:130px}.fancy-link{text-decoration:none;color:#d8d8d8;position:relative;padding-bottom:10px}.fancy-link::after{content:"";position:absolute;left:0;bottom:0;width:100%;height:1px;background:#b0936d;-webkit-transform:scaleX(0);transform:scaleX(0)}.main-nav{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;padding-left:0;margin-bottom:0;list-style:none;position:relative}#nav-area{padding-left:calc(max(22px,env(safe-area-inset-left)));padding-right:calc(max(22px,env(safe-area-inset-right)));padding:0 22px;position:fixed;z-index:5;top:13%;left:0;width:100%;height:48px;overflow:hidden}#wrapper .nav_links{display:none;position:absolute;left:50%;top:5%;-webkit-transform:translate(-50%);transform:translate(-50%);text-align:center;padding:0}#wrapper .nav_links .nav-link{text-decoration:none;color:#a1a1a1;font-family:Barlow;font-weight:200;font-size:16px;margin:8px 0;white-space:nowrap}.nav-logo{width:110px}.menu-logo{margin-top:2px}.nav-icon-wrapper{padding:.5rem 0;display:-webkit-box;display:-ms-flexbox;display:flex;position:absolute;z-index:3;top:8%;right:10%}.nav-icon-wrapper{display:-webkit-box;display:-ms-flexbox;display:flex}.icon-lang{width:15px;height:15px}.search-wrapper{padding-left:15px;position:relative;z-index:0}.lang-dropdown{position:absolute;width:200px;height:140px;top:-20px;right:-10px;z-index:10;border:1px solid #b0936d;background:#000f24;background:-webkit-gradient(linear,left top,left bottom,from(#000f24),to(#011b3e));background:linear-gradient(180deg,#000f24 0,#011b3e 100%);margin-top:54px;opacity:0;-webkit-transform:translateY(10px);transform:translateY(10px)}.lang-dropdown .language-tap{text-align:center;padding:10px 0}#languageDropdown a .language-tap{color:#979797;font-size:16px;font-weight:100;font-family:"Barlow Light",sans-serif,Arial,Helvetica}.menu-lang{display:block}.menu-lang h6{font-size:16px;font-weight:100;font-family:Barlow;position:relative;color:#979797}.menu-lang #icon-lang{position:absolute;width:20px;height:20px;top:2px;left:18px;background-repeat:no-repeat}.nav-item button{display:inline-block;border:none;padding:.5rem 2rem;margin:0;text-decoration:none;background:0 0;color:#fff;text-align:center;-webkit-appearance:none;-moz-appearance:none}.language-tap.active{position:relative}#wrapper .nav_links .active-tap{color:#fff}.language-tap.active::after{content:"";position:absolute;left:-1px;width:13px;height:26px;background-repeat:no-repeat}.icon-lang{margin-left:.5rem}.menu-wrapper{display:block;position:absolute;z-index:3;top:8px;right:0;width:30px;height:30px}#nav-area .menu-item{-webkit-transform:scale(1);transform:scale(1)}#nav-area .closeBtn{position:absolute;z-index:3;top:22px;right:0;width:18px;height:16px;background-repeat:no-repeat;opacity:0;visibility:hidden}#nav-area .nav-item .secondaryBtn{padding:0}.menu-btn{width:30px;height:30px;position:relative;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.menu-btn__burger,.menu-btn__burger::after,.menu-btn__burger::before{width:30px;height:1px;left:0;border-radius:5px;background-color:#fff}.menu-btn__burger::after,.menu-btn__burger::before{content:"";position:absolute}.menu-btn__burger::before{-webkit-transform:translateY(-8px);transform:translateY(-8px)}.menu-btn__burger::after{-webkit-transform:translateY(8px);transform:translateY(8px)}.sidebar{display:block;position:fixed;padding:3rem 0;width:100%;height:100%;right:-100%;z-index:5;overflow-y:scroll;background:#060b1a}.sidebar a{font-family:"Barlow Regular",sans-serif,Arial,Helvetica;font-weight:100;color:#a1a1a1}.sidebar .side-item{border-bottom:.5px solid #b0936d;position:relative;padding:.2rem}.sidebar .side-item a{font-family:"Barlow Regular",sans-serif,Arial,Helvetica;font-size:16px;letter-spacing:1px;line-height:60px;color:#d8d8d8;padding-left:25px}.sidebar .side-item .game-item{padding-left:1rem}.sidebar .side-item .game-item a{font-family:Futura-Medium,Futura-pt,Arial,sans-serif;text-transform:uppercase;font-weight:500;letter-spacing:3px}.sidebar .side-item .game-sub-item{padding-left:2rem}.sidebar .side-item .game-sub-item a{font-family:Futura-Light,Futura-pt,Arial,sans-serif;text-transform:uppercase;font-size:14px;letter-spacing:1px;font-weight:100;color:#b4b4b4}.sidebar #logoMobile{position:relative}.sidebar #logoMobile .nav-logo{position:absolute;top:-42px;left:22px}.sidebar #menuMobile{right:22px;top:15px}.sidebar .game-item{position:relative}.sidebar .fa-arrow{position:absolute;top:17px;right:24px;-webkit-transform:rotate(-90deg);transform:rotate(-90deg);height:30px;width:30px}.sidebar .fa-arrow img{height:30px;width:30px;padding:3px;background-repeat:no-repeat;background-size:contain;-o-object-fit:contain;object-fit:contain}.sidebar .livegame-btn .fa-arrow{top:10px;right:21px}.livegame-show,.sidebar .game-show{display:none}#pills-tabContent .fade:not(.show){display:none}@media (min-width:576px){.sidebar #menuMobile{right:22px;top:23px}}@media (min-width:768px){.nav-logo{width:110px}.nav-wrap{top:0;height:75px}#nav-area{top:14%;left:50%;text-align:center;-webkit-transform:translate(-50%);transform:translate(-50%);-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;padding-top:5px;height:70px}.menu-logo{margin-top:-3px}#wrapper .nav-link{padding:.5rem 1rem}.nav-icon-wrapper{top:5%;right:8%}#nav-area .closeBtn{position:absolute;top:22px;right:12%;width:18px;height:16px}.sidebar #logoMobile .nav-logo{top:-39px}}@media (min-width:992px){.nav-logo{width:160px;height:56px}.menu-logo{margin-top:0}#wrapper #nav-area{top:0}.menu-wrapper{top:14px}#wrapper .nav_links{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}.nav-icon-wrapper{right:1%;top:15%}.menu-wrapper{display:none}.subnav-arrow{display:none;opacity:0;visibility:hidden;border-top:12px solid transparent;border-left:12px solid transparent;border-right:12px solid #011d3a;position:absolute;-webkit-transform:rotate(225deg);transform:rotate(225deg);left:183px;top:27px;z-index:5}.nav-wrap li.dropdown .game-menu::after{height:480px}.sidebar{display:none}}@media (min-width:1200px){.nav-logo{width:160px}#wrapper .nav-link{padding:.5rem 1.8rem}.subnav-arrow{left:232px}.game-icon-wrap{min-width:260px}.nav-game-item{padding:0 11px}.nav-wrap li.dropdown .game-menu::after{height:415px}.game-menu .sub-tab-content{padding-bottom:280px}}.main-footer .footer-subscribe p{font-size:14px;font-weight:100;text-align:center;letter-spacing:1px;line-height:20px;color:#979797}#myerror{display:none;text-align:left;color:#ee2e2e!important;font-size:16px;font-weight:100;background-color:transparent!important;padding:0;margin-top:-5px}@media (min-width:576px){.main-footer .footer-subscribe p{text-align:left}}.hero-header{height:400px}.hero-header{position:relative;padding-bottom:5rem}.hero-header-bkg{position:absolute;top:0;z-index:-1}.hero-header::after{content:'';position:absolute;top:0;left:0;z-index:-1;width:100%;height:100%;background:#060b1a;background:-webkit-gradient(linear,left top,left bottom,from(rgba(6,11,26,.3)),to(#070a1b));background:linear-gradient(180deg,rgba(6,11,26,.3) 0,#070a1b 100%)}.game-hero-D,.game-hero-M{width:100%;background-position:50% 10%;background-size:cover;height:100%;-o-object-fit:cover;object-fit:cover;display:none}.game-hero-M{display:block}.game-hero-D{display:none}@media (min-width:768px){.hero-header{height:700px}.game-hero-M{display:none}.game-hero-D{display:block}}.hero-header .hero-intro2{padding-bottom:1.5rem}#AboutWE .hero-header{position:relative;height:400px}#AboutWE .hero-header .hero-header-bkg{width:100%;overflow:hidden}#AboutWE .hero-header::after{background:0 0}#AboutWE .hero-header-bkg .game-hero-D{position:relative}#AboutWE .hero-header-bkg .game-hero-D::after{content:"";position:absolute;top:0;left:0;z-index:0;width:100%;height:100%;min-height:500px;background:#060b1a;background:-webkit-gradient(linear,left top,left bottom,color-stop(1.04%,rgba(7,11,25,0)),color-stop(86.46%,#070b19),to(#080d1d));background:linear-gradient(180deg,rgba(7,11,25,0) 1.04%,#070b19 86.46%,#080d1d 100%)}#AboutWE .about-brandStory{max-width:712px;margin:0 auto;position:relative}#AboutWE .about-main{padding-bottom:3rem;padding-top:25rem}#AboutWE .hero-intro2{font-size:20px;text-align:center;max-width:712px;margin:0 auto;padding:0 3rem}#AboutWE .about-top-deco-2{margin:0 auto;width:321px}#AboutWE .about-top-deco-2 img{width:100%;background-position:50% 10%;background-size:cover;height:100%;-o-object-fit:cover;object-fit:cover}#AboutWE .about-bkg{position:absolute;top:20%;left:0;z-index:-1;max-height:2500px;overflow:hidden}#AboutWE .about-bkg img{width:100%;background-position:50% 10%;background-size:cover;height:100%;-o-object-fit:cover;object-fit:cover}#AboutWE .about-bkg:after{position:absolute;content:"";top:0;left:0;width:100%;height:100%;background:#011b3e;background:-webkit-gradient(linear,left top,left bottom,from(#060b1a),to(rgba(6,11,26,.17)));background:linear-gradient(180deg,#060b1a 0,rgba(6,11,26,.17) 100%)}#AboutWE .about-brandStory{margin:0 auto;text-align:center;max-width:697px;padding-top:12rem;padding-bottom:3rem;padding:40px 1.5rem;margin-top:5rem}#AboutWE .about-brandStory{position:relative}#AboutWE .about-brandStory::after{position:absolute;display:block;content:"";bottom:0;left:0;width:100%;background-image:url(/images/icon/gradient-border.svg);width:100%;background-position:50% 100%;background-repeat:no-repeat;background-size:contain;height:100%;-o-object-fit:cover;object-fit:cover}#AboutWE .about-h2{font-size:20px;font-weight:100;letter-spacing:1px;line-height:30px;text-transform:uppercase;color:#d8d8d8;padding-bottom:1rem;text-align:center;line-height:1.5}#AboutWE .line-deco{width:80px;margin:0 auto;padding-top:0}#AboutWE .line-deco img{width:100%;background-position:50% 10%;background-size:cover;height:100%;-o-object-fit:cover;object-fit:cover}#AboutWE .about-mission .line-deco{margin:0 auto;padding-bottom:.5rem}#AboutWE .about-mission .square-deco-m{width:14px;height:14px;margin:0 auto;display:block;margin-top:2rem}#AboutWE .Dynamic-frame{position:absolute;top:4%;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%);z-index:-1;display:none}#AboutWE .Dynamic-frame-2{position:absolute;top:-4%;left:50%;-webkit-transform:translateX(-50%) scaleY(1.2);transform:translateX(-50%) scaleY(1.2);z-index:-1;display:none}#AboutWE #Dynamic-frame-outer{position:absolute;top:3%;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%);width:939px;height:572px;display:none}#AboutWE #Dynamic-frame-2-outer-m{display:none}#AboutWE #Dynamic-frame-m,#AboutWE #Dynamic-frame-outer-m,#AboutWE #Dynamic-frame-outer-w,#AboutWE #Dynamic-frame-w,#AboutWE #about-top-deco-lg,#AboutWE #about-top-deco-w{display:none}#AboutWE #about-top-deco-m{display:block}@media (min-width:576px){#AboutWE .about-mission .square-deco-m{display:none}#AboutWE .about-main{padding-top:17rem;padding-bottom:15rem}#AboutWE .about-main .about-h2{padding-bottom:3rem}}@media (min-width:768px){#AboutWE .about-top-deco-2{width:100%;max-width:900px}#AboutWE .line-deco{padding-top:1rem;display:none}#AboutWE .hero-header-bkg{height:500px}#AboutWE #Dynamic-frame-outer-w,#AboutWE #Dynamic-frame-w,#AboutWE #about-top-deco-m{display:none}#AboutWE #Dynamic-frame-m,#AboutWE #Dynamic-frame-outer-m,#AboutWE #about-top-deco-w{display:block}#AboutWE .Dynamic-frame{width:735px;height:764px;display:block}#AboutWE #Dynamic-frame-outer{width:735px;height:764px;display:block}#AboutWE .about-h2{font-size:36px}#AboutWE .about-brandStory{border-bottom:none}#AboutWE .about-brandStory{border:none;margin-top:8rem}#AboutWE #Dynamic-frame-2-m{display:block}.Dynamic-frame-2{position:absolute;top:-3%;left:50%;width:717px;height:1289px;-webkit-transform:translateX(-50%);transform:translateX(-50%);z-index:-1;display:none}#AboutWE #Dynamic-frame-2-outer-m{position:absolute;top:-5%;left:50%;width:735px;height:1311px;-webkit-transform:translateX(-50%) scaleY(1.15);transform:translateX(-50%) scaleY(1.15);z-index:-1;display:block}#AboutWE .about-main .about-h2{padding-bottom:2rem}#AboutWE .about-brandStory::after{display:none}}@media (min-width:992px){#AboutWE .about-main{margin-top:5rem}#AboutWE .about-top-deco-2{display:none}#AboutWE .about-brandStory{padding-top:5rem;padding-bottom:15rem}#AboutWE .about-h2{font-size:36px}#AboutWE .Dynamic-frame{width:911px;height:531px}#AboutWE .about-brandStory .about-h2{padding-top:62px;margin-bottom:0}#AboutWE .about-brandStory .line-deco{margin-bottom:10px;padding-top:1rem;display:block}#AboutWE .hero-header-bkg{height:800px}#AboutWE .about-main{padding-top:13rem}#AboutWE .about-mission .line-deco{padding:10px 0}#AboutWE #Dynamic-frame-2-m{display:none}#AboutWE .Dynamic-frame-2{position:absolute;top:23%;left:50%;width:939px;height:597px;-webkit-transform:translateX(-50%) scaleY(1.2);transform:translateX(-50%) scaleY(1.2);z-index:-1;display:none}#AboutWE #Dynamic-frame-2-outer-m{display:none}#AboutWE .Dynamic-frame{display:block;top:19%;width:943px;height:553px}#AboutWE #Dynamic-frame-outer{top:16%;width:965px;height:588px;display:block}#AboutWE .about-brandStory{margin-top:3rem}#AboutWE #Dynamic-frame-m,#AboutWE #Dynamic-frame-outer-m{display:none}#AboutWE #Dynamic-frame-outer-w,#AboutWE #Dynamic-frame-w{display:block}#AboutWE #about-top-deco-lg{display:block;padding-top:5rem}}@media (min-width:1200px){#AboutWE .hero-header-bkg{height:1000px}#AboutWE .hero-header-bkg .game-hero-D::after{background:-webkit-gradient(linear,left top,left bottom,color-stop(1.04%,rgba(7,11,25,0)),color-stop(86.46%,#070b19),to(#080d1d));background:linear-gradient(180deg,rgba(7,11,25,0) 1.04%,#070b19 86.46%,#080d1d 100%)}}#thankyou-popup #thankyou-bkg-m{position:absolute;top:0;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%);width:100%;height:400px;z-index:-1}#thankyou-popup #thankyou-bkg-m{display:block}@media (min-width:768px){#thankyou-popup #thankyou-bkg-m{display:none}}.game-icon-wrap h4{font-size:14px;letter-spacing:1px;font-weight:100;padding-top:10px;text-transform:uppercase;line-height:20px;color:#979797}.game-menu-wrapper .game-icon-bkg-wrap{border:.5px solid rgba(137,102,61,.5)}@media (min-width:992px){.nav-wrap li.dropdown .game-menu::after{height:460px}.game-icon-bkg-wrap{width:159px;height:220px;overflow:hidden;margin:0 auto;-webkit-filter:opacity(60%) contrast(120%);filter:opacity(60%) contrast(120%)}}@media (min-width:1200px){.game-icon-bkg-wrap{width:260px;height:360px}.nav-wrap li.dropdown .game-menu::after{height:625px}.game-icon-wrap{min-width:298px}}body:lang(EN) #AboutWE .about-h2,body:lang(EN) .game-icon-wrap{font-family:Futura-Medium,Futura-pt,Arial,sans-serif}body:lang(EN) .main-footer p{font-family:"Barlow Regular",sans-serif,Arial,Helvetica}@media all and (-ms-high-contrast:none),(-ms-high-contrast:active){.nav-item button{padding:.5rem 1em}.nav-icon-wrapper{top:6px}.nav-wrap{height:70px;left:inherit;-webkit-transform:inherit;transform:inherit}.menu-wrapper{top:12px}.nav-item button{padding:.5rem 2.2em}.nav-wrap li.dropdown .game-menu{top:41px}.hero-header-bkg img{height:400px;width:1152px;position:absolute;left:50%;top:0;-webkit-transform:translateX(-50%);transform:translateX(-50%)}#AboutWE .hero-header-bkg img{height:auto;width:100%}.hero-header::after{background:#070a1b;background:-webkit-gradient(linear,left bottom,left top,from(#070a1b),color-stop(46%,rgba(6,11,26,.6)),color-stop(92%,rgba(6,11,26,0)));background:linear-gradient(0deg,#070a1b 0,rgba(6,11,26,.6) 46%,rgba(6,11,26,0) 92%)}#wrapper #nav-area{top:8px}.hero-header-bkg{height:auto;width:100%;background-position:50% 10%;-o-object-fit:cover;object-fit:cover}.game-hero-M{min-height:600px}.game-hero-D{width:150%}}@media all and (-ms-high-contrast:none) and (min-width:768px),(-ms-high-contrast:active) and (min-width:768px){.hero-header-bkg img{height:500px;width:1440px;position:absolute;left:50%;top:0;-webkit-transform:translateX(-50%);transform:translateX(-50%)}.hero-header-bkg{height:600px;overflow:hidden}#wrapper #nav-area{top:10px}.nav-icon-wrapper{top:0;right:6%}.menu-wrapper{top:4px}#nav-area .closeBtn{top:15px}.hero-header{height:542px}}@media all and (-ms-high-contrast:none) and (min-width:992px),(-ms-high-contrast:active) and (min-width:992px){#wrapper #nav-area{top:0}.menu-wrapper{top:15px}.nav-icon-wrapper{top:12px;right:0}.subnav-arrow{left:41%}#AboutWE .hero-header-bkg .game-hero-D{width:100%}}@media all and (-ms-high-contrast:none) and (min-width:1200px),(-ms-high-contrast:active) and (min-width:1200px){.nav-wrap{height:70px}.subnav-arrow{left:39.5%}}
+        </style> -->
+         <!-- Sal CSS -->
+         <link rel="stylesheet" href="./styles/sal.css" />
+        <title>World Entertainment</title>
+        <link rel="shortcut icon" type="image/svg" href="./images/icon/favicon.svg" />
+    </head>
+    <body>
+        <div class="load-container">
+            <div class="loading-screen"></div>
+        </div>
+        <main>
+        <div id="wrapper" style="overflow: inherit;"data-sal="fade" data-sal-easing="easeInQuart" style="--sal-duration: 0.3s; --sal-delay: 0.1s;" >
+            <section class="section-header" id="nav">
+                <div class="header-wrapper">
+                    <!-- navigation bar -->
+                    <div class="nav-wrap">
+                        <div id="nav-area">
+                            <div class="main-nav">
+                                <!-- nav links -->
+                                <li class="nav-item logo-wrap" data-sal="fade" data-sal-easing="easeInQuart" style="--sal-duration: 0.8; --sal-delay: 0.1s;">
+                                    <a class="navbar-brand menu-item menu-logo" href="index.html">
+                                        <div class="nav-logo"><img loading="lazy"class="imageset" data-key="WE_logo" src="./images/icon/en/logo.svg" alt="" loading="lazy" /></div>
+                                    </a>
+                                </li>
+                                <ul class="nav_links">
+                                    <li class="nav-item"  data-sal="fade" data-sal-easing="easeInQuart" style="--sal-duration: 0.8; --sal-delay: 0.1s;">
+                                        <a class="nav-link menu-item menu-about active-tap lang" key="nav_About" href="AboutWE.html">About WE</a>
+                                    </li>
+                                    <li class="nav-item dropdown" id="gamesHover"  data-sal="fade" data-sal-easing="easeInQuart" style="--sal-duration: 0.8s; --sal-delay: 0.2s;">
+                                        <a class="nav-link menu-item menu-games lang" key="nav_LiveGames" href="All_Live_Game.html">Games</a>
+                                        <div class="game-menu">
+                                            <div class="subnav-arrow"></div>
+                                            <div class="game-menu-wrapper">
+                                                <!-- game menu tab -->
+                                                <ul class="nav justify-content-center" id="gameSubtab" role="tablist">
+                                                    <li class="nav-game-item" data-sal="fade" data-sal-easing="easeInQuart" style="--sal-duration: 1; --sal-delay: 0.1s;">
+                                                        <a class="nav-game-link fancy-link lang active" key="submenu_LiveGames" id="pills-livegame-tab" data-toggle="pill" href="#pills-livegame" role="tab" aria-controls="pills-livegame" aria-selected="true">
+                                                            LIVE GAMES
+                                                        </a>
+                                                    </li>
+                                                    <li class="nav-game-item" data-sal="fade" data-sal-easing="easeInQuart" style="--sal-duration: 1; --sal-delay: 0.2s;">
+                                                        <a class="nav-game-link fancy-link lang" key="submenu_Lottery" id="pills-lottery-tab" data-toggle="pill" href="#pills-lottery" role="tab" aria-controls="pills-lottery" aria-selected="false">LOTTERIES</a>
+                                                    </li>
+                                                    <li class="nav-game-item" data-sal="fade" data-sal-easing="easeInQuart" style="--sal-duration: 1; --sal-delay: 0.3s;">
+                                                        <a class="nav-game-link fancy-link lang" key="submenu_Sportsbook" id="pills-sportsbook-tab" data-toggle="pill" href="#pills-sportsbook" role="tab" aria-controls="pills-sportsbook" aria-selected="false">
+                                                            SPORTSBOOK
+                                                        </a>
+                                                    </li>
+                                                    <li class="nav-game-item" data-sal="fade" data-sal-easing="easeInQuart" style="--sal-duration: 1; --sal-delay: 0.4s;">
+                                                        <a class="nav-game-link fancy-link lang" key="submenu_Slots" id="pills-slots-tab" data-toggle="pill" href="#pills-slots" role="tab" aria-controls="pills-slots" aria-selected="false">SLOTS</a>
+                                                    </li>
+                                                </ul>
+                                                <div class="game-tab-content" id="pills-tabContent">
+                                                     <!-- Live game tab -->
+                                                     <div class="tab-pane fade show active" id="pills-livegame" role="tabpanel" aria-labelledby="pills-livegame-tab">
+                                                        <div class="d-flex justify-content-center sub-tab-content">
+                                                            <div class="game-icon-wrap p-2" data-sal="slide-up" data-sal-easing="easeInQuart" style="--sal-duration: 0.5s; --sal-delay: 0;">
+                                                                <a href="Game_LiveGame_Baccarat.html">
+                                                                    <div class="game-icon-container">
+                                                                        <div class="game-icon-bkg-wrap">
+                                                                            <img class="inner-img"
+                                                                                src="./images/all_live_game/live_game_item/game-item_Baccarat_x1.jpg"
+                                                                                srcset="./images/all_live_game/live_game_item/game-item_Baccarat_x1.jpg 500w, ./images/all_live_game/live_game_item/game-item_Baccarat_x2.webp 1000w, ./images/all_live_game/live_game_item/game-item_Baccarat_x2.jpg 1000w"
+                                                                                alt=""
+                                                                            />
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="gametab-game-title">
+                                                                        <h4><span class="lang" key="Baccarat">Baccarat</span></h4>
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                            <div class="game-icon-wrap p-2" data-sal="slide-up" data-sal-easing="easeInQuart" style="--sal-duration: 0.5s; --sal-delay: 0;">
+                                                                <a href="Game_LiveGame_GodofFortuneRoulette.html">
+                                                                    <div class="game-icon-container">
+                                                                        <div class="game-icon-bkg-wrap">
+                                                                            <img class="inner-img"
+                                                                                src="./images/all_live_game/live_game_item/game_item_GodofFortuneRoulette_x1.jpg"
+                                                                                srcset="./images/all_live_game/live_game_item/game_item_GodofFortuneRoulette_x1.jpg 500w, ./images/all_live_game/live_game_item/game_item_GodofFortuneRoulette_x2.webp 1000w, ./images/all_live_game/live_game_item/game_item_GodofFortuneRoulette_x2.jpg 1000w"
+                                                                                alt=""
+                                                                            />
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="gametab-game-title">
+                                                                        <h4><span class="lang" key="GodofFortuneRoulette">God of Fortune Roulette</span></h4>
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                            <div class="game-icon-wrap p-2" data-sal="slide-up" data-sal-easing="easeInQuart" style="--sal-duration: 0.5s; --sal-delay: 0;">
+                                                                <a href="Game_LiveGame_MahjongLuckyWheel.html">
+                                                                    <div class="game-icon-container">
+                                                                        <div class="game-icon-bkg-wrap">
+                                                                            <img class="inner-img"
+                                                                                src="./images/all_live_game/live_game_item/game_item_MahjongLuckyWheel_x1.jpg"
+                                                                                srcset="./images/all_live_game/live_game_item/game_item_MahjongLuckyWheel_x1.jpg 500w, ./images/all_live_game/live_game_item/game_item_MahjongLuckyWheel_x2.webp 1000w, ./images/all_live_game/live_game_item/game_item_MahjongLuckyWheel_x2.jpg 1000w"
+                                                                                alt=""
+                                                                            />
+                                                                        </div>
+                                                                    </div>
+                                                                    <h4><span class="lang" key="MahjongLuckyWheel">Mahjong Lucky Wheel</span></h4>
+                                                                </a>
+                                                            </div>  
+                                                            <div class="game-icon-wrap p-2" data-sal="slide-up" data-sal-easing="easeInQuart" style="--sal-duration: 0.5s; --sal-delay: 0;">
+                                                                <a href="Game_LiveGame_DragonTiger.html">
+                                                                    <div class="game-icon-container">
+                                                                        <div class="game-icon-bkg-wrap">
+                                                                            <img class="inner-img"
+                                                                                src="./images/all_live_game/live_game_item/game_item_DragonTiger_x1.jpg"
+                                                                                srcset="./images/all_live_game/live_game_item/game_item_DragonTiger_x1.jpg 500w, ./images/all_live_game/live_game_item/game_item_DragonTiger_x2.webp 1000w, ./images/all_live_game/live_game_item/game_item_DragonTiger_x2.jpg 1000w"
+                                                                                alt=""
+                                                                            />
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="gametab-game-title">
+                                                                        <h4><span class="lang" key="DragonTiger">Dragon Tiger</span></h4>
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="all-games" class="allGameBtn">
+                                                            <a href="All_Live_Game.html"><button class="secondaryBtn lang" type="button" key="submenu_AllLiveGame">ALL LIVE GAMES</button></a>
+                                                        </div>
+                                                    </div>
+                                                    <!-- Live game tab -->
+                                                    
+                                                    <!-- <div class="tab-pane fade lang" key="ComingSoon" id="pills-lottery" role="tabpanel" aria-labelledby="pills-lottery-tab">LOTTERIES</div> -->
+                                                    <!-- Lotteries game tab -->
+                                                    <div class="tab-pane fade lang" id="pills-lottery" role="tabpanel" aria-labelledby="pills-lottery-tab">
+                                                        <div class="d-flex justify-content-center sub-tab-content">
+                                                            <div class="game-icon-wrap p-2" data-sal="slide-up" data-sal-easing="easeInQuart" style="--sal-duration: 0.5s; --sal-delay: 0;">
+                                                                <a href="Game_Lottery_Lotto5.html">
+                                                                    <div class="game-icon-container">
+                                                                        <div class="game-icon-bkg-wrap">
+                                                                            <img loading="lazy" loading="lazy" class="inner-img"
+                                                                                src="./images/all_lottery_game/game_item/game_item_Lotto5_x1.jpg"
+                                                                                srcset="./images/all_lottery_game/game_item/game_item_Lotto5_x1.jpg 500w,./images/all_lottery_game/game_item/game_item_Lotto5_x2.webp 1000w, ./images/all_lottery_game/game_item/game_item_Lotto5_x2.jpg 1000w"
+                                                                                alt=""
+                                                                            />
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="gametab-game-title">
+                                                                        <h4><span class="lang" key="Lotto5">Lotto 5</span></h4>
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                            <div class="game-icon-wrap p-2" data-sal="slide-up" data-sal-easing="easeInQuart" style="--sal-duration: 0.5s; --sal-delay: 0;">
+                                                                <a href="Game_Lottery_PK10.html">
+                                                                    <div class="game-icon-container">
+                                                                        <div class="game-icon-bkg-wrap">
+                                                                            <img loading="lazy" loading="lazy" class="inner-img"
+                                                                            src="./images/all_lottery_game/game_item/game_item_PK10_x1.jpg"
+                                                                            srcset="./images/all_lottery_game/game_item/game_item_PK10_x1.jpg 500w,./images/all_lottery_game/game_item/game_item_PK10_x2.webp 1000w, ./images/all_lottery_game/game_item/game_item_PK10_x2.jpg 1000w"
+                                                                            alt=""
+                                                                            />
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="gametab-game-title">
+                                                                        <h4><span class="lang" key="PK10">PK10 Racing</span></h4>
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="all-games" class="allGameBtn">
+                                                            <a href="All_Lottery_Game.html"><button class="secondaryBtn lang" type="button" key="submenu_AllLotteryGame">ALL LOTTERIES</button></a>
+                                                        </div>
+                                                    </div>
+                                                    <!-- Lotteries game tab -->
+                                                    <div class="tab-pane fade lang" key="ComingSoon" id="pills-sportsbook" role="tabpanel" aria-labelledby="pills-sportsbook-tab">COMING SOON</div>
+                                                    <div class="tab-pane fade lang" key="ComingSoon" id="pills-slots" role="tabpanel" aria-labelledby="pills-slots-tab">COMING SOON</div>
+                                                </div>
+                                                <!-- game menu tab -->
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item" data-sal="fade" data-sal-easing="easeInQuart" style="--sal-duration: 0.8s; --sal-delay: 0.3s;">
+                                        <a class="nav-link menu-item menu-liveStudio lang" key="nav_LiveStudio" href="LiveStudio.html">Live Studio</a>
+                                    </li>
+                                    <li class="nav-item" data-sal="fade" data-sal-easing="easeInQuart" style="--sal-duration: 0.8s; --sal-delay: 0.4s;">
+                                        <a class="nav-link menu-item menu-services lang" key="nav_Services" href="Services.html">Services</a>
+                                    </li>
+                                    <li class="nav-item" data-sal="fade" data-sal-easing="easeInQuart" style="--sal-duration: 0.8s; --sal-delay: 0.5s;">
+                                        <a class="nav-link menu-item menu-whatsNew lang" key="nav_WhatsNew" href="WhatsNew.html">What's New</a>
+                                    </li>
+                                    <li class="nav-item" data-sal="fade" data-sal-easing="easeInQuart" style="--sal-duration: 0.8s; --sal-delay: 0.6s;">
+                                        <a class="nav-link menu-item menu-contactUs lang" key="nav_ContactUs" href="ContactUs.html">Contact Us</a>
+                                    </li>
+                                </ul>
+                                <li class="nav-item nav-icon" data-sal="fade" data-sal-easing="easeInQuart" style="--sal-duration: 0.8s; --sal-delay: 0.7s;">
+                                    <div class="nav-icon-wrapper">
+                                        <!-- <div>
+                                            <a class="icon-search menu-item search" id="navSearch" href="#search">
+                                                <img loading="lazy"src="images/icon/search.svg" />
+                                            </a>
+                                        </div> -->
+                                        <div class="search-wrapper menu-item menu-lang">
+                                            <button class="icon-lang">
+                                                <a id="icon-lang">
+                                                    <img loading="lazy" loading="lazy"src="images/icon/lang.svg" />
+                                                </a>
+                                                <h6 class="lang" key="current-lang">En</h6>
+                                            </button>
+                                            <ul class="lang-dropdown" id="languageDropdown">
+                                                <a id="EN" href="#" class="translate"><li class="language-tap active">English</li></a>
+                                                <a id="TC" href="#" class="translate"><li class="language-tap">繁體中文</li></a>
+                                                <a id="SC" href="#" class="translate"><li class="language-tap">简体中文</li></a>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="menu-wrapper menu-item">
+                                        <div class="menu-btn">
+                                            <div class="menu-btn__burger"></div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <a class="closeBtn"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- side menu start  -->
+                    <nav class="sidebar">
+                        <a class="navbar-brand menu-item menu-logo" href="index.html" id="logoMobile">
+                            <div class="nav-logo"><img loading="lazy" loading="lazy"class="imageset" data-key="WE_logo" src="./images/icon/en/logo.svg" alt="" loading="lazy" /></div>
+                        </a>
+                        <div class="menu-wrapper menu-item" id="menuMobile">
+                            <div class="menu-btn">
+                                <div class="menu-btn__burger"></div>
+                            </div>
+                        </div>
+                        <ul>
+                            <li class="side-item">
+                                <a href="AboutWE.html" class="lang" key="nav_About">About WE</a>
+                            </li>
+                            <li class="side-item">
+                                <a href="#" class="game-btn">
+                                    <span class="lang" key="nav_LiveGames">Games</span>
+                                    <span class="fa-arrow">
+                                        <img loading="lazy" loading="lazy"src="./images/icon/dropdown.svg" />
+                                    </span>
+                                </a>
+                                <ul class="game-show">
+                                    <li class="game-item">
+                                        <a href="#" class="livegame-btn">
+                                            <span class="lang" key="submenu_LiveGames">LIVE GAMES</span>
+                                            <span class="fa-arrow">
+                                                <img loading="lazy" loading="lazy"src="./images/icon/dropdown.svg" />
+                                            </span>
+                                        </a>
+                                        <ul class="game-sub-item livegame-show">
+                                            <li><a href="All_Live_Game.html"><span class="lang" key="submenu_AllLiveGame">ALL LIVE GAMES</span></a></li>
+                                            <li><a href="Game_LiveGame_Baccarat.html"><span class="lang" key="Baccarat">BACCARAT</span></a></li>
+                                            <li><a href="Game_LiveGame_SqueezeBaccarat.html"><span class="lang" key="SqueezeBaccarat">Squeeze Baccarat</span></a></li>
+                                            <li><a href="Game_LiveGame_GodofFortuneSicBo.html"><span class="lang" key="GodofFortuneSicBo">God of Fortune Sic Bo</span></a></li>
+                                            <li><a href="Game_LiveGame_GodofFortuneRoulette.html"><span class="lang" key="GodofFortuneRoulette">God of Fortune Roulette</span></a></li>
+                                            <li><a href="Game_LiveGame_MahjongLuckyWheel.html"><span class="lang" key="MahjongLuckyWheel">MAHJONG LUCKY WHEEL</span></a></li>
+                                            <li><a href="Game_LiveGame_SicBo.html"><span class="lang" key="SicBo">SIC BO</span></a></li>
+                                            <li><a href="Game_LiveGame_Roulette.html"><span class="lang" key="Roulette">ROULETTE</span></a></li>
+                                            <li><a href="Game_LiveGame_DragonTiger.html"><span class="lang" key="DragonTiger">DRAGON TIGER</span></a></li>
+                                            <li><a href="Game_LiveGame_WinThreeCards.html"><span class="lang" key="WinThreeCards">Win Three Cards</span></a></li>
+                                            <li><a href="Game_LiveGame_Blockchain_Baccarat.html"><span class="lang" key="BlockchainBaccarat">Blockchain Baccarat</span></a></li>
+                                            <li><a href="Game_LiveGame_Blockchain_SqueezeBaccarat.html"><span class="lang" key="BlockchainSqueezeBaccarat">Blockchain Squeeze Baccarat</span></a></li>
+                                            <li><a href="Game_LiveGame_Blockchain_SpeedBaccarat.html"><span class="lang" key="BlockchainSpeedBaccarat">Blockchain Speed Baccarat</span></a></li>
+                                            <li><a href="Game_LiveGame_Blockchain_DragonTiger.html"><span class="lang" key="BlockchainDragonTiger">Blockchain Dragon Tiger</span></a></li>
+                                        </ul>
+                                    </li>
+                                     <li class="game-item">
+                                        <a href="#" class="livegame-btn">
+                                            <span class="lang" key="submenu_Lottery">LOTTERIES</span>
+                                            <span class="fa-arrow">
+                                                <img loading="lazy" loading="lazy"src="./images/icon/dropdown.svg" />
+                                            </span>
+                                        </a>
+                                        <ul class="game-sub-item livegame-show">
+                                            <li><a href="All_Lottery_Game.html"><span class="lang" key="submenu_AllLotteryGame">ALL LOTTERIES</span></a></li>
+                                            <li><a href="Game_Lottery_Lotto5.html"><span class="lang" key="Lotto5">Lotto 5</span></a></li>
+                                            <li><a href="Game_Lottery_PK10.html"><span class="lang" key="PK10">PK10 Racing</span></a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="side-item">
+                                <a href="LiveStudio.html"><span class="lang" key="nav_LiveStudio">Live Studio</span></a>
+                            </li>
+                            <li class="side-item">
+                                <a href="Services.html"><span class="lang" key="nav_Services">Services</span></a>
+                            </li>
+                            <li class="side-item">
+                                <a href="WhatsNew.html"><span class="lang" key="nav_WhatsNew">What’s New</span></a>
+                            </li>
+                            <li class="side-item">
+                                <a href="ContactUs.html"><span class="lang" key="nav_ContactUs">Contact Us</span></a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <!-- side menu end  -->
+
+                    <!-- navigation bar end -->
+                </div>
+            </section>
+            <!-- About WE Start -->
+            <div id="AboutWE">
+                <div class="hero-header text-center">
+                    <div class="hero-header-bkg">
+                        <picture class="game-hero-M">
+                            <source media="(max-width: 600px)" srcset="./images/about/hero_about_M_x1.png">
+                            <source media="(max-width: 1023px)" srcset="./images/about/hero_about_M_x1.png 800w, ./images/about/hero_about_M_x2.png 1000w">
+                            <img src="./images/about/hero_about_M_x2.png">
+                        </picture>
+                        <picture class="game-hero-D">
+                            <source media="(max-width: 600px)" srcset="./images/about/hero_about_D_x1.png">
+                            <source media="(max-width: 1023px)" srcset="./images/about/hero_about_D_x1.png 800w, ./images/about/hero_about_D_x2.png 1000w">
+                            <img src="./images/about/hero_about_D_x2.png">
+                        </picture>
+                    </div>
+                    <div class="hero-float" >
+                        <h1 class="hero-title lang" key="AboutWE" data-sal="slide-up" data-sal-easing="easeInOutQuad" style="--sal-duration: 1s; --sal-delay: 0s;">
+                            About WE
+                        </h1>
+                        <h3 class="hero-intro1 lang" key="AboutWE_h3" data-sal="slide-up" data-sal-easing="easeInOutQuad" style="--sal-duration: 1s; --sal-delay: 0.15s;">
+                            Get to know who WE are.
+                        </h3>
+                        <p class="hero-intro2 lang" key="AboutWE_p" data-sal="slide-up" data-sal-easing="easeInOutQuad" style="--sal-duration: 1s; --sal-delay: 0.25s;">
+                            World Entertainment (WE) started as a global online gaming platform and developer, presenting you a wide range of digital services and support. Getting into the spirit of “more than fun”, WE aim to inspire and to stimulate our players, providing superior game experience for them. 
+                        </p>
+                        <div class="about-top-deco-1">
+                            <img id="about-top-deco-lg" src="./images/about/about-hero-deco.svg" alt="" />
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Start About Section -->
+                <div class="about-main">
+                    <div class="about-top-deco-2">
+                        <img loading="lazy"id="about-top-deco-w" src="./images/about/about-hero-deco.svg" alt="" />
+                        <img loading="lazy"id="about-top-deco-m" src="./images/about/about-top-deco-m.svg" alt="" />
+                    </div>
+                    <div class="about-brandStory">
+                        <div class="Dynamic-frame" id="Dynamic-frame-w" data-sal="slide-up" data-sal-easing="easeInOutQuad" style="--sal-duration: 1s; --sal-delay:  0.05s;">
+                            <img loading="lazy"id="Dynamic-frame-w" src="./images/about/Dynamic-frame.svg" alt=""/>
+                        </div>
+                        <div class="Dynamic-frame" id="Dynamic-frame-m" data-sal="slide-up" data-sal-easing="easeInOutQuad" style="--sal-duration: 1s; --sal-delay:  0.05s;">
+                            <img loading="lazy"src="./images/about/Dynamic-frame-m.svg" alt=""/>
+                        </div>
+                        <div id="Dynamic-frame-outer" data-sal="slide-up" data-sal-easing="easeInOutQuad" style="--sal-duration: 1s; --sal-delay:  0.05s;">
+                            <img loading="lazy"id="Dynamic-frame-outer-w" src="./images/about/Dynamic-frame-outer.svg" alt=""/>
+                            <img loading="lazy"id="Dynamic-frame-outer-m" src="./images/about/Dynamic-frame-outer-m.svg" alt=""/>
+                        </div>
+                        <h2 class="about-h2 lang" key="BrandStory" data-sal="slide-up" data-sal-easing="easeInOutQuad" style="--sal-duration: 1s; --sal-delay:  0.06s;">Brand Story</h2>
+                        <div class="line-deco" >
+                            <img loading="lazy"src="./images/about/small-line-deco.svg" alt="" />
+                        </div>
+                        <div class="line-deco-vertical">
+                            <img loading="lazy"src="./images/about/small-line-deco-vertical.svg" alt="" />
+                        </div>
+                        <div id="brandstory-about" data-sal="slide-up" data-sal-easing="easeInOutQuad" style="--sal-duration: 1s; --sal-delay:  0.06s;">
+                            <p class="about-p lang" key="BrandStory_p1">
+                                Throughout the years, the online gaming market has been facing strong competition and thus breaking user experience and interaction is our focus for product development.
+                            </p>
+                            <p class="about-p pt-3 lang" key="BrandStory_p2">
+                                Our founder has tried thousands of gaming platforms and has experienced masses of live games, and hence he realized the essences of online games are innovation and people. Therefore, he created a brand new online entertainment platform-World Entertainment (WE), gathered worldwide talents, in order to integrate the edgy technologies, innovatory elements, and forefront features into product designs which aspired to bring better products to our clients.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="about-slogan">
+                        <h2 class="about-h2" data-sal="slide-up" data-sal-easing="easeInOutQuad" style="--sal-duration: 1s; --sal-delay:  0.05s;">
+                            <span class="lang" key="Slogan_1">“WE are more than fun” </span><br/> <span class="lang" key="Slogan_2">is the spirit of  World Entertainment.</span> 
+                        </h2>
+                        <div class="line-deco" data-sal="slide-up" data-sal-easing="easeInOutQuad" style="--sal-duration: 1s; --sal-delay:  0.06s;">
+                            <img loading="lazy"src="./images/about/small-line-deco.svg" alt="" />
+                        </div>
+                        <p class="about-p lang" key="Slogan_p1" data-sal="slide-up" data-sal-easing="easeInOutQuad" style="--sal-duration: 1s; --sal-delay:  0.06s;">Not only fun, WE want to be extremely FUN. So, we keep being innovative, encountering the sparkle of joy, WE link you up with our fascinated gaming platform and experience the unexpected journey together.   
+                        </p>
+                    </div>
+                    <div class="about-mission container" >
+                        <div class="Dynamic-frame-2" id="Dynamic-frame-2-w" data-sal="slide-up" data-sal-easing="easeInOutQuad" style="--sal-duration: 0.5s; --sal-delay: 0.7s;">
+                            <img loading="lazy"src="./images/about/Dynamic-frame-2-w.svg" alt=""/>
+                        </div>
+                        <div class="Dynamic-frame-2" id="Dynamic-frame-2-m" data-sal="slide-up" data-sal-easing="easeInOutQuad" style="--sal-duration: 0.5s; --sal-delay: 0.7s;">
+                            <img loading="lazy"src="./images/about/Dynamic-frame-2-m.svg" alt=""/>
+                        </div>
+                        <div id="Dynamic-frame-2-outer-m" data-sal="slide-up" data-sal-easing="easeInOutQuad" style="--sal-duration: 0.5s; --sal-delay: 0.7s;">
+                            <img loading="lazy"src="./images/about/Dynamic-frame-2-outer-m.svg" alt=""/>
+                        </div>
+                        <div class="row upper" data-sal="slide-up" data-sal-easing="easeInOutQuad" style="--sal-duration: 0.5s; --sal-delay: 0.75s;">
+                            <div id="upper-frame">
+                                <img loading="lazy"src="./images/about/upper-fram.svg" alt=""/>
+                            </div>
+                            <div class="line-deco-vertical">
+                                <img loading="lazy"src="./images/about/small-line-deco-vertical.svg" alt="">
+                            </div>
+                            <div class="col-12 col-md-12 col-lg-5">
+                                <h2 class="about-h2">
+                                    <span class="lang" key="Mission1">Mission, </span><br class="lg-break-only" />
+                                    <span class="lang" key="Mission2">Vision &  </span><br class="lg-break-only"/>
+                                    <span class="lang" key="Mission3">Values</span>
+                                </h2>
+                                <div class="line-deco">
+                                    <img loading="lazy"src="./images/about/small-line-deco.svg" alt="" />
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-12 col-lg-7">
+                                <p class="about-p lang" key="Mission_p1">
+                                    Our mission is to further evolve a wide range of online gaming products and services, and to enhance the gaming experience of online platforms. Our vision is to become one of the world’s most influential online gaming platforms and gaming developers. Our culture is rooted in our corporate values:
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row lower">
+                            <div class="col-12 col-lg-4" data-sal="slide-up" data-sal-easing="easeInOutQuad" style="--sal-duration: 0.5s; --sal-delay: 0.5s;">
+                                <div class="square-deco-m">
+                                    <img loading="lazy"src="./images/about/square.svg" alt="" />
+                                </div>
+                                <h4 class="about-h4 lang" key="Innovation">INNOVATION</h4>
+                                <div class="line-deco">
+                                    <img loading="lazy"src="./images/about/small-line-deco.svg" alt="" />
+                                </div>
+                                <p class="about-p lang" key="Innovation_p1">
+                                    WE are utterly committed to do something new as WE believe creativity is unlimited. WE transform imagination into practical solution by using cutting-edge technology all the way round.
+                                </p>
+                            </div>
+                            <div class="col-12 col-lg-4" class="col-12 col-lg-4" data-sal="slide-up" data-sal-easing="easeInOutQuad" style="--sal-duration: 0.5s; --sal-delay: 0.55s;">
+                                <div class="square-deco-m">
+                                    <img loading="lazy"src="./images/about/square.svg" alt="" />
+                                </div>
+                                <h4 class="about-h4 lang" key="Experience">EXPERIENCE</h4>
+                                <div class="line-deco">
+                                    <img loading="lazy"src="./images/about/small-line-deco.svg" alt="" />
+                                </div>
+                                <p class="about-p lang" key="Experience_p1">
+                                    Provide high-quality user experience through continuous testing, WE assure to try our best and to present our ultimate version of our platform with extraordinary surprises.
+                                </p>
+                            </div>
+                            <div class="col-12 col-lg-4" class="col-12 col-lg-4" data-sal="slide-up" data-sal-easing="easeInOutQuad" style="--sal-duration: 0.5s; --sal-delay: 0.6s;">
+                                <div class="square-deco-m">
+                                    <img loading="lazy"src="./images/about/square.svg" alt="" />
+                                </div>
+                                <h4 class="about-h4 lang" key="Diversification">DIVERSIFICATION</h4>
+                                <div class="line-deco">
+                                    <img loading="lazy"src="./images/about/small-line-deco.svg" alt="" />
+                                </div>
+                                <p class="about-p lang" key="Diversification_p1">
+                                    Recognised diversification is the key to build a successful entertainment industry. WE develop multiple-choice games to please various players in every part of the world, so as to maximize levels of excitement.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-bkg">
+                    <img loading="lazy"src="images/about/bkg_x1.png" srcset="images/about/bkg_x1.png 500w, images/about/bkg_x2.png 1000w" alt="" />
+                </div>
+                <!-- End About Section  -->
+            </div>
+            <!-- About WE End -->
+
+            <!-- Cookie popup start-->
+            <div class="cookie-container">
+                <div class="cookie-deco">
+                    <img loading="lazy"src="./images/icon/bottom-deco.svg">
+                </div>
+                <p class="pp-link">
+                    <span class="lang" key="Cookie_p1">WE use cookies to ensure you get the best experience on our website.WE will assume you have agreed to our Privacy Policy by continuing to use our website henceforth. </span>
+                    <a class="lang" key="PrivacyPolicy" href="PrivacyTerms.html">Privacy Policy</a>
+                </p>
+                <div class="accept-btn">
+                    <button class="secondaryBtn cookie-btn"><span class="lang" key="Accept">Accept</span></button>
+                </div>
+            </div>
+            <!-- Cookie popup end-->
+
+            <!-- Footer start -->
+            <footer>
+                <div class="main-footer">   
+                    <div class="footer-subscribe">
+                        <div class="subscribe-wrap">
+                            <h6 class="lang" key="Subscribe">Subscribe</h6>
+                            <br />
+                            <p class="lang" key="Subscribe_p">
+                                Be the first to know about our latest news and <br class="footer-break" />
+                                exclusive offers from WE.
+                            </p>
+                            <div id="EmailSubscribe">
+                                <!-- Begin Mailchimp Signup Form -->
+                                <div id="mc_embed_signup">
+                                    <form action="https://pgpg.us1.list-manage.com/subscribe/post?u=7fd273f17c144f707904f5926&amp;id=068a3ff35c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                                        <div id="mc_embed_signup_scroll">
+                                            <div class="mc-field-group" id="mce-error">
+                                                <input type="email" value="" name="EMAIL" class="required email form-control lang" key="Email-S" placeholder="Please enter your email address here" id="mce-EMAIL">
+                                            </div>
+                                            <p id="myerror">請輸入有效的電子郵件地址。</p>
+                                            <div id="mce-responses" class="clear">
+                                                <div class="response" id="mce-error-response"></div>
+                                                <div class="response" id="mce-success-response"></div>
+                                            </div>    
+                                            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                                            <div style="display: none;" aria-hidden="true"><input type="text" name="b_7fd273f17c144f707904f5926_068a3ff35c" tabindex="-1" value=""></div>
+                                        </div>
+                                        <div class="enquiry-button">
+                                            <button type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="enquiryBtn btn lang" key="Subscribe_btn" id="signUp"class="button">Subscribe Now</button>
+                                        </div>
+                                    </form>
+                                </div>
+                                <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+                                <!--End mc_embed_signup-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-bottom">
+                        <div class="footer-TC">
+                            ©<script>document.write(new Date().getFullYear())</script> &nbsp;
+                            <span class="lang" key="WorldEnt">WORLD ENTERTAINMENT.</span>
+                            <a href="PrivacyTerms.html" class="lang TC" key="PrivacyPolicy">Privacy Policy</a>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!-- Footer end -->
+            
+            <!-- Thank you for subscribe popup start-->
+            <div id="thankyou-popup">
+                <div class="thankyou-bkg">
+                    <div id="thankyou-bkg-m">
+                        <img loading="lazy"
+                            src="./images/thankyou/thankyou_bkg_m_x1.png"
+                            srcset="./images/thankyou/thankyou_bkg_m_x1.png 500w , ./images/thankyou/thankyou_bkg_m_x2.webp 1000w , ./images/thankyou/thankyou_bkg_m_x2.png 1000w"
+                            alt=""
+                        />
+                    </div>
+                    <div id="thankyou-bkg-d">
+                        <img loading="lazy"
+                            src="./images/thankyou/thankyou-bkg_x1.png"
+                            srcset="./images/thankyou/thankyou-bkg_x1.png 500w, ./images/thankyou/thankyou-bkg_x2.webp 1000w , ./images/thankyou/thankyou-bkg_x2.png 1000w"
+                            alt=""
+                        />
+                    </div>
+                </div>
+                <div class="wrap">
+                    <h1 class="lang" key="HelloThere">Hello There!</h1>
+                    <div class="thankyou-deco">
+                        <img loading="lazy" src="./images/icon/bottom-deco.svg"  alt="" />
+                    </div>
+                    
+                    <p class="hero-intro lang" key="thankyou_p">You’re on our mailing list now and will be among the first to hear about the latest news, collections and videos from WE.</p>
+                    <div class="back-btn">
+                        <button class="secondaryBtn thanyou-close-btn lang" key="Okay">OKAY</button>
+                    </div>
+                </div>
+                <div class="close-btn thanyou-close-btn">
+                    <div class="closeBtn">
+                        <img loading="lazy" src="images/thankyou/close_icon.svg" alt="" />
+                    </div>
+                </div>
+            </div>
+            <!-- Thank you for subscribe popup end-->
+        </div>
+        </main>
+        <!-- ============= Outdated Browser ============= -->
+        <div id="outdated"></div>
+        <!-- Outdated javascript includes -->
+        <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+        <script src="./outdated-browser-develop/outdatedbrowser/outdatedbrowser.min.js"></script>
+
+        <!-- Outdated plugin call -->
+        <script>
+            // Plain Javascript
+            //event listener: DOM ready
+            function addLoadEvent(func) {
+                var oldonload = window.onload;
+                if (typeof window.onload != "function") {
+                    window.onload = func;
+                } else {
+                    window.onload = function () {
+                        if (oldonload) {
+                            oldonload();
+                        }
+                        func();
+                    };
+                }
+            }
+            //call plugin function after DOM ready
+            addLoadEvent(function () {
+                outdatedBrowser({
+                    bgColor: "#f25648",
+                    color: "#ffffff",
+                    lowerThan: "transform",
+                    languagePath: "your_path/outdatedbrowser/lang/en.html",
+                });
+            });
+            // Using jQuery (version that supports IE < 9)
+            $(document).ready(function () {
+                outdatedBrowser({
+                    bgColor: "#f25648",
+                    color: "#ffffff",
+                    lowerThan: "transform",
+                    languagePath: "your_path/outdatedbrowser/lang/en.html",
+                });
+            });
+        </script>
+        <!-- Sal JS  -->
+        <script src="./js/sal.js"></script>
+        <script>
+            sal({
+                threshold: 0.1,
+                once: true,
+            });
+        </script>
+        <!-- External JS  -->
+        <script src="OwlCarousel2/owl.carousel.min.js"></script>
+        <script src="./outdated-browser-develop/outdatedbrowser/outdatedbrowser.min.js"></script>
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+        <!-- Main JS  -->
+        <script src="./js/main.js" type="text/javascript"></script>
+        <script type="text/javascript" src="./js/language_switch.js"></script>
+        <script type="text/javascript" src="./json/multi-language/lang_AboutWE.js"></script>
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+        <!-- external font-->
+        <link href="//db.onlinewebfonts.com/c/da950f2527dc01bebcbedd536e38c145?family=Futura" rel="stylesheet" type="text/css"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500&family=Barlow:wght@100;200;300;400;500;600;700;800&family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+        <!-- Outdated Browser v1.1.5 -->
+        <link rel="stylesheet" href="./outdated-browser-develop/outdatedbrowser/outdatedbrowser.min.css" />
+        <!-- Owl CSS -->
+        <link rel="stylesheet" href="OwlCarousel2/owl.carousel.min.css" />
+        <link rel="stylesheet" href="OwlCarousel2/owl.theme.default.min.css" />
+       
+        <!-- main CSS -->
+        <link rel="stylesheet" href="./styles/main.css" />
+    </body>
+</html>

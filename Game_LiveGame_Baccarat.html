@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie-edge" />
+
+        <!-- <style>
+            @import url(https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap);@import url(https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&display=swap);@import url(//db.onlinewebfonts.com/c/da950f2527dc01bebcbedd536e38c145?family=Futura);a,body,div,h1,h4,h6,html,img,li,nav,p,section,span,ul{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}nav,section{display:block}body{line-height:1}ul{list-style:none}@font-face{font-family:Futura-Medium;src:url(fonts/FuturaMedium.eot);src:url(fonts/FuturaMedium.eot?#iefix) format("embedded-opentype"),url(fonts/FuturaMedium.svg) format("svg");font-weight:400;font-style:normal}@font-face{font-family:Futura-Light;src:url(fonts/Futura-Light.eot?#iefix) format("embedded-opentype"),url(fonts/Futura-Light.woff2) format("woff2"),url(fonts/Futura-Light.woff) format("woff");font-weight:400;font-style:normal;font-display:swap}*{margin:0;padding:0;-webkit-box-sizing:border-box;box-sizing:border-box;z-index:0}body,html{margin:0;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;font-family:Barlow,sans-serif,Arial,Helvetica;color:#fff;background-color:#060b1a;line-height:1.6;scroll-behavior:smooth}img{width:100%;height:100%}h1{font-family:Futura-pt,Arial,sans-serif;font-size:60px;font-style:normal;font-variant:normal;font-weight:700;line-height:70px}h4{font-family:"Barlow Regular",sans-serif,Arial,Helvetica;font-size:18px;font-style:normal;font-variant:normal;font-weight:700;line-height:26.4px}h6{font-family:Futura-Medium,Futura-pt,Arial,sans-serif;font-size:16px;font-style:normal;font-variant:normal;font-weight:100;line-height:1px}img{width:100%;height:100%}#wrapper{width:100%;min-width:300px;height:auto;overflow:hidden}.hero-header-bkg{height:500px}.hero-header-bkg img{width:100%;background-position:50% 10%;background-size:cover;height:100%;-o-object-fit:cover;object-fit:cover}.hero-intro1{font-family:"Barlow Regular",sans-serif,Arial,Helvetica;font-size:18px;font-weight:100;color:#d8d8d8;letter-spacing:0}.hero-intro2{font-family:"Barlow Light",sans-serif,Arial,Helvetica;font-weight:100;color:#979797;line-height:1.5;font-size:20px;letter-spacing:1px}.secondaryBtn{font-size:13px;font-family:Futura-Medium,Futura-pt,Arial,sans-serif;letter-spacing:3px;text-align:center;text-decoration:none;text-transform:uppercase;color:#fff;width:200px;height:46px;padding:0;display:inline-block;position:relative;-webkit-box-shadow:0 0 6px 0 rgba(157,96,212,.5);box-shadow:0 0 6px 0 rgba(157,96,212,.5);border:transparent;background-image:linear-gradient(rgba(255,255,255,0),rgba(255,255,255,0)),linear-gradient(130deg,#caac85,#89663d,#89663d,#89663d);background-origin:border-box;background-clip:content-box,border-box;-webkit-box-shadow:1px 1000px 1px #906c4d inset;box-shadow:1px 1000px 1px #906c4d inset;position:relative}.secondaryBtn::after{content:"";position:absolute;top:0;left:0;width:100%;height:100%;background:#b0936d;z-index:-1;-webkit-transform:scaleX(0);transform:scaleX(0);-webkit-transform-origin:left;transform-origin:left}.hero-intro1{padding-top:1rem;padding-bottom:3rem}.hero-intro2{padding-top:1rem}@media (min-width:768px){.hero-intro1{font-size:22px}.hero-intro2{font-size:17px}.hero-header-bkg{height:inherit}}@media (min-width:992px){.hero-intro1{font-size:26px}.hero-intro2{font-size:20px}.secondaryBtn{width:200px;font-size:13px}}#nav-area a,li{font-family:Futura,Trebuchet MS,Arial,sans-serif;font-weight:500;font-size:16px;color:#fff;text-decoration:none}#wrapper{position:relative}.nav-wrap{position:fixed;top:0;z-index:5;left:50%;-webkit-transform:translate(-50%,0);transform:translate(-50%,0);width:100%;height:70px}.show{opacity:1}.nav-wrap li.dropdown .game-menu{opacity:0;position:fixed;top:36px;z-index:-1;left:50%;-webkit-transform:translate(-50%,0);transform:translate(-50%,0);margin-top:27px;padding:3.3rem 0;font-family:Futura Medium,Trebuchet MS,Arial,sans-serif;letter-spacing:3px;font-weight:100;font-size:16px;color:#979797;text-decoration:none;padding-bottom:5px;margin:0;width:120%}.nav-wrap li.dropdown .game-menu::after{content:'';position:absolute;top:28px;left:0;z-index:-1;background-color:#011d3a;width:100vw;left:calc(-1 * ((100vw - 100%)/ 2))}.game-menu-wrapper{margin:0 auto;width:100%}.game-icon-wrap{min-width:200px;max-width:260px;height:174px;width:20%}.tab-pane{position:absolute;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%)}#nav-area .game-icon-wrap a{font-family:inherit}.game-icon-container{position:relative}.game-icon-container .game-icon-bkg-wrap img{width:100%;background-position:50% 10%;background-size:cover;height:100%;-o-object-fit:cover;object-fit:cover;background-size:100%;border:1px solid rgba(137,102,61,.5)}.gametab-game-title{height:50px;overflow:hidden}#gameSubtab{padding-bottom:35px}#wrapper .nav_links .nav-game-link{font-family:Futura Medium,Trebuchet MS,Arial,sans-serif;letter-spacing:3px;font-weight:100;font-size:16px;color:#979797;text-decoration:none;margin:0 13px;text-decoration:none;white-space:nowrap;text-transform:uppercase}#wrapper .nav_links #gameSubtab .active{position:relative;color:#d8d8d8}#wrapper .nav_links #gameSubtab .active::after{content:"";position:absolute;left:0;bottom:0;width:100%;height:1px;background:#b0936d;-webkit-transform:scaleX(1);transform:scaleX(1)}.game-menu .sub-tab-content{padding-bottom:130px}.fancy-link{text-decoration:none;color:#d8d8d8;position:relative;padding-bottom:10px}.fancy-link::after{content:"";position:absolute;left:0;bottom:0;width:100%;height:1px;background:#b0936d;-webkit-transform:scaleX(0);transform:scaleX(0)}.main-nav{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;padding-left:0;margin-bottom:0;list-style:none;position:relative}#nav-area{padding-left:calc(max(22px,env(safe-area-inset-left)));padding-right:calc(max(22px,env(safe-area-inset-right)));padding:0 22px;position:fixed;z-index:5;top:13%;left:0;width:100%;height:48px;overflow:hidden}#wrapper .nav_links{display:none;position:absolute;left:50%;top:5%;-webkit-transform:translate(-50%);transform:translate(-50%);text-align:center;padding:0}#wrapper .nav_links .nav-link{text-decoration:none;color:#a1a1a1;font-family:Barlow;font-weight:200;font-size:16px;margin:8px 0;white-space:nowrap}.nav-logo{width:110px}.menu-logo{margin-top:2px}.nav-icon-wrapper{padding:.5rem 0;display:-webkit-box;display:-ms-flexbox;display:flex;position:absolute;z-index:3;top:8%;right:10%}.nav-icon-wrapper{display:-webkit-box;display:-ms-flexbox;display:flex}.icon-lang{width:15px;height:15px}.search-wrapper{padding-left:15px;position:relative;z-index:0}.lang-dropdown{position:absolute;width:200px;height:140px;top:-20px;right:-10px;z-index:10;border:1px solid #b0936d;background:#000f24;background:-webkit-gradient(linear,left top,left bottom,from(#000f24),to(#011b3e));background:linear-gradient(180deg,#000f24 0,#011b3e 100%);margin-top:54px;opacity:0;-webkit-transform:translateY(10px);transform:translateY(10px)}.lang-dropdown .language-tap{text-align:center;padding:10px 0}#languageDropdown a .language-tap{color:#979797;font-size:16px;font-weight:100;font-family:"Barlow Light",sans-serif,Arial,Helvetica}.menu-lang{display:block}.menu-lang h6{font-size:16px;font-weight:100;font-family:Barlow;position:relative;color:#979797}.menu-lang #icon-lang{position:absolute;width:20px;height:20px;top:2px;left:18px;background-repeat:no-repeat}.nav-item button{display:inline-block;border:none;padding:.5rem 2rem;margin:0;text-decoration:none;background:0 0;color:#fff;text-align:center;-webkit-appearance:none;-moz-appearance:none}.language-tap.active{position:relative}#wrapper .nav_links .active-tap{color:#fff}.language-tap.active::after{content:"";position:absolute;left:-1px;width:13px;height:26px;background-repeat:no-repeat}.icon-lang{margin-left:.5rem}.menu-wrapper{display:block;position:absolute;z-index:3;top:8px;right:0;width:30px;height:30px}#nav-area .menu-item{-webkit-transform:scale(1);transform:scale(1)}#nav-area .closeBtn{position:absolute;z-index:3;top:22px;right:0;width:18px;height:16px;background-repeat:no-repeat;opacity:0;visibility:hidden}#nav-area .nav-item .secondaryBtn{padding:0}.menu-btn{width:30px;height:30px;position:relative;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.menu-btn__burger,.menu-btn__burger::after,.menu-btn__burger::before{width:30px;height:1px;left:0;border-radius:5px;background-color:#fff}.menu-btn__burger::after,.menu-btn__burger::before{content:"";position:absolute}.menu-btn__burger::before{-webkit-transform:translateY(-8px);transform:translateY(-8px)}.menu-btn__burger::after{-webkit-transform:translateY(8px);transform:translateY(8px)}.sidebar{display:block;position:fixed;padding:3rem 0;width:100%;height:100%;right:-100%;z-index:5;overflow-y:scroll;background:#060b1a}.sidebar a{font-family:"Barlow Regular",sans-serif,Arial,Helvetica;font-weight:100;color:#a1a1a1}.sidebar .side-item{border-bottom:.5px solid #b0936d;position:relative;padding:.2rem}.sidebar .side-item a{font-family:"Barlow Regular",sans-serif,Arial,Helvetica;font-size:16px;letter-spacing:1px;line-height:60px;color:#d8d8d8;padding-left:25px}.sidebar .side-item .game-item{padding-left:1rem}.sidebar .side-item .game-item a{font-family:Futura-Medium,Futura-pt,Arial,sans-serif;text-transform:uppercase;font-weight:500;letter-spacing:3px}.sidebar .side-item .game-sub-item{padding-left:2rem}.sidebar .side-item .game-sub-item a{font-family:Futura-Light,Futura-pt,Arial,sans-serif;text-transform:uppercase;font-size:14px;letter-spacing:1px;font-weight:100;color:#b4b4b4}.sidebar #logoMobile{position:relative}.sidebar #logoMobile .nav-logo{position:absolute;top:-42px;left:22px}.sidebar #menuMobile{right:22px;top:15px}.sidebar .game-item{position:relative}.sidebar .fa-arrow{position:absolute;top:17px;right:24px;-webkit-transform:rotate(-90deg);transform:rotate(-90deg);height:30px;width:30px}.sidebar .fa-arrow img{height:30px;width:30px;padding:3px;background-repeat:no-repeat;background-size:contain;-o-object-fit:contain;object-fit:contain}.sidebar .livegame-btn .fa-arrow{top:10px;right:21px}.livegame-show,.sidebar .game-show{display:none}#pills-tabContent .fade:not(.show){display:none}@media (min-width:576px){.sidebar #menuMobile{right:22px;top:23px}}@media (min-width:768px){.nav-logo{width:110px}.nav-wrap{top:0;height:75px}#nav-area{top:14%;left:50%;text-align:center;-webkit-transform:translate(-50%);transform:translate(-50%);-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;padding-top:5px;height:70px}.menu-logo{margin-top:-3px}#wrapper .nav-link{padding:.5rem 1rem}.nav-icon-wrapper{top:5%;right:8%}#nav-area .closeBtn{position:absolute;top:22px;right:12%;width:18px;height:16px}.sidebar #logoMobile .nav-logo{top:-39px}}@media (min-width:992px){.nav-logo{width:160px;height:56px}.menu-logo{margin-top:0}#wrapper #nav-area{top:0}.menu-wrapper{top:14px}#wrapper .nav_links{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}.nav-icon-wrapper{right:1%;top:15%}.menu-wrapper{display:none}.subnav-arrow{display:none;opacity:0;visibility:hidden;border-top:12px solid transparent;border-left:12px solid transparent;border-right:12px solid #011d3a;position:absolute;-webkit-transform:rotate(225deg);transform:rotate(225deg);left:183px;top:27px;z-index:5}.nav-wrap li.dropdown .game-menu::after{height:480px}.sidebar{display:none}}@media (min-width:1200px){.nav-logo{width:160px}#wrapper .nav-link{padding:.5rem 1.8rem}.subnav-arrow{left:232px}.game-icon-wrap{min-width:260px}.nav-game-item{padding:0 11px}.nav-wrap li.dropdown .game-menu::after{height:415px}.game-menu .sub-tab-content{padding-bottom:280px}}.main-footer .footer-subscribe p{font-size:14px;font-weight:100;text-align:center;letter-spacing:1px;line-height:20px;color:#979797}#myerror{display:none;text-align:left;color:#ee2e2e!important;font-size:16px;font-weight:100;background-color:transparent!important;padding:0;margin-top:-5px}@media (min-width:576px){.main-footer .footer-subscribe p{text-align:left}}.hero-header{height:400px}.hero-header,.live-game-main{position:relative;padding-bottom:5rem}.hero-header-bkg,.live-game-main-bkg{position:absolute;top:0;z-index:-1}#liveGame .hero-header-bkg{width:100%}.hero-header::after{content:'';position:absolute;top:0;left:0;z-index:-1;width:100%;height:100%;background:#060b1a;background:-webkit-gradient(linear,left top,left bottom,from(rgba(6,11,26,.3)),to(#070a1b));background:linear-gradient(180deg,rgba(6,11,26,.3) 0,#070a1b 100%)}.game-hero-D,.game-hero-M{width:100%;background-position:50% 10%;background-size:cover;height:100%;-o-object-fit:cover;object-fit:cover;display:none}.game-hero-M{display:block}.game-hero-D{display:none}#liveGame .hero-icon{width:120px;height:60px;margin:0 auto;padding-top:8rem;padding-bottom:2rem}#liveGame .header-deco h4{margin-top:7rem;font-family:"Barlow Medium",sans-serif,Arial,Helvetica;letter-spacing:2;font-size:16px;color:#b0936d}#liveGame .header-deco{width:220px;margin:0 auto;position:relative}#liveGame .header-deco:after,#liveGame .header-deco:before{content:"";position:absolute;top:18%;width:103px;height:15px;background-size:contain;background-repeat:no-repeat}#liveGame .header-deco:before{left:-22%}#liveGame .header-deco:after{right:-22%;-webkit-transform:scaleX(-1);transform:scaleX(-1)}#liveGame .hero-header h1{color:#d8d8d8;font-family:Futura-Medium,Futura-pt,Arial,sans-serif;text-transform:uppercase;font-size:40px;padding-top:10px;font-weight:100;margin-top:1rem}#liveGame .hero-intro1{margin-top:-1rem;padding-bottom:0}.live-game-main .hero-intro2{padding:0 20px;max-width:400px;margin:0 auto;text-align:center;margin-top:1.5rem}@media (min-width:768px){.hero-header{height:700px}.game-hero-M{display:none}.game-hero-D{display:block}#liveGame .hero-icon{width:150px;height:150px;margin:0 auto;padding-top:29rem;padding-bottom:0}#liveGame .hero-header h1{font-size:80px;line-height:90px}#liveGame .header-deco{margin-top:13rem}#liveGame .hero-header h1{margin-top:1.5rem}#liveGame .hero-intro1{margin-top:-4rem;padding-top:0;padding-bottom:0}.live-game-main .hero-intro2{max-width:700px}.live-game-main .hero-intro2{margin-top:3.5rem}.live-game-main{margin-bottom:5rem}.live-game-main{margin-bottom:5rem}.live-game-main{margin-top:13rem!important;margin-bottom:-5rem!important}}@media (min-width:992px){.live-game-main{margin-bottom:1rem}}@media (min-width:768px){.live-game-main-bkg{top:0}}#thankyou-popup #thankyou-bkg-m{position:absolute;top:0;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%);width:100%;height:400px;z-index:-1}#thankyou-popup #thankyou-bkg-m{display:block}@media (min-width:768px){#thankyou-popup #thankyou-bkg-m{display:none}}.game-icon-wrap h4{font-size:14px;letter-spacing:1px;font-weight:100;padding-top:10px;text-transform:uppercase;line-height:20px;color:#979797}.game-menu-wrapper .game-icon-bkg-wrap{border:.5px solid rgba(137,102,61,.5)}@media (min-width:992px){.nav-wrap li.dropdown .game-menu::after{height:460px}.game-icon-bkg-wrap{width:159px;height:220px;overflow:hidden;margin:0 auto;-webkit-filter:opacity(60%) contrast(120%);filter:opacity(60%) contrast(120%)}}@media (min-width:1200px){.game-icon-bkg-wrap{width:260px;height:360px}.nav-wrap li.dropdown .game-menu::after{height:625px}.game-icon-wrap{min-width:298px}}body:lang(EN) .game-icon-wrap{font-family:Futura-Medium,Futura-pt,Arial,sans-serif}body:lang(EN) .main-footer p{font-family:"Barlow Regular",sans-serif,Arial,Helvetica}@media all and (-ms-high-contrast:none),(-ms-high-contrast:active){.nav-item button{padding:.5rem 1em}.nav-icon-wrapper{top:6px}.nav-wrap{height:70px;left:inherit;-webkit-transform:inherit;transform:inherit}.menu-wrapper{top:12px}.nav-item button{padding:.5rem 2.2em}.nav-wrap li.dropdown .game-menu{top:41px}.hero-header-bkg img{height:400px;width:1152px;position:absolute;left:50%;top:0;-webkit-transform:translateX(-50%);transform:translateX(-50%)}#liveGame .hero-header-bkg img{height:auto;width:inherit}.hero-header::after{background:#070a1b;background:-webkit-gradient(linear,left bottom,left top,from(#070a1b),color-stop(46%,rgba(6,11,26,.6)),color-stop(92%,rgba(6,11,26,0)));background:linear-gradient(0deg,#070a1b 0,rgba(6,11,26,.6) 46%,rgba(6,11,26,0) 92%)}#wrapper #nav-area{top:8px}#liveGame .hero-header h1{font-weight:500}.hero-header-bkg,.live-game-main-bkg{height:auto;width:100%;background-position:50% 10%;-o-object-fit:cover;object-fit:cover}.game-hero-M{min-height:600px}.game-hero-D{width:150%}}@media all and (-ms-high-contrast:none) and (min-width:768px),(-ms-high-contrast:active) and (min-width:768px){.hero-header-bkg img{height:500px;width:1440px;position:absolute;left:50%;top:0;-webkit-transform:translateX(-50%);transform:translateX(-50%)}.hero-header-bkg{height:600px;overflow:hidden}#wrapper #nav-area{top:10px}.nav-icon-wrapper{top:0;right:6%}.menu-wrapper{top:4px}#nav-area .closeBtn{top:15px}.hero-header{height:542px}#liveGame .hero-icon{padding-top:8rem}#liveGame .header-deco{margin-top:10rem}}@media all and (-ms-high-contrast:none) and (min-width:992px),(-ms-high-contrast:active) and (min-width:992px){#wrapper #nav-area{top:0}.menu-wrapper{top:15px}.nav-icon-wrapper{top:12px;right:0}.subnav-arrow{left:41%}}@media all and (-ms-high-contrast:none) and (min-width:1200px),(-ms-high-contrast:active) and (min-width:1200px){.nav-wrap{height:70px}.subnav-arrow{left:39.5%}}
+        </style> -->
+        <!-- Sal CSS -->
+        <link rel="stylesheet" href="./styles/sal.css" />
+        
+        <title>World Entertainment</title>
+        <link rel="shortcut icon" type="image/svg" href="./images/icon/favicon.svg" />
+    </head>
+    <body>
+        <div id="wrapper" data-sal="fade" data-sal-easing="easeInQuart"  style="--sal-duration: 0.3s; --sal-delay: 0.1s;">
+            <section class="section-header" id="nav">
+                <div class="header-wrapper">
+                    <!-- navigation bar -->
+                    <div class="nav-wrap">
+                        <div id="nav-area">
+                            <div class="main-nav">
+                                <!-- nav links -->
+                                <li class="nav-item logo-wrap" data-sal="fade" data-sal-easing="easeInQuart" style="--sal-duration: 0.8; --sal-delay: 0.1s;">
+                                    <a class="navbar-brand menu-item menu-logo" href="index.html">
+                                        <div class="nav-logo"><img class="imageset" data-key="WE_logo" src="./images/icon/en/logo.svg" alt="" loading="lazy" /></div>
+                                    </a>
+                                </li>
+                                <ul class="nav_links">
+                                    <li class="nav-item"  data-sal="fade" data-sal-easing="easeInQuart" style="--sal-duration: 0.8; --sal-delay: 0.1s;">
+                                        <a class="nav-link menu-item menu-about lang" key="nav_About" href="AboutWE.html">About WE</a>
+                                    </li>
+                                    <li class="nav-item dropdown" id="gamesHover"  data-sal="fade" data-sal-easing="easeInQuart" style="--sal-duration: 0.8s; --sal-delay: 0.2s;">
+                                        <a class="nav-link menu-item menu-games active-tap lang" key="nav_LiveGames" href="All_Live_Game.html">Games</a>
+                                        <div class="game-menu">
+                                            <div class="subnav-arrow"></div>
+                                            <div class="game-menu-wrapper">
+                                                <!-- game menu tab -->
+                                                <ul class="nav justify-content-center" id="gameSubtab" role="tablist">
+                                                    <li class="nav-game-item" data-sal="fade" data-sal-easing="easeInQuart" style="--sal-duration: 1; --sal-delay: 0.1s;">
+                                                        <a class="nav-game-link fancy-link lang active" key="submenu_LiveGames" id="pills-livegame-tab" data-toggle="pill" href="#pills-livegame" role="tab" aria-controls="pills-livegame" aria-selected="true">
+                                                            LIVE GAMES
+                                                        </a>
+                                                    </li>
+                                                    <li class="nav-game-item" data-sal="fade" data-sal-easing="easeInQuart" style="--sal-duration: 1; --sal-delay: 0.2s;">
+                                                        <a class="nav-game-link fancy-link lang" key="submenu_Lottery" id="pills-lottery-tab" data-toggle="pill" href="#pills-lottery" role="tab" aria-controls="pills-lottery" aria-selected="false">LOTTERIES</a>
+                                                    </li>
+                                                    <li class="nav-game-item" data-sal="fade" data-sal-easing="easeInQuart" style="--sal-duration: 1; --sal-delay: 0.3s;">
+                                                        <a class="nav-game-link fancy-link lang" key="submenu_Sportsbook" id="pills-sportsbook-tab" data-toggle="pill" href="#pills-sportsbook" role="tab" aria-controls="pills-sportsbook" aria-selected="false">
+                                                            SPORTSBOOK
+                                                        </a>
+                                                    </li>
+                                                    <li class="nav-game-item" data-sal="fade" data-sal-easing="easeInQuart" style="--sal-duration: 1; --sal-delay: 0.4s;">
+                                                        <a class="nav-game-link fancy-link lang" key="submenu_Slots" id="pills-slots-tab" data-toggle="pill" href="#pills-slots" role="tab" aria-controls="pills-slots" aria-selected="false">SLOTS</a>
+                                                    </li>
+                                                </ul>
+                                                <div class="game-tab-content" id="pills-tabContent">
+                                                    <!-- Live game tab -->
+                                                    <div class="tab-pane fade show active" id="pills-livegame" role="tabpanel" aria-labelledby="pills-livegame-tab">
+                                                        <div class="d-flex justify-content-center sub-tab-content">
+                                                            <div class="game-icon-wrap p-2" data-sal="slide-up" data-sal-easing="easeInQuart" style="--sal-duration: 0.5s; --sal-delay: 0;">
+                                                                <a href="Game_LiveGame_Baccarat.html">
+                                                                    <div class="game-icon-container">
+                                                                        <div class="game-icon-bkg-wrap">
+                                                                            <img class="inner-img"
+                                                                                src="./images/all_live_game/live_game_item/game-item_Baccarat_x1.jpg"
+                                                                                srcset="./images/all_live_game/live_game_item/game-item_Baccarat_x1.jpg 500w, ./images/all_live_game/live_game_item/game-item_Baccarat_x2.webp 1000w, ./images/all_live_game/live_game_item/game-item_Baccarat_x2.jpg 1000w"
+                                                                                alt=""
+                                                                            />
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="gametab-game-title">
+                                                                        <h4><span class="lang" key="Baccarat">Baccarat</span></h4>
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                            <div class="game-icon-wrap p-2" data-sal="slide-up" data-sal-easing="easeInQuart" style="--sal-duration: 0.5s; --sal-delay: 0;">
+                                                                <a href="Game_LiveGame_GodofFortuneRoulette.html">
+                                                                    <div class="game-icon-container">
+                                                                        <div class="game-icon-bkg-wrap">
+                                                                            <img class="inner-img"
+                                                                                src="./images/all_live_game/live_game_item/game_item_GodofFortuneRoulette_x1.jpg"
+                                                                                srcset="./images/all_live_game/live_game_item/game_item_GodofFortuneRoulette_x1.jpg 500w, ./images/all_live_game/live_game_item/game_item_GodofFortuneRoulette_x2.webp 1000w, ./images/all_live_game/live_game_item/game_item_GodofFortuneRoulette_x2.jpg 1000w"
+                                                                                alt=""
+                                                                            />
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="gametab-game-title">
+                                                                        <h4><span class="lang" key="GodofFortuneRoulette">God of Fortune Roulette</span></h4>
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                            <div class="game-icon-wrap p-2" data-sal="slide-up" data-sal-easing="easeInQuart" style="--sal-duration: 0.5s; --sal-delay: 0;">
+                                                                <a href="Game_LiveGame_MahjongLuckyWheel.html">
+                                                                    <div class="game-icon-container">
+                                                                        <div class="game-icon-bkg-wrap">
+                                                                            <img class="inner-img"
+                                                                                src="./images/all_live_game/live_game_item/game_item_MahjongLuckyWheel_x1.jpg"
+                                                                                srcset="./images/all_live_game/live_game_item/game_item_MahjongLuckyWheel_x1.jpg 500w, ./images/all_live_game/live_game_item/game_item_MahjongLuckyWheel_x2.webp 1000w, ./images/all_live_game/live_game_item/game_item_MahjongLuckyWheel_x2.jpg 1000w"
+                                                                                alt=""
+                                                                            />
+                                                                        </div>
+                                                                    </div>
+                                                                    <h4><span class="lang" key="MahjongLuckyWheel">Mahjong Lucky Wheel</span></h4>
+                                                                </a>
+                                                            </div>  
+                                                            <div class="game-icon-wrap p-2" data-sal="slide-up" data-sal-easing="easeInQuart" style="--sal-duration: 0.5s; --sal-delay: 0;">
+                                                                <a href="Game_LiveGame_DragonTiger.html">
+                                                                    <div class="game-icon-container">
+                                                                        <div class="game-icon-bkg-wrap">
+                                                                            <img class="inner-img"
+                                                                                src="./images/all_live_game/live_game_item/game_item_DragonTiger_x1.jpg"
+                                                                                srcset="./images/all_live_game/live_game_item/game_item_DragonTiger_x1.jpg 500w, ./images/all_live_game/live_game_item/game_item_DragonTiger_x2.webp 1000w, ./images/all_live_game/live_game_item/game_item_DragonTiger_x2.jpg 1000w"
+                                                                                alt=""
+                                                                            />
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="gametab-game-title">
+                                                                        <h4><span class="lang" key="DragonTiger">Dragon Tiger</span></h4>
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="all-games" class="allGameBtn">
+                                                            <a href="All_Live_Game.html"><button class="secondaryBtn lang" type="button" key="submenu_AllLiveGame">ALL LIVE GAMES</button></a>
+                                                        </div>
+                                                    </div>
+                                                    <!-- Live game tab -->
+                                                    
+                                                    <!-- <div class="tab-pane fade lang" key="ComingSoon" id="pills-lottery" role="tabpanel" aria-labelledby="pills-lottery-tab">LOTTERIES</div> -->
+                                                    <!-- Lotteries game tab -->
+                                                    <div class="tab-pane fade lang" id="pills-lottery" role="tabpanel" aria-labelledby="pills-lottery-tab">
+                                                        <div class="d-flex justify-content-center sub-tab-content">
+                                                            <div class="game-icon-wrap p-2" data-sal="slide-up" data-sal-easing="easeInQuart" style="--sal-duration: 0.5s; --sal-delay: 0;">
+                                                                <a href="Game_Lottery_Lotto5.html">
+                                                                    <div class="game-icon-container">
+                                                                        <div class="game-icon-bkg-wrap">
+                                                                            <img loading="lazy" class="inner-img"
+                                                                                src="./images/all_lottery_game/game_item/game_item_Lotto5_x1.jpg"
+                                                                                srcset="./images/all_lottery_game/game_item/game_item_Lotto5_x1.jpg 500w,./images/all_lottery_game/game_item/game_item_Lotto5_x2.webp 1000w, ./images/all_lottery_game/game_item/game_item_Lotto5_x2.jpg 1000w"
+                                                                                alt=""
+                                                                            />
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="gametab-game-title">
+                                                                        <h4><span class="lang" key="Lotto5">Lotto 5</span></h4>
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                            <div class="game-icon-wrap p-2" data-sal="slide-up" data-sal-easing="easeInQuart" style="--sal-duration: 0.5s; --sal-delay: 0;">
+                                                                <a href="Game_Lottery_PK10.html">
+                                                                    <div class="game-icon-container">
+                                                                        <div class="game-icon-bkg-wrap">
+                                                                            <img loading="lazy" class="inner-img"
+                                                                            src="./images/all_lottery_game/game_item/game_item_PK10_x1.jpg"
+                                                                            srcset="./images/all_lottery_game/game_item/game_item_PK10_x1.jpg 500w,./images/all_lottery_game/game_item/game_item_PK10_x2.webp 1000w, ./images/all_lottery_game/game_item/game_item_PK10_x2.jpg 1000w"
+                                                                            alt=""
+                                                                            />
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="gametab-game-title">
+                                                                        <h4><span class="lang" key="PK10">PK10 Racing</span></h4>
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="all-games" class="allGameBtn">
+                                                            <a href="All_Lottery_Game.html"><button class="secondaryBtn lang" type="button" key="submenu_AllLotteryGame">ALL LOTTERIES</button></a>
+                                                        </div>
+                                                    </div>
+                                                    <!-- Lotteries game tab -->
+                                                    <div class="tab-pane fade lang" key="ComingSoon" id="pills-sportsbook" role="tabpanel" aria-labelledby="pills-sportsbook-tab">COMING SOON</div>
+                                                    <div class="tab-pane fade lang" key="ComingSoon" id="pills-slots" role="tabpanel" aria-labelledby="pills-slots-tab">COMING SOON</div>
+                                                </div>
+                                                <!-- game menu tab -->
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item" data-sal="fade" data-sal-easing="easeInQuart" style="--sal-duration: 0.8s; --sal-delay: 0.3s;">
+                                        <a class="nav-link menu-item menu-liveStudio lang" key="nav_LiveStudio" href="LiveStudio.html">Live Studio</a>
+                                    </li>
+                                    <li class="nav-item" data-sal="fade" data-sal-easing="easeInQuart" style="--sal-duration: 0.8s; --sal-delay: 0.4s;">
+                                        <a class="nav-link menu-item menu-services lang" key="nav_Services" href="Services.html">Services</a>
+                                    </li>
+                                    <li class="nav-item" data-sal="fade" data-sal-easing="easeInQuart" style="--sal-duration: 0.8s; --sal-delay: 0.5s;">
+                                        <a class="nav-link menu-item menu-whatsNew lang" key="nav_WhatsNew" href="WhatsNew.html">What's New</a>
+                                    </li>
+                                    <li class="nav-item" data-sal="fade" data-sal-easing="easeInQuart" style="--sal-duration: 0.8s; --sal-delay: 0.6s;">
+                                        <a class="nav-link menu-item menu-contactUs lang" key="nav_ContactUs" href="ContactUs.html">Contact Us</a>
+                                    </li>
+                                </ul>
+                                <li class="nav-item nav-icon" data-sal="fade" data-sal-easing="easeInQuart" style="--sal-duration: 0.8s; --sal-delay: 0.7s;">
+                                    <div class="nav-icon-wrapper">
+                                        <!-- <div>
+                                            <a class="icon-search menu-item search" id="navSearch" href="#search">
+                                                <img src="images/icon/search.svg" />
+                                            </a>
+                                        </div> -->
+                                        <div class="search-wrapper menu-item menu-lang">
+                                            <button class="icon-lang">
+                                                <a id="icon-lang">
+                                                    <img loading="lazy" src="images/icon/lang.svg" />
+                                                </a>
+                                                <h6 class="lang" key="current-lang">En</h6>
+                                            </button>
+                                            <ul class="lang-dropdown" id="languageDropdown">
+                                                <a id="EN" href="#" class="translate"><li class="language-tap active">English</li></a>
+                                                <a id="TC" href="#" class="translate"><li class="language-tap">繁體中文</li></a>
+                                                <a id="SC" href="#" class="translate"><li class="language-tap">简体中文</li></a>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="menu-wrapper menu-item">
+                                        <div class="menu-btn">
+                                            <div class="menu-btn__burger"></div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <!-- <div class="search-container">
+                                    <div class="search-form" id="searchForm">
+                                        <form>
+                                            <input class="lang search-input" key="nav_Search" type="text" name="" placeholder="Search our website"/>
+                                        </form>
+                                    </div>
+                                </div> -->
+                                <a class="closeBtn"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- side menu start  -->
+                    <nav class="sidebar">
+                        <a class="navbar-brand menu-item menu-logo" href="index.html" id="logoMobile">
+                            <div class="nav-logo"><img loading="lazy" class="imageset" data-key="WE_logo" src="./images/icon/en/logo.svg" alt="" loading="lazy" /></div>
+                        </a>
+                        <div class="menu-wrapper menu-item" id="menuMobile">
+                            <div class="menu-btn">
+                                <div class="menu-btn__burger"></div>
+                            </div>
+                        </div>
+                        <ul>
+                            <li class="side-item">
+                                <a href="AboutWE.html" class="lang" key="nav_About">About WE</a>
+                            </li>
+                            <li class="side-item">
+                                <a href="#" class="game-btn">
+                                    <span class="lang" key="nav_LiveGames">Games</span>
+                                    <span class="fa-arrow">
+                                        <img loading="lazy" src="./images/icon/dropdown.svg" />
+                                    </span>
+                                </a>
+                                <ul class="game-show">
+                                    <li class="game-item">
+                                        <a href="#" class="livegame-btn">
+                                            <span class="lang" key="submenu_LiveGames">LIVE GAMES</span>
+                                            <span class="fa-arrow">
+                                                <img loading="lazy" src="./images/icon/dropdown.svg" />
+                                            </span>
+                                        </a>
+                                        <ul class="game-sub-item livegame-show">
+                                            <li><a href="All_Live_Game.html"><span class="lang" key="submenu_AllLiveGame">ALL LIVE GAMES</span></a></li>
+                                            <li><a href="Game_LiveGame_Baccarat.html"><span class="lang" key="Baccarat">BACCARAT</span></a></li>
+                                            <li><a href="Game_LiveGame_SqueezeBaccarat.html"><span class="lang" key="SqueezeBaccarat">Squeeze Baccarat</span></a></li>
+                                            <li><a href="Game_LiveGame_GodofFortuneSicBo.html"><span class="lang" key="GodofFortuneSicBo">God of Fortune Sic Bo</span></a></li>
+                                            <li><a href="Game_LiveGame_GodofFortuneRoulette.html"><span class="lang" key="GodofFortuneRoulette">God of Fortune Roulette</span></a></li>
+                                            <li><a href="Game_LiveGame_MahjongLuckyWheel.html"><span class="lang" key="MahjongLuckyWheel">MAHJONG LUCKY WHEEL</span></a></li>
+                                            <li><a href="Game_LiveGame_SicBo.html"><span class="lang" key="SicBo">SIC BO</span></a></li>
+                                            <li><a href="Game_LiveGame_Roulette.html"><span class="lang" key="Roulette">ROULETTE</span></a></li>
+                                            <li><a href="Game_LiveGame_DragonTiger.html"><span class="lang" key="DragonTiger">DRAGON TIGER</span></a></li>
+                                            <li><a href="Game_LiveGame_WinThreeCards.html"><span class="lang" key="WinThreeCards">Win Three Cards</span></a></li>
+                                            <li><a href="Game_LiveGame_Blockchain_Baccarat.html"><span class="lang" key="BlockchainBaccarat">Blockchain Baccarat</span></a></li>
+                                            <li><a href="Game_LiveGame_Blockchain_SqueezeBaccarat.html"><span class="lang" key="BlockchainSqueezeBaccarat">Blockchain Squeeze Baccarat</span></a></li>
+                                            <li><a href="Game_LiveGame_Blockchain_SpeedBaccarat.html"><span class="lang" key="BlockchainSpeedBaccarat">Blockchain Speed Baccarat</span></a></li>
+                                            <li><a href="Game_LiveGame_Blockchain_DragonTiger.html"><span class="lang" key="BlockchainDragonTiger">Blockchain Dragon Tiger</span></a></li>
+                                        </ul>
+                                    </li>
+                                     <li class="game-item">
+                                        <a href="#" class="livegame-btn">
+                                            <span class="lang" key="submenu_Lottery">LOTTERIES</span>
+                                            <span class="fa-arrow">
+                                                <img loading="lazy" src="./images/icon/dropdown.svg" />
+                                            </span>
+                                        </a>
+                                        <ul class="game-sub-item livegame-show">
+                                            <li><a href="All_Lottery_Game.html"><span class="lang" key="submenu_AllLotteryGame">ALL LOTTERIES</span></a></li>
+                                            <li><a href="Game_Lottery_Lotto5.html"><span class="lang" key="Lotto5">Lotto 5</span></a></li>
+                                            <li><a href="Game_Lottery_PK10.html"><span class="lang" key="PK10">PK10 Racing</span></a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="side-item">
+                                <a href="LiveStudio.html"><span class="lang" key="nav_LiveStudio">Live Studio</span></a>
+                            </li>
+                            <li class="side-item">
+                                <a href="Services.html"><span class="lang" key="nav_Services">Services</span></a>
+                            </li>
+                            <li class="side-item">
+                                <a href="WhatsNew.html"><span class="lang" key="nav_WhatsNew">What’s New</span></a>
+                            </li>
+                            <li class="side-item">
+                                <a href="ContactUs.html"><span class="lang" key="nav_ContactUs">Contact Us</span></a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <!-- side menu end  -->
+
+                    <!-- navigation bar end -->
+                </div>
+            </section>
+            <div id="liveGame">
+                <div id="baccarat">
+                    <div class="hero-header text-center">
+                        <div class="hero-header-bkg">
+                            <picture class="game-hero-M">
+                                <source media="(max-width: 600px)" srcset="./images/game/game_baccarat/banner/hero_livegame_barracat_M_x1.jpg">
+                                <source media="(max-width: 1023px)" srcset="./images/game/game_baccarat/banner/hero_livegame_barracat_M_x1.jpg 800w, ./images/game/game_baccarat/banner/hero_livegame_barracat_M_x2.jpg 1000w">
+                                <img src="./images/game/game_baccarat/banner/hero_livegame_barracat_M_x2.jpg">
+                            </picture>
+                            <picture class="game-hero-D">
+                                <source media="(max-width: 600px)" srcset="./images/game/game_baccarat/banner/hero_livegame_barracat_D_x1.jpg">
+                                <source media="(max-width: 1023px)" srcset="./images/game/game_baccarat/banner/hero_livegame_barracat_D_x1.jpg 800w, ./images/game/game_baccarat/banner/hero_livegame_barracat_D_x2.jpg 1000w">
+                                <img src="./images/game/game_baccarat/banner/hero_livegame_barracat_D_x2.jpg"
+                                srcset="./images/game/game_baccarat/banner/hero_livegame_barracat_D_x1.jpg 800w, ./images/game/game_baccarat/banner/hero_livegame_barracat_D_x2.webp 1000w, ./images/game/game_baccarat/banner/hero_livegame_barracat_D_x2.jpg 1000w">
+                            </picture>
+                        </div>
+                        <div class="hero-icon" data-sal="slide-up" data-sal-easing="easeInOutQuad" style="--sal-duration: 1s; --sal-delay: 0s;">
+                            <div class="game-icon">
+                                <img src="./images/icon/game_icon/game_icon_Baccarat.svg" />
+                            </div>
+                        </div>
+                        <div class="header-deco" data-sal="fade" data-sal-easing="easeInOut" style="--sal-duration: 1.5s; --sal-delay: 0.15s;">
+                            <h4 class="lang" key="LiveGames">LIVE GAMES</h4>
+                        </div>
+                        <h1 class="lang" key="Baccarat" data-sal="slide-up" data-sal-easing="easeInOutQuad" style="--sal-duration: 1s; --sal-delay: 0.25s;">Baccarat</h1>
+                    </div>
+                    <div class="live-game-main text-center">
+                        <div class="live-game-main-bkg">
+                            <picture>
+                                <source media="(max-width: 600px)" srcset="./images/game/livegame_main_bkg_x1.jpg">
+                                <source media="(max-width: 1023px)" srcset="./images/game/livegame_main_bkg_x1.jpg 800w, ./images/game/livegame_main_bkg_x2.jpg 1000w">
+                                <img src="./images/game/livegame_main_bkg_x2.jpg"
+                                srcset="./images/game/livegame_main_bkg_x1.jpg 500w,  ./images/game/livegame_main_bkg_x2.jpg 1000w">
+                            </picture>
+                        </div>
+                        <h4 class="hero-intro1 lang" key="Baccarat_slogan"  data-sal="slide-up" data-sal-easing="easeInOutQuad" style="--sal-duration: 1s; --sal-delay: 0.35s;">WE play beyond classic.</h4>
+                        <p class="hero-intro2 lang" key="gameDetail_p1" data-sal="slide-up" data-sal-easing="easeInOutQuad" style="--sal-duration: 1s; --sal-delay: 0.2s;">Baccarat is a relatively simple game of comparing cards and doesn't need much time for a beginner to learn. Apart from the traditional Baccarat, WE offer a huge variety of game types in order to cater every Baccarat lover.</p>
+                        <!-- UI feature hightlight start -->
+                        <div class="game-UI">
+                            <img class="imageset" data-key="UI" alt=""/>
+                        </div>
+                        <!-- UI feature hightlight end -->
+                        <h5 class="feature-header lang" key="feature" data-sal="slide-up" data-sal-easing="easeInOutQuad" style="--sal-duration: 1s; --sal-delay: 0.1s;">FEATURE HIGHLIGHTS</h5>
+                        <!-- feature hightlight -->
+                        <div class="feature-row">
+                            <div class="d-md-flex flex-md-row-reverse feature-flexitem" id="feature1" data-sal="slide-up" data-sal-easing="easeInOutQuad" style="--sal-duration: 1s; --sal-delay: 0;">
+                                <div class="feature-flexbox feature-text">
+                                    <h2 class="feature-flexbox-h2">
+                                        <span class="lang" key="feature_1.1">Legible </span><br />
+                                        <span class="lang" key="feature_1.2">Scoreboards</span>
+                                    </h2>
+                                    <p class="hero-intro2 lang" key="feature_1_p">WE have well prepared 5 different scoring boards: Bead Road, Big Road, Big Eye Boy, Small Road and finally the Cockroach Pig works as "predictor" of the next move.</p>
+                                </div>
+                                <div class="feature-flexbox feature-photo">
+                                    <picture>
+                                        <img class="imageset" data-key="feature1" alt=""/>
+                                    </picture>
+                                </div>
+                            </div>
+                            <div class="d-md-flex flex-md-row" id="feature2" data-sal="slide-up" data-sal-easing="easeInOutQuad" style="--sal-duration: 1s; --sal-delay: 0.05s;">
+                                <div class="feature-flexbox feature-text">
+                                    <h2 class="feature-flexbox-h2 lang" key="feature_2">
+                                        Real-time <br />
+                                        statistics
+                                    </h2>
+                                    <p class="hero-intro2 lang" key="feature_2_p">In the Game Lobby, the comprehensive real-time statistics present an overview of game rounds, including the winning percentage of “Banker” and “Player”, as well as the results and details of current shoes and the last 100 rounds. Moreover, players can use the “Quick Bet” function to place the bets directly.
+                                    </p>
+                                </div>
+                                <div class="feature-flexbox feature-photo">
+                                    <picture>
+                                        <img loading="lazy" class="imageset" data-key="feature2" alt=""/>
+                                    </picture>
+                                </div>
+                            </div>
+                            <div class="d-md-flex flex-md-row-reverse feature-flexitem" id="feature3" data-sal="slide-up" data-sal-easing="easeInOutQuad" style="--sal-duration: 1s; --sal-delay: 0.05s;">
+                                <div class="feature-flexbox feature-text">
+                                    <h2 class="feature-flexbox-h2 lang" key="feature_3">Roadmap Selection</h2>
+                                    <p class="hero-intro2 lang" key="feature_3_p">Players can check the Roadmaps which have been pre-set on the platform. Of course, they can also set their own pattern with a maximum of 10 sets, so that the system will notify the players the related gaming tables anytime.
+                                    </p>
+                                </div>
+                                <div class="feature-flexbox feature-photo">
+                                    <picture>
+                                        <img loading="lazy" class="imageset" data-key="feature3"alt=""/>
+                                    </picture>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Baccarat type start -->
+                        <div class="container" id="BaccaratType">
+                            <div class="row">
+                                <div class="baccarat-type col-12 col-md-4" data-sal="slide-up" data-sal-easing="easeInOutQuad" style="--sal-duration: 1s; --sal-delay: 0.05s;">
+                                    <div class="type-wrap">
+                                        <img loading="lazy"
+                                            class="imageset" data-key="type1" src="images/game/game_baccarat/en/Baccarat_type1_x1.png"
+                                            srcset="images/game/game_baccarat/en/Baccarat_type1_x1.png 500w, images/game/game_baccarat/en/Baccarat_type1_x2.png 1000w"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <h4 class="lang" key="baccaratType_1">It’s classic <br/> and popular</h4>
+                                    <p class="lang" key="baccaratType_p1">Traditional Baccarat is one of the biggest highlights, and it is also known as the fairest game amongst all the live games. In order to make things more fun, WE have prepared comprehensive statistics to enhance their game experience.</p>
+                                </div>
+                                <div class="baccarat-type col-12 col-md-4"  data-sal="slide-up" data-sal-easing="easeInOutQuad" style="--sal-duration: 1s; --sal-delay: 0.15s;">
+                                    <div class="type-wrap">
+                                        <img loading="lazy"
+                                            class="imageset" data-key="type2" src="images/game/game_baccarat/en/Baccarat_type2_x1.png"
+                                            srcset="images/game/game_baccarat/en/Baccarat_type2_x1.png 500w, images/game/game_baccarat/en/Baccarat_type2_x2.png 1000w"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <h4 class="lang" key="baccaratType_2">Speedy and <br/>mind-blowing</h4>
+                                    <p class="lang" key="baccaratType_p2">During the game, players only have 20 seconds to place bets in each hand and everyone will be surely thrilled by this fast-paced excitement.
+                                    </p>
+                                </div>
+                                <div class="baccarat-type col-12 col-md-4"  data-sal="slide-up" data-sal-easing="easeInOutQuad" style="--sal-duration: 1s; --sal-delay: 0.25s;">
+                                    <div class="type-wrap">
+                                        <img loading="lazy"
+                                            class="imageset" data-key="type3" src="images/game/game_baccarat/en/Baccarat_type3_x1.png"
+                                            srcset="images/game/game_baccarat/en/Baccarat_type3_x1.png 500w, images/game/game_baccarat/en/Baccarat_type3_x2.png 1000w"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <h4 class="lang" key="baccaratType_3">No commission shall pay</h4>
+                                    <p class="lang" key="baccaratType_p3">The odds of No Commission Baccarat are different from Traditional Baccarat. It also gives the players a chance to win big from “Super 6” in the commission-free option.
+                                    </p>
+                                </div>
+                            </div>
+
+                            
+                        </div>
+                        <!-- Baccarat type end -->
+
+                        <!-- feature hightlight end-->
+                        <!-- game-platform start-->
+                        <div class="game-platform" data-sal="slide-up" data-sal-easing="easeInOutQuad" style="--sal-duration: 1s; --sal-delay: 0.05s;">
+                            <h3 class="lang" key="compatible">compatible with</h3>
+                            <div class="game-platforom-inner">
+                                <div class="game-platforom-icon">
+                                    <div class="platforom-icon-img">
+                                        <img loading="lazy"
+                                            alt=""
+                                            src="./images/icon/windows.svg"
+                                        />
+                                    </div>
+                                    <h6>Windows</h6>
+                                </div>
+                                <div class="game-platforom-icon">
+                                    <div class="platforom-icon-img">
+                                        <img loading="lazy"
+                                            alt=""
+                                            src="./images/icon/macos.svg"
+                                        />
+                                    </div>
+                                    <h6>Mac OS</h6>
+                                </div>
+                                <div class="game-platforom-icon">
+                                    <div class="platforom-icon-img">
+                                        <img loading="lazy"
+                                            alt=""
+                                            src="./images/icon/ios.svg"
+                                        />
+                                    </div>
+                                    <h6>IOS</h6>
+                                </div>
+                                <div class="game-platforom-icon">
+                                    <div class="platforom-icon-img">
+                                        <img loading="lazy"
+                                            alt=""
+                                            src="./images/icon/androids.svg"
+                                        />
+                                    </div>
+                                    <h6>Androids</h6>
+                                </div>
+                                <div class="game-platforom-icon">
+                                    <div class="platforom-icon-img">
+                                        <img loading="lazy"
+                                            alt=""
+                                            src="./images/icon/html5.svg"
+                                        />
+                                    </div>
+                                    <h6>HTML5</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- game-platform end-->
+                    </div>
+                    <div class="live-game-bottom">
+                        <div class="live-game-bottom-bkg">
+                            <img loading="lazy"
+                                alt=""
+                                src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxODA4IiBoZWlnaHQ9Ijk4MSIgdmlld0JveD0iMCAwIDE4MDggOTgxIj4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0ibGl2ZWdhbWVfYm90dG9tX2JrZ194MS1hIiB4MT0iMTcuNjc1JSIgeDI9Ijg5LjglIiB5MT0iMjQ1Ljk1NyUiIHkyPSIyNDUuOTU3JSI+CiAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiM3QzYzNDEiIHN0b3Atb3BhY2l0eT0iLjYiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjQTc4QzY4IiBzdG9wLW9wYWNpdHk9IjAiLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImxpdmVnYW1lX2JvdHRvbV9ia2dfeDEtYiIgeDE9IjcuMTIyJSIgeDI9Ijg5LjglIiB5MT0iMjQ1Ljk1NyUiIHkyPSIyNDUuOTU3JSI+CiAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiM3QzYzNDEiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjQTc4QzY4IiBzdG9wLW9wYWNpdHk9IjAiLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImxpdmVnYW1lX2JvdHRvbV9ia2dfeDEtYyIgeDE9IjQ5LjczMyUiIHgyPSI2MC44OTMlIiB5MT0iNjMuNTYyJSIgeTI9Ijk5LjA0NiUiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjODk2NjNEIiBzdG9wLW9wYWNpdHk9Ii41Ii8+CiAgICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI0E3OEM2OCIgc3RvcC1vcGFjaXR5PSIwIi8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJsaXZlZ2FtZV9ib3R0b21fYmtnX3gxLWQiIHgxPSIzOS42JSIgeDI9IjU5LjU3JSIgeTE9IjIxLjQyNSUiIHkyPSI4OC41NzElIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzg5NjYzRCIgc3RvcC1vcGFjaXR5PSIuNiIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNBNzhDNjgiIHN0b3Atb3BhY2l0eT0iMCIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0ibGl2ZWdhbWVfYm90dG9tX2JrZ194MS1lIiB4MT0iNy4xMjIlIiB4Mj0iODkuOCUiIHkxPSIyNDUuOTU3JSIgeTI9IjI0NS45NTclIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI0E3OEM2OCIgc3RvcC1vcGFjaXR5PSIwIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzdDNjM0MSIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0ibGl2ZWdhbWVfYm90dG9tX2JrZ194MS1mIiB4MT0iMjYuNDgyJSIgeDI9IjQzLjY3NyUiIHkxPSIyNDUuOTU3JSIgeTI9IjI0NS45NTclIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI0E3OEM2OCIgc3RvcC1vcGFjaXR5PSIwIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzdDNjM0MSIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+CiAgPGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxIDEpIj4KICAgIDxsaW5lIHgxPSI1NTQiIHkxPSI5NzkiIHN0cm9rZT0idXJsKCNsaXZlZ2FtZV9ib3R0b21fYmtnX3gxLWEpIi8+CiAgICA8ZyB0cmFuc2Zvcm09Im1hdHJpeCgtMSAwIDAgMSAxODA2IDApIj4KICAgICAgPGxpbmUgeDE9IjU1NCIgeTE9Ijk3OSIgc3Ryb2tlPSJ1cmwoI2xpdmVnYW1lX2JvdHRvbV9ia2dfeDEtYikiLz4KICAgICAgPGxpbmUgeDE9Ijg1MCIgeDI9IjI5NiIgeTE9Ijk3OSIgc3Ryb2tlPSJ1cmwoI2xpdmVnYW1lX2JvdHRvbV9ia2dfeDEtYykiLz4KICAgICAgPGxpbmUgeDE9IjExNTMiIHgyPSI1OTkiIHkxPSI5NzkiIHN0cm9rZT0idXJsKCNsaXZlZ2FtZV9ib3R0b21fYmtnX3gxLWQpIi8+CiAgICA8L2c+CiAgICA8ZyBvcGFjaXR5PSIuNSIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMzA0KSI+CiAgICAgIDxsaW5lIHgxPSI1NTQiIHkxPSI5NzkiIHN0cm9rZT0idXJsKCNsaXZlZ2FtZV9ib3R0b21fYmtnX3gxLWUpIi8+CiAgICAgIDxsaW5lIHgxPSI4NTciIHgyPSIzMDMiIHkxPSI5NzkiIHN0cm9rZT0idXJsKCNsaXZlZ2FtZV9ib3R0b21fYmtnX3gxLWYpIi8+CiAgICA8L2c+CiAgPC9nPgo8L3N2Zz4K"
+                            />
+                        </div>
+                        <div class="container bottom-container">
+                            <div class="game-bottom">
+                                <h4 class="lang" key="leading" data-sal="slide-up" data-sal-easing="easeInOutQuad" style="--sal-duration: 1s; --sal-delay: 0s;">Leading the way, play new.</h4>
+                                <div class="game-bottom-deco" data-sal="slide-up" data-sal-easing="easeInOutQuad" style="--sal-duration: 1s; --sal-delay: 0.5s;">
+                                    <img loading="lazy"  src="./images/icon/bottom-deco.svg" alt="" />
+                                </div>
+                                <!-- <a href="#">
+                                    <div class="main-button" data-sal="slide-up" data-sal-easing="easeInOutQuad" style="--sal-duration: 1s; --sal-delay: 0.35s;">
+                                        <button type="submit" id="submit" class="mainBtn btn" type="button">
+                                            <a href="#"><span class="lang" key="try_our_games">Try Our Games</span></a>
+                                        </button>
+                                    </div>
+                                </a> -->
+                                <a href="All_Live_Game.html">
+                                    <div class="back-ALG" data-sal="slide-up" data-sal-easing="easeInOutQuad" style="--sal-duration: 1s; --sal-delay: 0.7s;">
+                                        <h4 class="lang" key="AllLiveGame">All Live Games</h4>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cookie popup start-->
+            <div class="cookie-container">
+                <div class="cookie-deco">
+                    <img loading="lazy" src="./images/icon/bottom-deco.svg">
+                </div>
+                <p class="pp-link">
+                    <span class="lang" key="Cookie_p1">WE use cookies to ensure you get the best experience on our website. WE will assume you have agreed to our Privacy Policy by continuing to use our website henceforth.</span>
+                    <a class="lang" key="PrivacyPolicy" href="PrivacyTerms.html">Privacy Policy</a>
+                </p>
+                <div class="accept-btn">
+                    <button class="secondaryBtn cookie-btn"><span class="lang" key="Accept">Accept</span></button>
+                </div>
+            </div>
+            <!-- Cookie popup end-->
+
+            <!-- Footer start -->
+            <footer>
+                <div class="main-footer">   
+                    <div class="footer-subscribe">
+                        <div class="subscribe-wrap">
+                            <h6 class="lang" key="Subscribe">Subscribe</h6>
+                            <br />
+                            <p class="lang" key="Subscribe_p">
+                                Be the first to know about our latest news and <br class="footer-break" />
+                                exclusive offers from WE.
+                            </p>
+                            <div id="EmailSubscribe">
+                                <!-- Begin Mailchimp Signup Form -->
+                                <div id="mc_embed_signup">
+                                    <form action="https://pgpg.us1.list-manage.com/subscribe/post?u=7fd273f17c144f707904f5926&amp;id=068a3ff35c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                                        <div id="mc_embed_signup_scroll">
+                                            <div class="mc-field-group" id="mce-error">
+                                                <input type="email" value="" name="EMAIL" class="required email form-control lang" key="Email-S" placeholder="Please enter your email address here" id="mce-EMAIL">
+                                            </div>
+                                            <p id="myerror">請輸入有效的電子郵件地址。</p>
+                                            <div id="mce-responses" class="clear">
+                                                <div class="response" id="mce-error-response"></div>
+                                                <div class="response" id="mce-success-response"></div>
+                                            </div>    
+                                            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                                            <div style="display: none;" aria-hidden="true"><input type="text" name="b_7fd273f17c144f707904f5926_068a3ff35c" tabindex="-1" value=""></div>
+                                        </div>
+                                        <div class="enquiry-button">
+                                            <button type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="enquiryBtn btn lang" key="Subscribe_btn" id="signUp"class="button">Subscribe Now</button>
+                                        </div>
+                                    </form>
+                                </div>
+                                <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+                                <!--End mc_embed_signup-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-bottom">
+                        <div class="footer-TC">
+                            ©<script>document.write(new Date().getFullYear())</script> &nbsp;
+                            <span class="lang" key="WorldEnt">WORLD ENTERTAINMENT.</span>
+                            <a href="PrivacyTerms.html" class="lang TC" key="PrivacyPolicy">Privacy Policy</a>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!-- Footer end -->
+            
+           <!-- Thank you for subscribe popup start-->
+           <div id="thankyou-popup">
+            <div class="thankyou-bkg">
+                <div id="thankyou-bkg-m">
+                    <img loading="lazy"
+                        src="./images/thankyou/thankyou_bkg_m_x1.png"
+                        srcset="./images/thankyou/thankyou_bkg_m_x1.png 500w , ./images/thankyou/thankyou_bkg_m_x2.webp 1000w , ./images/thankyou/thankyou_bkg_m_x2.png 1000w"
+                        alt=""
+                    />
+                </div>
+                <div id="thankyou-bkg-d">
+                    <img loading="lazy"
+                        src="./images/thankyou/thankyou-bkg_x1.png"
+                        srcset="./images/thankyou/thankyou-bkg_x1.png 500w, ./images/thankyou/thankyou-bkg_x2.webp 1000w , ./images/thankyou/thankyou-bkg_x2.png 1000w"
+                        alt=""
+                    />
+                </div>
+            </div>
+            <div class="wrap">
+                <h1 class="lang" key="HelloThere">Hello There!</h1>
+                <div class="thankyou-deco">
+                    <img src="./images/icon/bottom-deco.svg"  alt="" />
+                </div>
+                
+                <p class="hero-intro lang" key="thankyou_p">You’re on our mailing list now and will be among the first to hear about the latest news, collections and videos from WE.</p>
+                <div class="back-btn">
+                    <button class="secondaryBtn thanyou-close-btn lang" key="Okay">OKAY</button>
+                </div>
+            </div>
+            <div class="close-btn thanyou-close-btn">
+                <div class="closeBtn">
+                    <img src="images/thankyou/close_icon.svg" alt="" />
+                </div>
+            </div>
+        </div>
+        <!-- Thank you for subscribe popup end-->
+        </div>
+        <!-- ============= Outdated Browser ============= -->
+        <div id="outdated"></div>
+        <!-- Outdated javascript includes -->
+        <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+        <script src="./outdated-browser-develop/outdatedbrowser/outdatedbrowser.min.js"></script>
+
+        <!-- Outdated plugin call -->
+        <script>
+            // Plain Javascript
+            //event listener: DOM ready
+            function addLoadEvent(func) {
+                var oldonload = window.onload;
+                if (typeof window.onload != "function") {
+                    window.onload = func;
+                } else {
+                    window.onload = function () {
+                        if (oldonload) {
+                            oldonload();
+                        }
+                        func();
+                    };
+                }
+            }
+            //call plugin function after DOM ready
+            addLoadEvent(function () {
+                outdatedBrowser({
+                    bgColor: "#f25648",
+                    color: "#ffffff",
+                    lowerThan: "transform",
+                    languagePath: "your_path/outdatedbrowser/lang/en.html",
+                });
+            });
+            // Using jQuery (version that supports IE < 9)
+            $(document).ready(function () {
+                outdatedBrowser({
+                    bgColor: "#f25648",
+                    color: "#ffffff",
+                    lowerThan: "transform",
+                    languagePath: "your_path/outdatedbrowser/lang/en.html",
+                });
+            });
+        </script>
+
+        <!-- Sal JS  -->
+        <script src="./js/sal.js"></script>
+        <script>
+            sal({
+                threshold: 0.1,
+                once: true,
+            });
+        </script>
+        <!-- External JS  -->
+        <script src="OwlCarousel2/owl.carousel.min.js"></script>
+        <script src="./outdated-browser-develop/outdatedbrowser/outdatedbrowser.min.js"></script>
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+        <!-- Main JS  -->
+        <script src="./js/main.js" type="text/javascript"></script>
+        <script type="text/javascript" src="./js/language_switch.js"></script>
+        <script type="text/javascript" src="./json/multi-language/lang_Game_LiveGame_Baccarat.js"></script>
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+        <!-- external font-->
+        <link href="//db.onlinewebfonts.com/c/da950f2527dc01bebcbedd536e38c145?family=Futura" rel="stylesheet" type="text/css"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500&family=Barlow:wght@100;200;300;400;500;600;700;800&family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+        <!-- Outdated Browser v1.1.5 -->
+        <link rel="stylesheet" href="./outdated-browser-develop/outdatedbrowser/outdatedbrowser.min.css" />
+        <!-- Owl CSS -->
+        <link rel="stylesheet" href="OwlCarousel2/owl.carousel.min.css" />
+        <link rel="stylesheet" href="OwlCarousel2/owl.theme.default.min.css" />
+        <!-- main CSS -->
+        <link rel="stylesheet" href="./styles/main.css" />
+    </body>
+</html>
