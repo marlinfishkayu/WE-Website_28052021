@@ -482,6 +482,9 @@
     .live-game-main{
         padding-bottom: 5rem;
     }
+    .bottom-container{
+        margin-bottom: -5rem;
+    }
 }
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
@@ -503,6 +506,9 @@
         margin: 0 auto;
         padding-top: 29rem;
         padding-bottom: 0rem;
+    }
+    .bottom-container{
+        margin-bottom: 0rem;
     }
     #liveGame #PK10 .hero-icon{
         width: 230px;
