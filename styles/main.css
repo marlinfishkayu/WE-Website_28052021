@@ -1877,8 +1877,7 @@ footer {
   object-fit: contain;
   background-size: contain;
   background-repeat: no-repeat;
-  background-image: url(/images/icon/arrow.svg);
-  background-image: url(/images/icon/arrow.png);
+  background-image: url("/images/icon/arrow.svg"), url("/images/icon/arrow.png");
 }
 
 #slider-area .owl-nav .owl-prev:hover, #slider-area .owl-nav .owl-next:hover {
