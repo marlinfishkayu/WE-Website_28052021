@@ -1568,7 +1568,7 @@ footer {
 }
 
 .main-footer {
-  padding: 4rem 3rem;
+  padding: 4rem 2rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -6090,8 +6090,8 @@ select.form-control::-ms-expand {
 
 #liveStudio .hero-header::after {
   background: #060b1a;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(6, 11, 26, 0.6)), color-stop(92%, #060b1a), to(#091129));
-  background: linear-gradient(180deg, rgba(6, 11, 26, 0.6) 0%, #060b1a 92%, #091129 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(6, 11, 26, 0.6)), color-stop(92%, #060b1a), to(#060b1a));
+  background: linear-gradient(180deg, rgba(6, 11, 26, 0.6) 0%, #060b1a 92%, #060b1a 100%);
 }
 
 .studio-card .studio-slide-text {
