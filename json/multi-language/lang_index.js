@@ -372,14 +372,14 @@ var arrImg = {
       //WE Logo
       'WE_logo': 'images/icon/en/logo.svg',
       //Hero banner
-      'hero_1_L': './images/hero/en/Landscape/hero_1_L_x1.jpg 500w ,./images/hero/en/Landscape/hero_1_L_x2.webp 1200w, ./images/hero/en/Landscape/hero_1_L_x2.jpg 1200w',
-      'hero_1_P': './images/hero/en/Portrait/hero_1_P_x1.jpg 500w ,./images/hero/en/Portrait/hero_1_P_x2.webp 1200w, ./images/hero/en/Portrait/hero_1_P_x2.jpg 1200w',
-      'hero_2_L': './images/hero/en/Landscape/hero_2_L_x1.jpg 500w ,./images/hero/en/Landscape/hero_2_L_x2.webp 1200w,  ./images/hero/en/Landscape/hero_2_L_x2.jpg 1200w',
-      'hero_2_P': './images/hero/en/Portrait/hero_2_P_x1.jpg 500w ,./images/hero/en/Portrait/hero_2_P_x2.webp 1200w, ./images/hero/en/Portrait/hero_2_P_x2.jpg 1200w',
-      'hero_3_L': './images/hero/en/Landscape/hero_3_L_x1.jpg 500w ,./images/hero/en/Landscape/hero_3_L_x2.webp 1200w,  ./images/hero/en/Landscape/hero_3_L_x2.jpg 1200w',
-      'hero_3_P': './images/hero/en/Portrait/hero_3_P_x1.jpg 500w ,./images/hero/en/Portrait/hero_3_P_x2.webp 1200w, ./images/hero/en/Portrait/hero_3_P_x2.jpg 1200w',
-      'hero_4_L': './images/hero/en/Landscape/hero_4_L_x1.jpg 500w ,./images/hero/en/Landscape/hero_4_L_x2.webp 1200w,  ./images/hero/en/Landscape/hero_4_L_x2.jpg 1200w',
-      'hero_4_P': './images/hero/en/Portrait/hero_4_P_x1.jpg 500w ,./images/hero/en/Portrait/hero_4_P_x2.webp 1200w, ./images/hero/en/Portrait/hero_4_P_x2.jpg 1200w',
+      'hero_1_L': './images/hero/en/Landscape/hero_1_L_x1.jpg 500w , ./images/hero/en/Landscape/hero_1_L_x2.jpg 1200w',
+      'hero_1_P': './images/hero/en/Portrait/hero_1_P_x1.jpg 500w , ./images/hero/en/Portrait/hero_1_P_x2.jpg 1200w',
+      'hero_2_L': './images/hero/en/Landscape/hero_2_L_x1.jpg 500w ,  ./images/hero/en/Landscape/hero_2_L_x2.jpg 1200w',
+      'hero_2_P': './images/hero/en/Portrait/hero_2_P_x1.jpg 500w , ./images/hero/en/Portrait/hero_2_P_x2.jpg 1200w',
+      'hero_3_L': './images/hero/en/Landscape/hero_3_L_x1.jpg 500w ,  ./images/hero/en/Landscape/hero_3_L_x2.jpg 1200w',
+      'hero_3_P': './images/hero/en/Portrait/hero_3_P_x1.jpg 500w , ./images/hero/en/Portrait/hero_3_P_x2.jpg 1200w',
+      'hero_4_L': './images/hero/en/Landscape/hero_4_L_x1.jpg 500w , ./images/hero/en/Landscape/hero_4_L_x2.jpg 1200w',
+      'hero_4_P': './images/hero/en/Portrait/hero_4_P_x1.jpg 500w , ./images/hero/en/Portrait/hero_4_P_x2.jpg 1200w',
 
       //live game
       'col_1': './images/index/en/col1_expand-icon_x1.png 500w, ./images/index/en/col1_expand-icon_x2.webp 1000w, ./images/index/en/col1_expand-icon_x2.png 1000w',
