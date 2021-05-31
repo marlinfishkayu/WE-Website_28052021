@@ -9088,6 +9088,7 @@ body:lang(TC) body, body:lang(TC) h1, body:lang(TC) h2, body:lang(TC) h3, body:l
 body:lang(TC) .feature-flexbox h2,
 body:lang(TC) .live-game-main .feature-header,
 body:lang(TC) #AboutWE .about-h2, body:lang(TC) #AboutWE .about-h4, body:lang(TC) #AboutWE .about-p,
+body:lang(TC) #diamondCarousel h5,
 body:lang(TC) .main-footer li, body:lang(TC) .main-footer h6, body:lang(TC) .main-footer p, body:lang(TC) .main-footer .subscribe-form input,
 body:lang(TC) #allLiveGame .allLiveGame-main .game-item-wrap .game-item-text h2,
 body:lang(TC) #allLiveGame .allLiveGame-main .game-item-wrap .game-item-text h4,
@@ -9097,6 +9098,7 @@ body:lang(TC) #wrapper .nav_links .nav-link {
   font-family: "Noto Sans TC", "segoe ui", "microsoft jhenghei", "microsoft mhei", sans-serif;
 }
 
+body:lang(TC) .main-footer .footer-subscribe h6,
 body:lang(TC) #newsFeed .frame-detail h6 {
   font-weight: 500;
 }
@@ -9105,6 +9107,7 @@ body:lang(SC) body, body:lang(SC) h1, body:lang(SC) h2, body:lang(SC) h3, body:l
 body:lang(SC) .feature-flexbox h2,
 body:lang(SC) .live-game-main .feature-header,
 body:lang(SC) #AboutWE .about-h2, body:lang(SC) #AboutWE .about-h4, body:lang(SC) #AboutWE .about-p,
+body:lang(SC) #diamondCarousel h5,
 body:lang(SC) .main-footer li, body:lang(SC) .main-footer h6, body:lang(SC) .main-footer p, body:lang(SC) .main-footer .subscribe-form input,
 body:lang(SC) #allLiveGame .allLiveGame-main .game-item-wrap .game-item-text h2,
 body:lang(SC) #allLiveGame .allLiveGame-main .game-item-wrap .game-item-text h4,
@@ -9112,6 +9115,10 @@ body:lang(SC) #allLiveGame .allLiveGame-main .game-item-wrap .game-item-text p,
 body:lang(SC) #MahjongLuckyWheel .hero-header .GOF-series, body:lang(SC) #GodofFortuneSicBo .hero-header .GOF-series, body:lang(SC) #GodofFortuneRoulette .hero-header .GOF-series,
 body:lang(SC) #wrapper .nav_links .nav-link {
   font-family: "Noto Sans SC", "segoe ui", "microsoft jhenghei", "microsoft mhei", sans-serif;
+}
+
+body:lang(SC) .main-footer .footer-subscribe h6 {
+  font-weight: 500;
 }
 
 body:lang(SC) #newsFeed .frame-detail h6 {
