@@ -9026,7 +9026,9 @@ body:lang(SC) #AboutWE .about-h2 {
   font-family: "Noto Sans TC", "segoe ui", "microsoft jhenghei", "microsoft mhei", sans-serif;
 }
 
+body:lang(TC) #NewsDetail .detail-content-wrap .Event-Detail-main .lang,
 body:lang(TC) .deco-content,
+body:lang(SC) #NewsDetail .detail-content-wrap .Event-Detail-main .lang,
 body:lang(SC) .deco-content {
   font-weight: 100;
 }
@@ -9042,10 +9044,8 @@ body:lang(SC) .hero-title {
 }
 
 body:lang(TC) .service-title,
-body:lang(TC) #NewsDetail .detail-content-wrap .Event-Detail-main .lang,
 body:lang(TC) .game-icon-container h4,
 body:lang(SC) .service-title,
-body:lang(SC) #NewsDetail .detail-content-wrap .Event-Detail-main .lang,
 body:lang(SC) .game-icon-container h4 {
   font-weight: 500;
 }
