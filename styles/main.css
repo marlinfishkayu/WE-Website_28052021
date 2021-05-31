@@ -9094,6 +9094,7 @@ body:lang(TC) #allLiveGame .allLiveGame-main .game-item-wrap .game-item-text h2,
 body:lang(TC) #allLiveGame .allLiveGame-main .game-item-wrap .game-item-text h4,
 body:lang(TC) #allLiveGame .allLiveGame-main .game-item-wrap .game-item-text p,
 body:lang(TC) #MahjongLuckyWheel .hero-header .GOF-series, body:lang(TC) #GodofFortuneSicBo .hero-header .GOF-series, body:lang(TC) #GodofFortuneRoulette .hero-header .GOF-series,
+body:lang(TC) .live-game-bottom .game-bottom h4,
 body:lang(TC) #wrapper .nav_links .nav-link {
   font-family: "Noto Sans TC", "segoe ui", "microsoft jhenghei", "microsoft mhei", sans-serif;
 }
@@ -9113,6 +9114,7 @@ body:lang(SC) #allLiveGame .allLiveGame-main .game-item-wrap .game-item-text h2,
 body:lang(SC) #allLiveGame .allLiveGame-main .game-item-wrap .game-item-text h4,
 body:lang(SC) #allLiveGame .allLiveGame-main .game-item-wrap .game-item-text p,
 body:lang(SC) #MahjongLuckyWheel .hero-header .GOF-series, body:lang(SC) #GodofFortuneSicBo .hero-header .GOF-series, body:lang(SC) #GodofFortuneRoulette .hero-header .GOF-series,
+body:lang(SC) .live-game-bottom .game-bottom h4,
 body:lang(SC) #wrapper .nav_links .nav-link {
   font-family: "Noto Sans SC", "segoe ui", "microsoft jhenghei", "microsoft mhei", sans-serif;
 }
