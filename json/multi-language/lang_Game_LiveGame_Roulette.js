@@ -293,7 +293,7 @@ var arrImg = {
       //WE Logo
       'WE_logo': 'images/icon/en/logo.svg',
       //UI
-      'UI': 'images/game/game_roulette/en/game_UI_Roulette_x1.webp 500w, images/game/game_roulette/en/game_UI_Roulette_x1.png 500w, images/game/game_roulette/en/game_UI_Roulette_x2.webp 1000w, images/game/game_roulette/en/game_UI_Roulette_x2.png 1000w',
+      'UI': 'images/game/game_roulette/en/game_UI_Roulette_x1.png 500w, images/game/game_roulette/en/game_UI_Roulette_x2.png 1000w',
       //Feature
       'feature1': 'images/game/game_roulette/en/game_roulette_feature1_1x.png 500w, images/game/game_roulette/en/game_roulette_feature1_2x.png 1000w',
       'feature2': 'images/game/game_roulette/en/game_roulette_feature2_1x.png 500w, images/game/game_roulette/en/game_roulette_feature2_2x.png 1000w',
@@ -303,7 +303,7 @@ var arrImg = {
       //WE Logo
       'WE_logo': 'images/icon/tc/logo.svg',
       //UI
-      'UI': 'images/game/game_roulette/tc/game_UI_Roulette_x1.webp 500w, images/game/game_roulette/tc/game_UI_Roulette_x1.png 500w, images/game/game_roulette/tc/game_UI_Roulette_x2.webp 1000w, images/game/game_roulette/tc/game_UI_Roulette_x2.png 1000w',
+      'UI': ' images/game/game_roulette/tc/game_UI_Roulette_x1.png 500w, images/game/game_roulette/tc/game_UI_Roulette_x2.png 1000w',
       //Feature
       'feature1': 'images/game/game_roulette/tc/game_roulette_feature1_1x.png 500w, images/game/game_roulette/tc/game_roulette_feature1_2x.png 1000w',
       'feature2': 'images/game/game_roulette/tc/game_roulette_feature2_1x.png 500w, images/game/game_roulette/tc/game_roulette_feature2_2x.png 1000w',
@@ -313,7 +313,7 @@ var arrImg = {
       //WE Logo
       'WE_logo': 'images/icon/sc/logo.svg',
       //UI
-      'UI': 'images/game/game_roulette/sc/game_UI_Roulette_x1.webp 500w, images/game/game_roulette/sc/game_UI_Roulette_x1.png 500w, images/game/game_roulette/sc/game_UI_Roulette_x2.webp 1000w, images/game/game_roulette/sc/game_UI_Roulette_x2.png 1000w',
+      'UI': ' images/game/game_roulette/sc/game_UI_Roulette_x1.png 500w,  images/game/game_roulette/sc/game_UI_Roulette_x2.png 1000w',
       //Feature
       'feature1': 'images/game/game_roulette/sc/game_roulette_feature1_1x.png 500w, images/game/game_roulette/sc/game_roulette_feature1_2x.png 1000w',
       'feature2': 'images/game/game_roulette/sc/game_roulette_feature2_1x.png 500w, images/game/game_roulette/sc/game_roulette_feature2_2x.png 1000w',

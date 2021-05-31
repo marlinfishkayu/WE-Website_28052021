@@ -285,7 +285,7 @@ var arrImg = {
       //WE Logo
       'WE_logo': 'images/icon/en/logo.svg',
       //UI
-      'UI': 'images/game/game_Blockchain_SqueezeBaccarat/en/game_UI_BC_SqueezeBaccarat_x1.webp 500w, images/game/game_Blockchain_SqueezeBaccarat/en/game_UI_BC_SqueezeBaccarat_x1.png 500w ,images/game/game_Blockchain_SqueezeBaccarat/en/game_UI_BC_SqueezeBaccarat_x2.webp 1000w ,images/game/game_Blockchain_SqueezeBaccarat/en/game_UI_BC_SqueezeBaccarat_x2.png 1000w',
+      'UI': ' images/game/game_Blockchain_SqueezeBaccarat/en/game_UI_BC_SqueezeBaccarat_x1.png 500w, images/game/game_Blockchain_SqueezeBaccarat/en/game_UI_BC_SqueezeBaccarat_x2.png 1000w',
       //Feature
       'feature2': 'images/game/game_Blockchain_SqueezeBaccarat/en/game_BC_SqueezeBaccarat_feature2_1x.png 500w, images/game/game_Blockchain_SqueezeBaccarat/en/game_BC_SqueezeBaccarat_feature2_2x.png 1000w',
       'feature3': 'images/game/game_Blockchain_SqueezeBaccarat/en/game_BC_SqueezeBaccarat_feature3_1x.png 500w, images/game/game_Blockchain_SqueezeBaccarat/en/game_BC_SqueezeBaccarat_feature3_2x.png 1000w', 
@@ -294,7 +294,7 @@ var arrImg = {
       //WE Logo
       'WE_logo': 'images/icon/tc/logo.svg',
       //UI
-      'UI': 'images/game/game_Blockchain_SqueezeBaccarat/tc/game_UI_BC_SqueezeBaccarat_x1.webp 500w, images/game/game_Blockchain_SqueezeBaccarat/tc/game_UI_BC_SqueezeBaccarat_x1.png 500w ,images/game/game_Blockchain_SqueezeBaccarat/tc/game_UI_BC_SqueezeBaccarat_x2.webp 1000w ,images/game/game_Blockchain_SqueezeBaccarat/tc/game_UI_BC_SqueezeBaccarat_x2.png 1000w',
+      'UI': 'images/game/game_Blockchain_SqueezeBaccarat/tc/game_UI_BC_SqueezeBaccarat_x1.png 500w ,images/game/game_Blockchain_SqueezeBaccarat/tc/game_UI_BC_SqueezeBaccarat_x2.png 1000w',
       //Feature
       'feature2': 'images/game/game_Blockchain_SqueezeBaccarat/tc/game_BC_SqueezeBaccarat_feature2_1x.png 500w, images/game/game_Blockchain_SqueezeBaccarat/tc/game_BC_SqueezeBaccarat_feature2_2x.png 1000w',
       'feature3': 'images/game/game_Blockchain_SqueezeBaccarat/tc/game_BC_SqueezeBaccarat_feature3_1x.png 500w, images/game/game_Blockchain_SqueezeBaccarat/tc/game_BC_SqueezeBaccarat_feature3_2x.png 1000w', 
@@ -303,7 +303,7 @@ var arrImg = {
       //WE Logo
       'WE_logo': 'images/icon/sc/logo.svg',
       //UI
-      'UI': 'images/game/game_Blockchain_SqueezeBaccarat/sc/game_UI_BC_SqueezeBaccarat_x1.webp 500w, images/game/game_Blockchain_SqueezeBaccarat/sc/game_UI_BC_SqueezeBaccarat_x1.png 500w ,images/game/game_Blockchain_SqueezeBaccarat/sc/game_UI_BC_SqueezeBaccarat_x2.webp 1000w ,images/game/game_Blockchain_SqueezeBaccarat/sc/game_UI_BC_SqueezeBaccarat_x2.png 1000w',
+      'UI': 'images/game/game_Blockchain_SqueezeBaccarat/sc/game_UI_BC_SqueezeBaccarat_x1.png 500w , images/game/game_Blockchain_SqueezeBaccarat/sc/game_UI_BC_SqueezeBaccarat_x2.png 1000w',
       //Feature
       'feature2': 'images/game/game_Blockchain_SqueezeBaccarat/sc/game_BC_SqueezeBaccarat_feature2_1x.png 500w, images/game/game_Blockchain_SqueezeBaccarat/sc/game_BC_SqueezeBaccarat_feature2_2x.png 1000w',
       'feature3': 'images/game/game_Blockchain_SqueezeBaccarat/sc/game_BC_SqueezeBaccarat_feature3_1x.png 500w, images/game/game_Blockchain_SqueezeBaccarat/sc/game_BC_SqueezeBaccarat_feature3_2x.png 1000w',

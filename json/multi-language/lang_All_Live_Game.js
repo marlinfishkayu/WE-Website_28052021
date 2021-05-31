@@ -252,18 +252,18 @@ var arrImg = {
       //WE Logo
       'WE_logo': 'images/icon/en/logo.svg',
       //UI
-      'live_game_logo': './images/all_live_game/en/live_game_logo_x1.png 500w,./images/all_live_game/en/live_game_logo_x2.webp 1000w, ./images/all_live_game/en/live_game_logo_x2.png 1000w',
+      'live_game_logo': './images/all_live_game/en/live_game_logo_x1.png 500w,./images/all_live_game/en/live_game_logo_x2.png 1000w',
     }],
   'TC': [{
       //WE Logo
       'WE_logo': 'images/icon/tc/logo.svg',
       //UI
-      'live_game_logo': './images/all_live_game/tc/live_game_logo_x1.png 500w,./images/all_live_game/tc/live_game_logo_x2.webp 1000w, ./images/all_live_game/tc/live_game_logo_x2.png 1000w',
+      'live_game_logo': './images/all_live_game/tc/live_game_logo_x1.png 500w, ./images/all_live_game/tc/live_game_logo_x2.png 1000w',
     }],
   'SC': [{
       //WE Logo
       'WE_logo': 'images/icon/sc/logo.svg',
       //UI
-      'live_game_logo': './images/all_live_game/sc/live_game_logo_x1.png 500w,./images/all_live_game/sc/live_game_logo_x2.webp 1000w, ./images/all_live_game/sc/live_game_logo_x2.png 1000w',
+      'live_game_logo': './images/all_live_game/sc/live_game_logo_x1.png 500w, ./images/all_live_game/sc/live_game_logo_x2.png 1000w',
     }]
 };

@@ -289,7 +289,7 @@ var arrLang = {
         //WE Logo
         'WE_logo': 'images/icon/en/logo.svg',
         //UI
-        'UI': 'images/game/game_Blockchain_SpeedBaccarat/en/game_UI_BC_SpeedBaccarat_x1.webp 500w, images/game/game_Blockchain_SpeedBaccarat/en/game_UI_BC_SpeedBaccarat_x1.png 500w ,images/game/game_Blockchain_SpeedBaccarat/en/game_UI_BC_SpeedBaccarat_x2.webp 1000w, ./images/game/game_Blockchain_SpeedBaccarat/en/game_UI_BC_SpeedBaccarat_x2.png 1000w',
+        'UI': ' images/game/game_Blockchain_SpeedBaccarat/en/game_UI_BC_SpeedBaccarat_x1.png 500w, ./images/game/game_Blockchain_SpeedBaccarat/en/game_UI_BC_SpeedBaccarat_x2.png 1000w',
         //Feature
         'feature1': 'images/game/game_Blockchain_SpeedBaccarat/en/game_BC_SpeedBaccarat_feature1_1x.png 500w, images/game/game_Blockchain_SpeedBaccarat/en/game_BC_SpeedBaccarat_feature1_2x.png 1000w',
         'feature2': 'images/game/game_Blockchain_SpeedBaccarat/en/game_BC_SpeedBaccarat_feature2_1x.png 500w, images/game/game_Blockchain_SpeedBaccarat/en/game_BC_SpeedBaccarat_feature2_2x.png 1000w',
@@ -303,7 +303,7 @@ var arrLang = {
         //WE Logo
         'WE_logo': 'images/icon/tc/logo.svg',
         //UI
-        'UI': './images/game/game_Blockchain_SpeedBaccarat/tc/game_UI_BC_SpeedBaccarat_x1.webp 500w, images/game/game_Blockchain_SpeedBaccarat/tc/game_UI_BC_SpeedBaccarat_x1.png 500w, ./images/game/game_Blockchain_SpeedBaccarat/tc/game_UI_BC_SpeedBaccarat_x2.webp 1000w, images/game/game_Blockchain_SpeedBaccarat/tc/game_UI_BC_SpeedBaccarat_x2.png 1000w',
+        'UI': ' images/game/game_Blockchain_SpeedBaccarat/tc/game_UI_BC_SpeedBaccarat_x1.png 500w,  images/game/game_Blockchain_SpeedBaccarat/tc/game_UI_BC_SpeedBaccarat_x2.png 1000w',
         //Feature
         'feature1': 'images/game/game_Blockchain_SpeedBaccarat/tc/game_BC_SpeedBaccarat_feature1_1x.png 500w, images/game/game_Blockchain_SpeedBaccarat/tc/game_BC_SpeedBaccarat_feature1_2x.png 1000w',
         'feature2': 'images/game/game_Blockchain_SpeedBaccarat/tc/game_BC_SpeedBaccarat_feature2_1x.png 500w, images/game/game_Blockchain_SpeedBaccarat/tc/game_BC_SpeedBaccarat_feature2_2x.png 1000w',
@@ -317,7 +317,7 @@ var arrLang = {
         //WE Logo
         'WE_logo': 'images/icon/sc/logo.svg',
         //UI
-        'UI': 'images/game/game_Blockchain_SpeedBaccarat/sc/game_UI_BC_SpeedBaccarat_x1.webp 500w, images/game/game_Blockchain_SpeedBaccarat/sc/game_UI_BC_SpeedBaccarat_x1.png 500w,images/game/game_Blockchain_SpeedBaccarat/sc/game_UI_BC_SpeedBaccarat_x2.webp 1000w, images/game/game_Blockchain_SpeedBaccarat/sc/game_UI_BC_SpeedBaccarat_x2.png 1000w',
+        'UI': ' images/game/game_Blockchain_SpeedBaccarat/sc/game_UI_BC_SpeedBaccarat_x1.png 500w, images/game/game_Blockchain_SpeedBaccarat/sc/game_UI_BC_SpeedBaccarat_x2.png 1000w',
         //Feature
         'feature1': 'images/game/game_Blockchain_SpeedBaccarat/sc/game_BC_SpeedBaccarat_feature1_1x.png 500w, images/game/game_Blockchain_SpeedBaccarat/sc/game_BC_SpeedBaccarat_feature1_2x.png 1000w',
         'feature2': 'images/game/game_Blockchain_SpeedBaccarat/sc/game_BC_SpeedBaccarat_feature2_1x.png 500w, images/game/game_Blockchain_SpeedBaccarat/sc/game_BC_SpeedBaccarat_feature2_2x.png 1000w',

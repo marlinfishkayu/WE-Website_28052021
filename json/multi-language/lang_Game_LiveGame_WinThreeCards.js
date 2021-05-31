@@ -285,7 +285,7 @@ var arrLang = {
 var arrImg = {
   'EN': [{
       //UI
-      'UI': 'images/game/game_WinThreeCards/en/game_UI_WinThreeCards_x1.webp 500w, images/game/game_WinThreeCards/en/game_UI_WinThreeCards_x1.png 500w,images/game/game_WinThreeCards/en/game_UI_WinThreeCards_x2.webp 1000w ,images/game/game_WinThreeCards/en/game_UI_WinThreeCards_x2.png 1000w',
+      'UI': 'images/game/game_WinThreeCards/en/game_UI_WinThreeCards_x1.png 500w,images/game/game_WinThreeCards/en/game_UI_WinThreeCards_x2.png 1000w',
       //Feature
       'feature1': 'images/game/game_WinThreeCards/en/game_WinThreeCards_feature1_1x.png 500w, images/game/game_WinThreeCards/en/game_WinThreeCards_feature1_2x.png 1000w',
       'feature2': 'images/game/game_WinThreeCards/en/game_WinThreeCards_feature2_1x.png 500w, images/game/game_WinThreeCards/en/game_WinThreeCards_feature2_2x.png 1000w',
@@ -293,7 +293,7 @@ var arrImg = {
     }],
   'TC': [{
       //UI
-      'UI': 'images/game/game_WinThreeCards/tc/game_UI_WinThreeCards_x1.webp 500w, images/game/game_WinThreeCards/tc/game_UI_WinThreeCards_x1.png 500w,images/game/game_WinThreeCards/tc/game_UI_WinThreeCards_x2.webp 1000w ,images/game/game_WinThreeCards/tc/game_UI_WinThreeCards_x2.png 1000w',
+      'UI': 'images/game/game_WinThreeCards/tc/game_UI_WinThreeCards_x1.png 500w,images/game/game_WinThreeCards/tc/game_UI_WinThreeCards_x2.png 1000w',
       //Feature
       'feature1': 'images/game/game_WinThreeCards/tc/game_WinThreeCards_feature1_1x.png 500w, images/game/game_WinThreeCards/tc/game_WinThreeCards_feature1_2x.png 1000w',
       'feature2': 'images/game/game_WinThreeCards/tc/game_WinThreeCards_feature2_1x.png 500w, images/game/game_WinThreeCards/tc/game_WinThreeCards_feature2_2x.png 1000w',
@@ -301,7 +301,7 @@ var arrImg = {
     }],
   'SC': [{
       //UI
-      'UI': 'images/game/game_WinThreeCards/sc/game_UI_WinThreeCards_x1.webp 500w, images/game/game_WinThreeCards/sc/game_UI_WinThreeCards_x1.png 500w,images/game/game_WinThreeCards/sc/game_UI_WinThreeCards_x2.webp 1000w ,images/game/game_WinThreeCards/sc/game_UI_WinThreeCards_x2.png 1000w',
+      'UI': 'images/game/game_WinThreeCards/sc/game_UI_WinThreeCards_x1.png 500w,images/game/game_WinThreeCards/sc/game_UI_WinThreeCards_x2.png 1000w',
       //Feature
       'feature1': 'images/game/game_WinThreeCards/sc/game_WinThreeCards_feature1_1x.png 500w, images/game/game_WinThreeCards/sc/game_WinThreeCards_feature1_2x.png 1000w',
       'feature2': 'images/game/game_WinThreeCards/sc/game_WinThreeCards_feature2_1x.png 500w, images/game/game_WinThreeCards/sc/game_WinThreeCards_feature2_2x.png 1000w',

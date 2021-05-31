@@ -283,7 +283,7 @@ var arrImg = {
       //WE Logo
       'WE_logo': 'images/icon/en/logo.svg',
       //UI
-      'UI': 'images/game/game_GodofFortuneSicBo/en/game_UI_GodOfFoutuneSicBo_x1.webp 500w, images/game/game_GodofFortuneSicBo/en/game_UI_GodOfFoutuneSicBo_x1.png 500w,images/game/game_GodofFortuneSicBo/en/game_UI_GodOfFoutuneSicBo_x2.webp 1000w, images/game/game_GodofFortuneSicBo/en/game_UI_GodOfFoutuneSicBo_x2.png 1000w',
+      'UI': 'images/game/game_GodofFortuneSicBo/en/game_UI_GodOfFoutuneSicBo_x1.png 500w,images/game/game_GodofFortuneSicBo/en/game_UI_GodOfFoutuneSicBo_x2.png 1000w',
       //Feature
       'feature3': 'images/game/game_GodofFortuneSicBo/en/game_GodofFortuneSicBo_feature3_1x.png 500w, images/game/game_GodofFortuneSicBo/en/game_GodofFortuneSicBo_feature3_2x.png 1000w',
     }],
@@ -291,7 +291,7 @@ var arrImg = {
       //WE Logo
       'WE_logo': 'images/icon/tc/logo.svg',
       //UI
-      'UI': 'images/game/game_GodofFortuneSicBo/tc/game_UI_GodOfFoutuneSicBo_x1.webp 500w, images/game/game_GodofFortuneSicBo/tc/game_UI_GodOfFoutuneSicBo_x1.png 500w,images/game/game_GodofFortuneSicBo/tc/game_UI_GodOfFoutuneSicBo_x2.webp 1000w, images/game/game_GodofFortuneSicBo/tc/game_UI_GodOfFoutuneSicBo_x2.png 1000w',
+      'UI': ' images/game/game_GodofFortuneSicBo/tc/game_UI_GodOfFoutuneSicBo_x1.png 500w, images/game/game_GodofFortuneSicBo/tc/game_UI_GodOfFoutuneSicBo_x2.png 1000w',
       //Feature
       'feature3': 'images/game/game_GodofFortuneSicBo/tc/game_GodofFortuneSicBo_feature3_1x.png 500w, images/game/game_GodofFortuneSicBo/tc/game_GodofFortuneSicBo_feature3_2x.png 1000w',
     }],
@@ -299,7 +299,7 @@ var arrImg = {
       //WE Logo
       'WE_logo': 'images/icon/sc/logo.svg',
       //UI
-      'UI': 'images/game/game_GodofFortuneSicBo/sc/game_UI_GodOfFoutuneSicBo_x1.webp 500w, images/game/game_GodofFortuneSicBo/sc/game_UI_GodOfFoutuneSicBo_x1.png 500w,images/game/game_GodofFortuneSicBo/sc/game_UI_GodOfFoutuneSicBo_x2.webp 1000w, images/game/game_GodofFortuneSicBo/sc/game_UI_GodOfFoutuneSicBo_x2.png 1000w',
+      'UI': 'images/game/game_GodofFortuneSicBo/sc/game_UI_GodOfFoutuneSicBo_x1.png 500w, images/game/game_GodofFortuneSicBo/sc/game_UI_GodOfFoutuneSicBo_x2.png 1000w',
       //Feature
       'feature3': 'images/game/game_GodofFortuneSicBo/sc/game_GodofFortuneSicBo_feature3_1x.png 500w, images/game/game_GodofFortuneSicBo/sc/game_GodofFortuneSicBo_feature3_2x.png 1000w',
     }]

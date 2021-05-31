@@ -285,18 +285,18 @@ var arrImg = {
       //WE Logo
       'WE_logo': 'images/icon/en/logo.svg',
       //UI
-      'UI': 'images/game/game_GodofFortuneRoulette/en/game_UI_GodOfFoutuneRoulette_x1.webp 500w, images/game/game_GodofFortuneRoulette/en/game_UI_GodOfFoutuneRoulette_x1.png 500w, images/game/game_GodofFortuneRoulette/en/game_UI_GodOfFoutuneRoulette_x2.webp 1000w, images/game/game_GodofFortuneRoulette/en/game_UI_GodOfFoutuneRoulette_x2.png 1000w',
+      'UI': 'images/game/game_GodofFortuneRoulette/en/game_UI_GodOfFoutuneRoulette_x1.png 500w, images/game/game_GodofFortuneRoulette/en/game_UI_GodOfFoutuneRoulette_x2.png 1000w',
   }],
   'TC': [{
       //WE Logo
       'WE_logo': 'images/icon/tc/logo.svg',
       //UI
-      'UI': 'images/game/game_GodofFortuneRoulette/tc/game_UI_GodOfFoutuneRoulette_x1.webp 500w, images/game/game_GodofFortuneRoulette/tc/game_UI_GodOfFoutuneRoulette_x1.png 500w, images/game/game_GodofFortuneRoulette/tc/game_UI_GodOfFoutuneRoulette_x2.webp 1000w, images/game/game_GodofFortuneRoulette/tc/game_UI_GodOfFoutuneRoulette_x2.png 1000w',
+      'UI': ' images/game/game_GodofFortuneRoulette/tc/game_UI_GodOfFoutuneRoulette_x1.png 500w,  images/game/game_GodofFortuneRoulette/tc/game_UI_GodOfFoutuneRoulette_x2.png 1000w',
   }],
   'SC': [{
       //WE Logo
       'WE_logo': 'images/icon/sc/logo.svg',
       //UI
-      'UI': 'images/game/game_GodofFortuneRoulette/sc/game_UI_GodOfFoutuneRoulette_x1.webp 500w, images/game/game_GodofFortuneRoulette/sc/game_UI_GodOfFoutuneRoulette_x1.png 500w, images/game/game_GodofFortuneRoulette/sc/game_UI_GodOfFoutuneRoulette_x2.webp 1000w, images/game/game_GodofFortuneRoulette/sc/game_UI_GodOfFoutuneRoulette_x2.png 1000w',
+      'UI': ' images/game/game_GodofFortuneRoulette/sc/game_UI_GodOfFoutuneRoulette_x1.png 500w, images/game/game_GodofFortuneRoulette/sc/game_UI_GodOfFoutuneRoulette_x2.png 1000w',
   }]
 };

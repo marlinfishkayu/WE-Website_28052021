@@ -293,7 +293,7 @@ var arrImg = {
       //Lotto5 Logo
       'Lotto5_icon': 'images/icon/en/game_icon_Lotto5.png',
       //UI
-      'UI': 'images/game/game_Lotto5/en/game_UI_Lotto5_x1.webp 500w, images/game/game_Lotto5/en/game_UI_Lotto5_x1.png 500w, images/game/game_Lotto5/en/game_UI_Lotto5_x2.webp 1000w , images/game/game_Lotto5/en/game_UI_Lotto5_x2.png 1000w',
+      'UI': 'images/game/game_Lotto5/en/game_UI_Lotto5_x1.png 500w, images/game/game_Lotto5/en/game_UI_Lotto5_x2.png 1000w',
       //Feature
       'feature1': 'images/game/game_Lotto5/en/game_Lotto5_feature1_1x.png 500w, images/game/game_Lotto5/en/game_Lotto5_feature1_2x.png 1000w',
       'feature2': 'images/game/game_Lotto5/en/game_Lotto5_feature2_1x.png 500w, images/game/game_Lotto5/en/game_Lotto5_feature2_2x.png 1000w',
@@ -305,7 +305,7 @@ var arrImg = {
       //Lotto5 Logo
       'Lotto5_icon': 'images/icon/tc/game_icon_Lotto5.png',
       //UI
-      'UI': 'images/game/game_Lotto5/tc/game_UI_Lotto5_x1.webp 500w, images/game/game_Lotto5/tc/game_UI_Lotto5_x1.png 500w, images/game/game_Lotto5/tc/game_UI_Lotto5_x2.webp 1000w , images/game/game_Lotto5/tc/game_UI_Lotto5_x2.png 1000w',
+      'UI': ' images/game/game_Lotto5/tc/game_UI_Lotto5_x1.png 500w, images/game/game_Lotto5/tc/game_UI_Lotto5_x2.png 1000w',
       //Feature
       'feature1': 'images/game/game_Lotto5/tc/game_Lotto5_feature1_1x.png 500w, images/game/game_Lotto5/tc/game_Lotto5_feature1_2x.png 1000w',
       'feature2': 'images/game/game_Lotto5/tc/game_Lotto5_feature2_1x.png 500w, images/game/game_Lotto5/tc/game_Lotto5_feature2_2x.png 1000w',
@@ -317,7 +317,7 @@ var arrImg = {
       //Lotto5 Logo
       'Lotto5_icon': 'images/icon/sc/game_icon_Lotto5.png',
       //UI
-      'UI': 'images/game/game_Lotto5/sc/game_UI_Lotto5_x1.webp 500w, images/game/game_Lotto5/sc/game_UI_Lotto5_x1.png 500w, images/game/game_Lotto5/sc/game_UI_Lotto5_x2.webp 1000w , images/game/game_Lotto5/sc/game_UI_Lotto5_x2.png 1000w',
+      'UI': 'images/game/game_Lotto5/sc/game_UI_Lotto5_x1.png 500w,  images/game/game_Lotto5/sc/game_UI_Lotto5_x2.png 1000w',
       //Feature
       'feature1': 'images/game/game_Lotto5/sc/game_Lotto5_feature1_1x.png 500w, images/game/game_Lotto5/sc/game_Lotto5_feature1_2x.png 1000w',
       'feature2': 'images/game/game_Lotto5/sc/game_Lotto5_feature2_1x.png 500w, images/game/game_Lotto5/sc/game_Lotto5_feature2_2x.png 1000w',
