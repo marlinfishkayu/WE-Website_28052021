@@ -46,6 +46,7 @@ body:lang(SC)
     #thankyou-popup .secondaryBtn{
         font-size: 15px;
     }
+    
     @media (min-width: 768px){
         #ContactUs .contact-main{
             padding-top: 2em;
@@ -79,12 +80,16 @@ body:lang(TC)
     #allLiveGame .allLiveGame-main .game-item-wrap .game-item-text p,
     #MahjongLuckyWheel .hero-header .GOF-series, #GodofFortuneSicBo .hero-header .GOF-series, #GodofFortuneRoulette .hero-header .GOF-series,
     .live-game-bottom .game-bottom h4,
+    .main-footer .footer-bottom .footer-TC .TC,
     #wrapper .nav_links .nav-link{
         font-family: $fontNotoSansTC;
     }
     .main-footer .footer-subscribe h6,
     #newsFeed .frame-detail h6 {
         font-weight: 500;
+    }
+    .main-footer .footer-bottom .footer-TC span{
+        font-weight: 300;
     }
     
 }
@@ -101,14 +106,18 @@ body:lang(SC)
     #allLiveGame .allLiveGame-main .game-item-wrap .game-item-text p,
     #MahjongLuckyWheel .hero-header .GOF-series, #GodofFortuneSicBo .hero-header .GOF-series, #GodofFortuneRoulette .hero-header .GOF-series,
     .live-game-bottom .game-bottom h4,
+    .main-footer .footer-bottom .footer-TC .TC,
     #wrapper .nav_links .nav-link{
         font-family: $fontNotoSansSC;
     }
-    .main-footer .footer-subscribe h6{
-        font-weight: 500;
-    }
     #newsFeed .frame-detail h6 {
         font-weight: 800;
+    }
+    .main-footer .footer-subscribe h6{
+        font-weight: 600;
+    }
+    .main-footer .footer-bottom .footer-TC span{
+        font-weight: 100;
     }
 }
 body:lang(EN)
