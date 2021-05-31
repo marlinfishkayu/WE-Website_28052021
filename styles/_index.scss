@@ -40,7 +40,7 @@
         position: absolute;
         bottom: 5%;
         left: 50%;
-        transform: translate(-50%, 29%);
+        transform: translate(-48%, 29%);
         transition: all 800ms;
         transition-timing-function: cubic-bezier(0.12, 0.77, 0.51, 1);
         .expand-icon{
@@ -124,7 +124,7 @@
     transform: translate(-50%, -30%);
 }
 .active .expand-deco .expand-icon{
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 .active .expand-deco .hover-for-more{
     opacity: 1;

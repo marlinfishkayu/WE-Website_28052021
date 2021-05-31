@@ -2938,8 +2938,8 @@ footer {
   position: absolute;
   bottom: 5%;
   left: 50%;
-  -webkit-transform: translate(-50%, 29%);
-          transform: translate(-50%, 29%);
+  -webkit-transform: translate(-48%, 29%);
+          transform: translate(-48%, 29%);
   -webkit-transition: all 800ms;
   transition: all 800ms;
   -webkit-transition-timing-function: cubic-bezier(0.12, 0.77, 0.51, 1);
@@ -3052,8 +3052,8 @@ footer {
 }
 
 .active .expand-deco .expand-icon {
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 .active .expand-deco .hover-for-more {
