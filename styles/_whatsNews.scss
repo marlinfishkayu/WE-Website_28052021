@@ -375,7 +375,9 @@
         
     }
 }
-
+#newsFeed .frame-left {
+    min-width: 150px;
+}
 #newsFeed .right-frame{
     padding-left: 0rem;
 }
@@ -657,6 +659,7 @@
         }
         .frame-left {
             width: 70%;
+           
         }
         .frame-right {
             width: 30%;
