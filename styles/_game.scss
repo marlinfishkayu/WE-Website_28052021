@@ -486,6 +486,11 @@
         margin-bottom: -5rem;
     }
 }
+@media all and (min--moz-device-pixel-ratio:0) and (min-width: 576px){
+    .bottom-container{
+        margin-bottom: 0rem;
+    }
+}
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
     .hero-header {

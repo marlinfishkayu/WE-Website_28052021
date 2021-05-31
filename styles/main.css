@@ -3877,6 +3877,12 @@ footer {
   }
 }
 
+@media all and (min--moz-device-pixel-ratio: 0) and (min-width: 576px) {
+  .bottom-container {
+    margin-bottom: 0rem;
+  }
+}
+
 @media (min-width: 768px) {
   .hero-header {
     height: 700px;
