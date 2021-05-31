@@ -3334,7 +3334,6 @@ footer {
 .hero-header,
 .live-game-main {
   position: relative;
-  padding-bottom: 5rem;
 }
 
 .hero-header-bkg,
@@ -3867,7 +3866,11 @@ footer {
   }
   #GodofFortuneSicBo .hero-header::after,
   #GodofFortuneRoulette .hero-header::after {
-    top: -60px;
+    top: -97px;
+  }
+  .hero-header,
+  .live-game-main {
+    padding-bottom: 5rem;
   }
 }
 

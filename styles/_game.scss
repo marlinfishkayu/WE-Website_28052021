@@ -4,7 +4,6 @@
 .hero-header,
 .live-game-main{
     position: relative;
-    padding-bottom: 5rem;
 }
 .hero-header-bkg,
 .live-game-main-bkg {
@@ -477,7 +476,11 @@
     }
     #GodofFortuneSicBo .hero-header::after,
     #GodofFortuneRoulette .hero-header::after {
-        top: -60px;
+        top: -97px;
+    }
+    .hero-header,
+    .live-game-main{
+        padding-bottom: 5rem;
     }
 }
 // Medium devices (tablets, 768px and up)
