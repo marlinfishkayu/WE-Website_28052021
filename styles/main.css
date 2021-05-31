@@ -2950,8 +2950,8 @@ footer {
   width: 100%;
   height: auto;
   margin: 0 auto;
-  -webkit-transform: scale(1);
-          transform: scale(1);
+  -webkit-transform: scale(0.8);
+          transform: scale(0.8);
   -webkit-transition: all 400ms;
   transition: all 400ms;
   -webkit-transition-timing-function: cubic-bezier(0.12, 0.77, 0.51, 1);
