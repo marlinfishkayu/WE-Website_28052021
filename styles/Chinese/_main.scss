@@ -13,7 +13,7 @@ body:lang(SC)
         font-weight: 500;
         font-family: $fontNotoSansTC;
     }
-    #NewsDetail .detail-content-wrap .lang,
+    
     .deco-content{
         font-weight: 100;
     } 
@@ -23,9 +23,8 @@ body:lang(SC)
     .hero-title {
         font-weight: 400;
     }  
-    .service-title {
-        font-weight: 500;  
-    }
+    .service-title,
+    #NewsDetail .detail-content-wrap .Event-Detail-main .lang,
     .game-icon-container h4{
         font-weight: 500;
     }
@@ -83,7 +82,7 @@ body:lang(TC)
     #MahjongLuckyWheel .hero-header .GOF-series, #GodofFortuneSicBo .hero-header .GOF-series, #GodofFortuneRoulette .hero-header .GOF-series,
     .live-game-bottom .game-bottom h4,
     .game-platform .game-platforom-icon h6,
-    #NewsDetail .detail-content-wrap .lang,
+    #NewsDetail .detail-content-wrap .Event-Detail-main .lang,
     #liveStudio .livestudio-hightlight-wrap .large-text h1,
     #liveStudio .livestudio-hightlight-wrap .large-text h6,
     .main-footer .footer-bottom .footer-TC .TC,
@@ -124,7 +123,7 @@ body:lang(SC)
     #MahjongLuckyWheel .hero-header .GOF-series, #GodofFortuneSicBo .hero-header .GOF-series, #GodofFortuneRoulette .hero-header .GOF-series,
     .live-game-bottom .game-bottom h4,
     .game-platform .game-platforom-icon h6,
-    #NewsDetail .detail-content-wrap .lang,
+    #NewsDetail .detail-content-wrap .Event-Detail-main .lang,
     #liveStudio .livestudio-hightlight-wrap .large-text h1,
     #liveStudio .livestudio-hightlight-wrap .large-text h6,
     .main-footer .footer-bottom .footer-TC .TC,
@@ -142,6 +141,7 @@ body:lang(SC)
         font-weight: 600;
     }
     #liveStudio .hero-header .hero-intro1, .hero-header .hero-intro2,
+    #liveStudio .livestudio-hightlight-wrap .large-text h1,
     #liveStudio .livestudio-hightlight-wrap .large-text h6{
         font-weight: 300;
     }

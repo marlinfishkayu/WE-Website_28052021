@@ -9026,9 +9026,7 @@ body:lang(SC) #AboutWE .about-h2 {
   font-family: "Noto Sans TC", "segoe ui", "microsoft jhenghei", "microsoft mhei", sans-serif;
 }
 
-body:lang(TC) #NewsDetail .detail-content-wrap .lang,
 body:lang(TC) .deco-content,
-body:lang(SC) #NewsDetail .detail-content-wrap .lang,
 body:lang(SC) .deco-content {
   font-weight: 100;
 }
@@ -9044,11 +9042,10 @@ body:lang(SC) .hero-title {
 }
 
 body:lang(TC) .service-title,
-body:lang(SC) .service-title {
-  font-weight: 500;
-}
-
+body:lang(TC) #NewsDetail .detail-content-wrap .Event-Detail-main .lang,
 body:lang(TC) .game-icon-container h4,
+body:lang(SC) .service-title,
+body:lang(SC) #NewsDetail .detail-content-wrap .Event-Detail-main .lang,
 body:lang(SC) .game-icon-container h4 {
   font-weight: 500;
 }
@@ -9118,7 +9115,7 @@ body:lang(TC) #allLiveGame .allLiveGame-main .game-item-wrap .game-item-text p,
 body:lang(TC) #MahjongLuckyWheel .hero-header .GOF-series, body:lang(TC) #GodofFortuneSicBo .hero-header .GOF-series, body:lang(TC) #GodofFortuneRoulette .hero-header .GOF-series,
 body:lang(TC) .live-game-bottom .game-bottom h4,
 body:lang(TC) .game-platform .game-platforom-icon h6,
-body:lang(TC) #NewsDetail .detail-content-wrap .lang,
+body:lang(TC) #NewsDetail .detail-content-wrap .Event-Detail-main .lang,
 body:lang(TC) #liveStudio .livestudio-hightlight-wrap .large-text h1,
 body:lang(TC) #liveStudio .livestudio-hightlight-wrap .large-text h6,
 body:lang(TC) .main-footer .footer-bottom .footer-TC .TC,
@@ -9158,7 +9155,7 @@ body:lang(SC) #allLiveGame .allLiveGame-main .game-item-wrap .game-item-text p,
 body:lang(SC) #MahjongLuckyWheel .hero-header .GOF-series, body:lang(SC) #GodofFortuneSicBo .hero-header .GOF-series, body:lang(SC) #GodofFortuneRoulette .hero-header .GOF-series,
 body:lang(SC) .live-game-bottom .game-bottom h4,
 body:lang(SC) .game-platform .game-platforom-icon h6,
-body:lang(SC) #NewsDetail .detail-content-wrap .lang,
+body:lang(SC) #NewsDetail .detail-content-wrap .Event-Detail-main .lang,
 body:lang(SC) #liveStudio .livestudio-hightlight-wrap .large-text h1,
 body:lang(SC) #liveStudio .livestudio-hightlight-wrap .large-text h6,
 body:lang(SC) .main-footer .footer-bottom .footer-TC .TC,
@@ -9180,6 +9177,7 @@ body:lang(SC) .main-footer .footer-subscribe h6 {
 }
 
 body:lang(SC) #liveStudio .hero-header .hero-intro1, body:lang(SC) .hero-header .hero-intro2,
+body:lang(SC) #liveStudio .livestudio-hightlight-wrap .large-text h1,
 body:lang(SC) #liveStudio .livestudio-hightlight-wrap .large-text h6 {
   font-weight: 300;
 }
