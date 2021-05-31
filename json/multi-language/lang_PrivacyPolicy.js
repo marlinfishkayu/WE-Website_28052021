@@ -31,7 +31,7 @@ var arrLang = {
     'PrivacyPolicy_Personal_p1': "Personal Information",
     'PrivacyPolicy_Personal_p2': "The below information may be collected when you contact or inquire from us:",
     'PrivacyPolicy_Personal_p2_li_1': "- Name",
-    'PrivacyPolicy_Personal_p2_li_2': "- Company Name",
+    'PrivacyPolicy_Personal_p2_li_2': "- Address",
     'PrivacyPolicy_Personal_p2_li_3': "- Telephone number(s)",
     'PrivacyPolicy_Personal_p2_li_4': "- E-mail address",
     //HOW WORLD ENTERTAINMENT USES INFORMATION COLLECTED

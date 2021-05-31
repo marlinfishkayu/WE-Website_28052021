@@ -3801,7 +3801,7 @@ footer {
 
 #GodofFortuneSicBo .hero-header,
 #GodofFortuneRoulette .hero-header {
-  height: 580px;
+  height: 620px;
 }
 
 #SqueezeBaccarat .hero-header::after,
@@ -3810,6 +3810,11 @@ footer {
 #GodofFortuneRoulette .hero-header::after {
   bottom: 0px;
   top: inherit;
+}
+
+#GodofFortuneSicBo .hero-header::after,
+#GodofFortuneRoulette .hero-header::after {
+  bottom: 115px;
 }
 
 #GOFfooter {
@@ -3849,11 +3854,20 @@ footer {
   #GodofFortuneRoulette .hero-header::after {
     bottom: 82px;
   }
+  #GodofFortuneSicBo .hero-header::after,
+  #GodofFortuneRoulette .hero-header::after {
+    position: absolute;
+    top: -90px;
+  }
 }
 
 @media (min-width: 576px) {
   #liveGame .blockchain .hero-header {
     height: 480px;
+  }
+  #GodofFortuneSicBo .hero-header::after,
+  #GodofFortuneRoulette .hero-header::after {
+    top: -60px;
   }
 }
 
@@ -3883,6 +3897,10 @@ footer {
   #liveGame .hero-header h1 {
     font-size: 80px;
     line-height: 90px;
+  }
+  #GodofFortuneSicBo .hero-header::after,
+  #GodofFortuneRoulette .hero-header::after {
+    top: 0px;
   }
   .blockchain .hero-header .BC-series,
   #MahjongLuckyWheel .hero-header .GOF-series,
@@ -9008,7 +9026,9 @@ body:lang(SC) #AboutWE .about-h2 {
   font-family: "Noto Sans TC", "segoe ui", "microsoft jhenghei", "microsoft mhei", sans-serif;
 }
 
+body:lang(TC) #NewsDetail .detail-content-wrap .lang,
 body:lang(TC) .deco-content,
+body:lang(SC) #NewsDetail .detail-content-wrap .lang,
 body:lang(SC) .deco-content {
   font-weight: 100;
 }
@@ -9038,7 +9058,13 @@ body:lang(SC) #liveGame .lottery .header-deco {
   width: 190px;
 }
 
+body:lang(TC) #NewsDetail .hero-title,
+body:lang(TC) .gametab-game-title h4,
+body:lang(TC) #intdexWhatsNews .news-slider-link p,
 body:lang(TC) #liveGame .hero-header h1,
+body:lang(SC) #NewsDetail .hero-title,
+body:lang(SC) .gametab-game-title h4,
+body:lang(SC) #intdexWhatsNews .news-slider-link p,
 body:lang(SC) #liveGame .hero-header h1 {
   font-weight: 500;
 }
@@ -9049,11 +9075,6 @@ body:lang(SC) .secondaryBtn,
 body:lang(SC) .main-footer .footer-subscribe .btn {
   font-family: "Noto Sans TC", "segoe ui", "microsoft jhenghei", "microsoft mhei", sans-serif;
   font-weight: 300;
-}
-
-body:lang(TC) .gametab-game-title h4,
-body:lang(SC) .gametab-game-title h4 {
-  font-weight: 500;
 }
 
 body:lang(TC) #thankyou-popup .secondaryBtn,
@@ -9083,11 +9104,13 @@ body:lang(SC) #thankyou-popup .secondaryBtn {
   }
 }
 
-body:lang(TC) body, body:lang(TC) h1, body:lang(TC) h2, body:lang(TC) h3, body:lang(TC) h4, body:lang(TC) h5, body:lang(TC) h6, body:lang(TC) p, body:lang(TC) span,
+body:lang(TC) body, body:lang(TC) h1, body:lang(TC) h2, body:lang(TC) h3, body:lang(TC) h4, body:lang(TC) h5, body:lang(TC) h6, body:lang(TC) p, body:lang(TC) span, body:lang(TC) .secondaryBtn,
 body:lang(TC) .feature-flexbox h2,
 body:lang(TC) .live-game-main .feature-header,
 body:lang(TC) #AboutWE .about-h2, body:lang(TC) #AboutWE .about-h4, body:lang(TC) #AboutWE .about-p,
 body:lang(TC) #diamondCarousel h5,
+body:lang(TC) #NewsDetail .hero-title,
+body:lang(TC) #intdexWhatsNews .news-slider-link p,
 body:lang(TC) .main-footer li, body:lang(TC) .main-footer h6, body:lang(TC) .main-footer p, body:lang(TC) .main-footer .subscribe-form input,
 body:lang(TC) #allLiveGame .allLiveGame-main .game-item-wrap .game-item-text h2,
 body:lang(TC) #allLiveGame .allLiveGame-main .game-item-wrap .game-item-text h4,
@@ -9095,20 +9118,24 @@ body:lang(TC) #allLiveGame .allLiveGame-main .game-item-wrap .game-item-text p,
 body:lang(TC) #MahjongLuckyWheel .hero-header .GOF-series, body:lang(TC) #GodofFortuneSicBo .hero-header .GOF-series, body:lang(TC) #GodofFortuneRoulette .hero-header .GOF-series,
 body:lang(TC) .live-game-bottom .game-bottom h4,
 body:lang(TC) .game-platform .game-platforom-icon h6,
+body:lang(TC) #NewsDetail .detail-content-wrap .lang,
 body:lang(TC) #liveStudio .livestudio-hightlight-wrap .large-text h1,
+body:lang(TC) #liveStudio .livestudio-hightlight-wrap .large-text h6,
 body:lang(TC) .main-footer .footer-bottom .footer-TC .TC,
 body:lang(TC) #wrapper .nav_links .nav-link {
   font-family: "Noto Sans TC", "segoe ui", "microsoft jhenghei", "microsoft mhei", sans-serif;
 }
 
 body:lang(TC) .secondaryBtn,
-body:lang(TC) .live-game-bottom .game-bottom h4
-.main-footer .footer-subscribe h6,
+body:lang(TC) .live-game-bottom .game-bottom h4,
+body:lang(TC) .main-footer .footer-subscribe h6,
 body:lang(TC) #newsFeed .frame-detail h6 {
   font-weight: 500;
 }
 
+body:lang(TC) #liveStudio .hero-header .hero-intro1, body:lang(TC) .hero-header .hero-intro2,
 body:lang(TC) #liveStudio .livestudio-hightlight-wrap .large-text h1,
+body:lang(TC) #liveStudio .livestudio-hightlight-wrap .large-text h6,
 body:lang(TC) .main-footer .footer-bottom .footer-TC span {
   font-weight: 300;
 }
@@ -9117,11 +9144,13 @@ body:lang(TC) .game-platform .game-platforom-icon h6 {
   font-weight: 100;
 }
 
-body:lang(SC) body, body:lang(SC) h1, body:lang(SC) h2, body:lang(SC) h3, body:lang(SC) h4, body:lang(SC) h5, body:lang(SC) h6, body:lang(SC) p, body:lang(SC) span,
+body:lang(SC) body, body:lang(SC) h1, body:lang(SC) h2, body:lang(SC) h3, body:lang(SC) h4, body:lang(SC) h5, body:lang(SC) h6, body:lang(SC) p, body:lang(SC) span, body:lang(SC) .secondaryBtn,
 body:lang(SC) .feature-flexbox h2,
 body:lang(SC) .live-game-main .feature-header,
 body:lang(SC) #AboutWE .about-h2, body:lang(SC) #AboutWE .about-h4, body:lang(SC) #AboutWE .about-p,
 body:lang(SC) #diamondCarousel h5,
+body:lang(SC) #NewsDetail .hero-title,
+body:lang(SC) #intdexWhatsNews .news-slider-link p,
 body:lang(SC) .main-footer li, body:lang(SC) .main-footer h6, body:lang(SC) .main-footer p, body:lang(SC) .main-footer .subscribe-form input,
 body:lang(SC) #allLiveGame .allLiveGame-main .game-item-wrap .game-item-text h2,
 body:lang(SC) #allLiveGame .allLiveGame-main .game-item-wrap .game-item-text h4,
@@ -9129,7 +9158,9 @@ body:lang(SC) #allLiveGame .allLiveGame-main .game-item-wrap .game-item-text p,
 body:lang(SC) #MahjongLuckyWheel .hero-header .GOF-series, body:lang(SC) #GodofFortuneSicBo .hero-header .GOF-series, body:lang(SC) #GodofFortuneRoulette .hero-header .GOF-series,
 body:lang(SC) .live-game-bottom .game-bottom h4,
 body:lang(SC) .game-platform .game-platforom-icon h6,
+body:lang(SC) #NewsDetail .detail-content-wrap .lang,
 body:lang(SC) #liveStudio .livestudio-hightlight-wrap .large-text h1,
+body:lang(SC) #liveStudio .livestudio-hightlight-wrap .large-text h6,
 body:lang(SC) .main-footer .footer-bottom .footer-TC .TC,
 body:lang(SC) #wrapper .nav_links .nav-link {
   font-family: "Noto Sans SC", "segoe ui", "microsoft jhenghei", "microsoft mhei", sans-serif;
@@ -9146,6 +9177,11 @@ body:lang(SC) .live-game-bottom .game-bottom h4 {
 
 body:lang(SC) .main-footer .footer-subscribe h6 {
   font-weight: 600;
+}
+
+body:lang(SC) #liveStudio .hero-header .hero-intro1, body:lang(SC) .hero-header .hero-intro2,
+body:lang(SC) #liveStudio .livestudio-hightlight-wrap .large-text h6 {
+  font-weight: 300;
 }
 
 body:lang(SC) .game-platform .game-platforom-icon h6,
