@@ -2938,8 +2938,8 @@ footer {
   position: absolute;
   bottom: 5%;
   left: 50%;
-  -webkit-transform: translate(-48%, 29%);
-          transform: translate(-48%, 29%);
+  -webkit-transform: translate(-47%, 29%);
+          transform: translate(-47%, 29%);
   -webkit-transition: all 800ms;
   transition: all 800ms;
   -webkit-transition-timing-function: cubic-bezier(0.12, 0.77, 0.51, 1);
@@ -3047,13 +3047,13 @@ footer {
 }
 
 .active .expand-deco {
-  -webkit-transform: translate(-50%, -30%);
-          transform: translate(-50%, -30%);
+  -webkit-transform: translate(-48%, -18%);
+          transform: translate(-48%, -18%);
 }
 
 .active .expand-deco .expand-icon {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  -webkit-transform: scale(1);
+          transform: scale(1);
 }
 
 .active .expand-deco .hover-for-more {
