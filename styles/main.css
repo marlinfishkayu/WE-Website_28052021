@@ -7615,7 +7615,7 @@ select.form-control::-ms-expand {
   }
   #AboutWE .about-brandStory .line-deco-vertical {
     display: block;
-    bottom: -6%;
+    bottom: -14%;
     margin: 0 auto;
   }
   #AboutWE #Dynamic-frame-2-w {
@@ -7866,6 +7866,7 @@ select.form-control::-ms-expand {
 
 #NewsDetail {
   position: relative;
+  min-height: 85vh;
 }
 
 #NewsDetail .hero-float {
