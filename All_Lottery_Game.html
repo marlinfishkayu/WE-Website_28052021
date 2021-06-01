@@ -23,11 +23,11 @@
         <meta name="theme-color" content="#060b1a">
     </head>
     <body>
-        <div id="wrapper" >
+        <div id="wrapper" data-sal="fade" data-sal-easing="easeInQuart" style="--sal-duration: 0.3s; --sal-delay: 0.8s;">
             <section class="section-header" id="nav">
                 <div class="header-wrapper">
                     <!-- navigation bar -->
-                    <div class="nav-wrap" data-sal="fade" data-sal-easing="easeInQuart" style="--sal-duration: 0.3s; --sal-delay: 0.8s;">
+                    <div class="nav-wrap" >
                         <div id="nav-area">
                             <div class="main-nav">
                                 <!-- nav links -->
@@ -597,7 +597,7 @@
         <script src="./js/sal.js"></script>
         <script>
             sal({
-                threshold: 0.1,
+                threshold: 0,
                 once: true,
             });
         </script>

@@ -4181,6 +4181,10 @@ footer {
   }
 }
 
+#ContactUs {
+  min-height: 85vh;
+}
+
 #ContactUs .contact-main {
   padding-top: 26em;
   max-width: 700px;
@@ -4548,6 +4552,7 @@ select.form-control::-ms-expand {
 
 #ContactUs .hero-header-bkg {
   height: 400px;
+  width: 100%;
 }
 
 #ContactUs .contact-main {
@@ -5898,6 +5903,10 @@ select.form-control::-ms-expand {
   }
 }
 
+#services {
+  min-height: 85vh;
+}
+
 #services .services-main {
   padding-top: 300px;
   margin: 0 auto;
@@ -6698,6 +6707,7 @@ select.form-control::-ms-expand {
 
 #allLiveGame {
   position: relative;
+  min-height: 85vh;
 }
 
 #allLiveGame a {

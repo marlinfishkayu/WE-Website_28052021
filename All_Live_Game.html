@@ -24,9 +24,9 @@
     <body>
         <div id="wrapper">
             <section class="section-header" id="nav">
-                <div class="header-wrapper"  data-sal="fade" data-sal-easing="easeInQuart" style="--sal-duration: 0.3s; --sal-delay: 0.8s;">
+                <div class="header-wrapper">
                     <!-- navigation bar -->
-                    <div class="nav-wrap">
+                    <div class="nav-wrap"   data-sal="fade" data-sal-easing="easeInQuart" style="--sal-duration: 0.3s; --sal-delay: 0.8s;">
                         <div id="nav-area">
                             <div class="main-nav">
                                 <!-- nav links -->
@@ -305,7 +305,7 @@
                 </div>
             </section>
             <!-- All Live Game Start -->
-            <div id="allLiveGame"  data-sal="fade" data-sal-easing="easeInQuart" style="--sal-duration: 0.3s; --sal-delay: 1s;">
+            <div id="allLiveGame"   data-sal="fade" data-sal-easing="easeInQuart" style="--sal-duration: 0.3s; --sal-delay: 0.8s;" >
                 <div class="hero-header text-center">
                     <div class="hero-header-bkg">
                         <picture>
@@ -329,7 +329,7 @@
                     </p>
                 </div>
                 <!-- Start Section -->
-                <div class="allLiveGame-main container"  data-sal="fade" data-sal-easing="easeInQuart" style="--sal-duration: 0.3s; --sal-delay: 1s;">
+                <div class="allLiveGame-main container">
                     <h2 class="bottom-deco lang" key="All_Live_Game"  data-sal="slide-up" data-sal-easing="easeInOutQuad" style="--sal-duration: 0.5s; --sal-delay: 0.6s;">All Live Games</h2>
                     <p class="hero-intro2 lang" key="All_Live_Game_p2"  data-sal="slide-up" data-sal-easing="easeInOutQuad" style="--sal-duration: 0.5s; --sal-delay: 0.7s;">Join us to experience the sensation of our Live Games!</p>
                     <div class="row game-column">
@@ -954,7 +954,7 @@
         <script src="./js/sal.js"></script>
         <script>
             sal({
-                threshold: 0.1,
+                threshold:0,
                 once: true,
             });
         </script>
