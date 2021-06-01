@@ -40,14 +40,14 @@
         position: absolute;
         bottom: 5%;
         left: 50%;
-        transform: translate(-47%, 29%);
+        transform: translate(-48%, 27%);
         transition: all 800ms;
         transition-timing-function: cubic-bezier(0.12, 0.77, 0.51, 1);
         .expand-icon{
             width: 100%;
             height: auto;
             margin: 0 auto;
-            transform: scale(0.8);
+            transform: scale(0.7);
             transition: all 400ms;
             transition-timing-function: cubic-bezier(0.12, 0.77, 0.51, 1);
         }
@@ -367,6 +367,9 @@
  }
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
+    .our-gamaes .expand-deco .expand-icon{
+        transform: scale(0.8);
+    }
     .our-gamaes{
         margin-top: 7rem;
     }

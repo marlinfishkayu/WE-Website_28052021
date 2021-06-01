@@ -192,9 +192,7 @@
     width: 90vw;
     padding: 3rem;
 }
-#intdexWhatsNews .owl-item{
-    max-width: 1000px;
-}
+
 #intdexWhatsNews .pagedot-counter {
     // font-family: $fontBarlowRegular;
     font-size: 14px;
@@ -895,6 +893,7 @@
     #slider-area .mobile-landscape{
         display: block;
     }
+    
   }
 
 @media (orientation: portrait) and (min-width: 992px) {
@@ -928,6 +927,9 @@
     }
     #slider-area .mobile-landscape{
         display: block;
+    }
+    #intdexWhatsNews .owl-item{
+        max-width: 1000px;
     }
 }
 @media only screen and (min-device-width: 813px) and (max-device-width: 1366px) and (orientation:landscape) {
