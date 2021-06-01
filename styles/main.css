@@ -3830,10 +3830,6 @@ footer {
   color: #D8D8D8;
 }
 
-#liveGame .blockchain .hero-header {
-  height: 480px;
-}
-
 #liveGame #PK10 .hero-icon {
   width: 200px;
   height: 60px;
@@ -3861,9 +3857,6 @@ footer {
 }
 
 @media (min-width: 576px) {
-  #liveGame .blockchain .hero-header {
-    height: 480px;
-  }
   #GodofFortuneSicBo .hero-header::after,
   #GodofFortuneRoulette .hero-header::after {
     top: -97px;

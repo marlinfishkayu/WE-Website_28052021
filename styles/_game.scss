@@ -435,9 +435,7 @@
 	font-weight: 100;
     color: #D8D8D8;
 }
-#liveGame .blockchain .hero-header {
-    height: 480px;
-}
+
 #liveGame #PK10 .hero-icon {
     width: 200px;
     height: 60px;
@@ -465,9 +463,6 @@
 }
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) { 
-    #liveGame .blockchain .hero-header {
-        height: 480px;
-    }
     #GodofFortuneSicBo .hero-header::after,
     #GodofFortuneRoulette .hero-header::after {
         top: -97px;
