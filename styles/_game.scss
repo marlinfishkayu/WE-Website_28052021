@@ -1,5 +1,5 @@
 .hero-header{
-    height: 400px;
+    height: 500px;
 }
 .hero-header,
 .live-game-main{
@@ -47,7 +47,7 @@
     width: 120px;
     height: 60px;
     margin: 0 auto;
-    padding-top: 8rem;
+    padding-top: 12rem;
     padding-bottom: 2rem;
 }
 #liveGame .header-deco h4{
@@ -334,14 +334,6 @@
 }
 #liveGame .main-button{
     padding-bottom: 10px;
-}
-#Lotto5 .hero-header,
-#PK10 .hero-header{
-    height: 500px;
-}
-#liveGame #Lotto5  .hero-icon ,
-#liveGame #PK10  .hero-icon {
-    padding-top: 12rem;
 }
 #MahjongLuckyWheel .hero-header {
     height: 444px;
