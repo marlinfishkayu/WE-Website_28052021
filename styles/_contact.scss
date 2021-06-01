@@ -347,7 +347,10 @@ select.form-control::-ms-expand {
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
     #ContactUs .hero-header {
-        height: 700px;
+        height: 580px;
+    }
+    #ContactUs .hero-header::after {
+        height: 130%;
     }
     #ContactUs .contact-main {
         padding-top: 0;
