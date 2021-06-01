@@ -91,6 +91,9 @@ var arrLang = {
       'index_sect2_p': 'WE carefully select our most popular game for you.',
       'index_sect2_LiveGame': 'LIVE GAMES ',
       'index_sect2_LotteryGame': 'LOTTERIES',
+      //GodofFortune_sp
+      'GodofFortune_sp':'God of Fortune',
+      'SicBo_sp':'Sic Bo',
       
       //index_section2 Live Game Carousel
       'index_sect2_col_1_p': 'WE play beyond classic.',
@@ -213,6 +216,9 @@ var arrLang = {
       'index_sect2_p': '精心為你挑選 WE 最受歡迎遊戲。',
       'index_sect2_LiveGame': '真人遊戲 ',
       'index_sect2_LotteryGame': '彩票',
+      //GodofFortune_sp
+      'GodofFortune_sp':'財神骰寶',
+      'SicBo_sp':'',
 
       //index_section2 Live Game Carousel
       'index_sect2_col_1_p': '保留經典，再創高峰！',
@@ -336,6 +342,9 @@ var arrLang = {
       'index_sect2_p': '精心为你挑选 WE 最受欢迎游戏。',
       'index_sect2_LiveGame': '真人游戏 ',
       'index_sect2_LotteryGame': '彩票',
+      //GodofFortune_sp
+      'GodofFortune_sp':'财神骰宝',
+      'SicBo_sp':'',
       
       //index_section2 Live Game Carousel
       'index_sect2_col_1_p': '保留经典，再创高峰！',
