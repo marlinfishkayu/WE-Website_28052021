@@ -1900,6 +1900,15 @@ footer {
           transform: scaleX(-1);
 }
 
+#slider-area {
+  position: relative;
+}
+
+#slider-area::after {
+  height: 100px;
+  z-index: 0;
+}
+
 .index-carousel {
   position: relative;
 }
@@ -2783,7 +2792,7 @@ footer {
     margin: 2em;
   }
   #slider-area .owl-dots {
-    bottom: -7%;
+    bottom: -15%;
   }
   #slider-area .owl-nav .owl-prev, #slider-area .owl-nav .owl-next {
     width: 72px;
@@ -2801,8 +2810,7 @@ footer {
     position: relative;
   }
   #slider-area::after {
-    height: 50px;
-    z-index: 1;
+    height: 250px;
   }
   #slider-area .slide {
     overflow: hidden;

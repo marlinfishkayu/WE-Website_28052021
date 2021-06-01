@@ -63,7 +63,13 @@
     }
     
 }
-
+#slider-area {
+    position: relative;
+    &::after{
+        height: 100px;
+         z-index: 0;
+    }
+}
 .index-carousel{
     position: relative;
     .slide .main-button{
@@ -836,7 +842,7 @@
        margin: 2em; 
     }
     #slider-area .owl-dots {
-        bottom: -7%;
+        bottom: -15%;
     }
     #slider-area .owl-nav .owl-prev, #slider-area .owl-nav .owl-next {
         width: 72px;
@@ -854,8 +860,7 @@
     #slider-area {
         position: relative;
         &::after{
-            height: 50px;
-            z-index: 1;
+            height: 250px;
         }
         .slide {
             overflow: hidden;
