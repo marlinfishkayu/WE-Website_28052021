@@ -287,7 +287,6 @@ var arrImg = {
       //UI
       'UI': 'images/game/game_SqueezeBaccarat/en/game_UI_SqueezeBaccarat_x1.png 500w,  images/game/game_SqueezeBaccarat/en/game_UI_SqueezeBaccarat_x2.png 1000w',
       //Feature
-      'feature1': 'images/game/game_SqueezeBaccarat/en/game_SqueezeBaccarat_feature1_1x.png 500w, images/game/game_SqueezeBaccarat/en/game_SqueezeBaccarat_feature1_2x.png 1000w',
       'feature2': 'images/game/game_SqueezeBaccarat/en/game_SqueezeBaccarat_feature2_1x.png 500w, images/game/game_SqueezeBaccarat/en/game_SqueezeBaccarat_feature2_2x.png 1000w',
       'feature3': 'images/game/game_SqueezeBaccarat/en/game_SqueezeBaccarat_feature3_1x.png 500w, images/game/game_SqueezeBaccarat/en/game_SqueezeBaccarat_feature3_2x.png 1000w',   
     }],
@@ -297,7 +296,6 @@ var arrImg = {
       //UI
       'UI': ' images/game/game_SqueezeBaccarat/tc/game_UI_SqueezeBaccarat_x1.png 500w,  images/game/game_SqueezeBaccarat/tc/game_UI_SqueezeBaccarat_x2.png 1000w',
       //Feature
-      'feature1': 'images/game/game_SqueezeBaccarat/tc/game_SqueezeBaccarat_feature1_1x.png 500w, images/game/game_SqueezeBaccarat/tc/game_SqueezeBaccarat_feature1_2x.png 1000w',
       'feature2': 'images/game/game_SqueezeBaccarat/tc/game_SqueezeBaccarat_feature2_1x.png 500w, images/game/game_SqueezeBaccarat/tc/game_SqueezeBaccarat_feature2_2x.png 1000w',
       'feature3': 'images/game/game_SqueezeBaccarat/tc/game_SqueezeBaccarat_feature3_1x.png 500w, images/game/game_SqueezeBaccarat/tc/game_SqueezeBaccarat_feature3_2x.png 1000w',
     }],
@@ -307,7 +305,6 @@ var arrImg = {
       //UI
       'UI': ' images/game/game_SqueezeBaccarat/sc/game_UI_SqueezeBaccarat_x1.png 500w, images/game/game_SqueezeBaccarat/sc/game_UI_SqueezeBaccarat_x2.png 1000w',
       //Feature
-      'feature1': 'images/game/game_SqueezeBaccarat/sc/game_SqueezeBaccarat_feature1_1x.png 500w, images/game/game_SqueezeBaccarat/sc/game_SqueezeBaccarat_feature1_2x.png 1000w',
       'feature2': 'images/game/game_SqueezeBaccarat/sc/game_SqueezeBaccarat_feature2_1x.png 500w, images/game/game_SqueezeBaccarat/sc/game_SqueezeBaccarat_feature2_2x.png 1000w',
       'feature3': 'images/game/game_SqueezeBaccarat/sc/game_SqueezeBaccarat_feature3_1x.png 500w, images/game/game_SqueezeBaccarat/sc/game_SqueezeBaccarat_feature3_2x.png 1000w',
     }]

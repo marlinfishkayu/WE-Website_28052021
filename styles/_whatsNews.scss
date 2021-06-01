@@ -109,11 +109,12 @@
         }
         .update-date{
             font-family: $fontBarlowLight;
-            font-size: 16px;
-            font-weight: 100;
-            letter-spacing: 1px;
-            line-height: 24px;
+            font-weight: 500;
+            font-size: 14px;
+            color: #B0936D;
+            letter-spacing: 2px;
             padding-top: 1rem;
+            text-transform: uppercase;
         }
         .update-event{
             font-size: 34px;
@@ -121,18 +122,8 @@
             line-height: 50px;
             padding-top: 0.5rem;
             max-width: 1000px;
-        }
-        .update-detail{
-            font-family: $fontBarlowLight;
-            font-size: 20px;
-            padding-top: 0.8rem;
-            max-width: 1000px;
-        }
-        .update-detail,
-        .update-event {
-            white-space: nowrap;
-            overflow: hidden;
-            text-overflow: ellipsis;
+            text-transform: uppercase;
+            font-family: $fontFuturaMedium;
         }
         .update-detail-btn {
             position: relative;
@@ -142,24 +133,34 @@
             padding-top: 3.5rem;
             letter-spacing: 3px;
             color: #B0936D;
+            &:after{
+                content: "";
+                position: absolute;
+                width: 28px;
+                height: 20px;
+                right: 45%;
+                margin-top: -10px;
+                transition: all 200ms ease-in-out;
+                background-repeat: no-repeat;
+                -webkit-background-size: contain;
+                background-size: contain;
+                background-position: 50% 50%;
+                background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMCIgaGVpZ2h0PSIxMSIgdmlld0JveD0iMCAwIDMwIDExIj4KICA8cG9seWxpbmUgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjODk2NjNEIiBwb2ludHM9IjEzMSAxNzguNzY5IDEzMSAxOTIuMDY2IDExMSAxNzIuMDY2IiB0cmFuc2Zvcm09InJvdGF0ZSgtNDUgLTEzOS42MjIgMjI0LjAyKSIvPgo8L3N2Zz4K");
+            }
             h6{
                 &:hover{
                     color: #fff;
                     transition: 300ms all ease;
                 }
-                &:after{
-                    content: '';
-                    position: absolute;
-                    top: 45px;
-                    margin: 5px 29px;
-                    width: 10px;
-                    height: 14px;
-                    background-repeat: no-repeat;
-                    background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iN3B4IiBoZWlnaHQ9IjExcHgiIHZpZXdCb3g9IjAgMCA3IDExIiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPgogICAgPHRpdGxlPkNvbWJpbmVkIFNoYXBlPC90aXRsZT4KICAgIDxnIGlkPSJBbGwtR2FtZSIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPGcgaWQ9IldFX2dhbWVzX0JhY2NhcnQiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC04MDAuMDAwMDAwLCAtNDIxMC4wMDAwMDApIiBmaWxsPSIjQjA5MzZEIiBmaWxsLXJ1bGU9Im5vbnplcm8iPgogICAgICAgICAgICA8ZyBpZD0iR3JvdXAtMTYiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAuMDAwMDAwLCAzOTg5LjAwMDAwMCkiPgogICAgICAgICAgICAgICAgPGcgaWQ9Ikdyb3VwLTEwIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg1MTEuMDAwMDAwLCAxMi4wMDAwMDApIj4KICAgICAgICAgICAgICAgICAgICA8ZyBpZD0iR3JvdXAtOCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTA5LjAwMDAwMCwgMTM5LjAwMDAwMCkiPgogICAgICAgICAgICAgICAgICAgICAgICA8ZyBpZD0iR3JvdXAtMiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMS4wMDAwMDAsIDY2LjAwMDAwMCkiPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPHBvbHlnb24gaWQ9IkNvbWJpbmVkLVNoYXBlIiBwb2ludHM9IjE3OSA0IDE4NiA5LjUgMTc5IDE1IDE3OSAxNC4yMTMgMTg1IDkuNSAxNzkgNC43ODUiPjwvcG9seWdvbj4KICAgICAgICAgICAgICAgICAgICAgICAgPC9nPgogICAgICAgICAgICAgICAgICAgIDwvZz4KICAgICAgICAgICAgICAgIDwvZz4KICAgICAgICAgICAgPC9nPgogICAgICAgIDwvZz4KICAgIDwvZz4KPC9zdmc+");
-                }
+                
             }
+            
         }
     }
+}
+#news-carousel .update-detail-btn:hover::after{
+    right: 40%;
+    background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMzBweCIgaGVpZ2h0PSIxMXB4IiB2aWV3Qm94PSIwIDAgMzAgMTEiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8dGl0bGU+UmVjdGFuZ2xlIENvcHkgNjwvdGl0bGU+CiAgICA8ZyBpZD0iU3ltYm9sIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgICAgICA8cG9seWxpbmUgaWQ9IlJlY3RhbmdsZS1Db3B5LTYiIHN0cm9rZT0iI0IwOTM2RCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTUuMDAwMDAwLCAxMC4wNjU3ODIpIHJvdGF0ZSgtNDUuMDAwMDAwKSB0cmFuc2xhdGUoLTE1LjAwMDAwMCwgLTEwLjA2NTc4MikgIiBwb2ludHM9IjI1IDYuNzY4ODkzNzYgMjUgMjAuMDY1NzgxNiA1IDAuMDY1NzgxNjMxMyI+PC9wb2x5bGluZT4KICAgIDwvZz4KPC9zdmc+");
 }
 #newsFeed .news-filter-wrap {
     height: calc(100% - 3em);
@@ -736,7 +737,7 @@
         height: 420px;
         position: relative;
         z-index: -1;
-        padding-top: 6rem;
+        padding-top: 8rem;
     }
     
 }
@@ -1135,7 +1136,6 @@
         .update-date{
             padding-top: 2rem;
         }
-        .update-detail,
         .update-event {
             padding-top: 0.5rem;
             max-width: 350px;

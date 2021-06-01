@@ -30,8 +30,6 @@ body:lang(SC)
     .hero-title {
         font-weight: 400;
     }  
-    .service-title,
-    
     .game-icon-container h4{
         font-weight: 500;
     }
@@ -41,8 +39,15 @@ body:lang(SC)
     #NewsDetail .hero-title,
     .gametab-game-title h4,
     #intdexWhatsNews .news-slider-link p,
+    .blockchain .hero-header .BC-series, 
     #liveGame .hero-header h1{
         font-weight: 500;
+    }
+    #liveGame #PK10 .hero-icon {
+        padding-bottom: 94px;
+    }
+    #liveGame #PK10 .hero-icon {
+        padding-top: 7rem;
     }
     .secondaryBtn,
     .main-footer .footer-subscribe .btn{
@@ -60,6 +65,12 @@ body:lang(SC)
         #allLiveGame .allLiveGame-main .game-item-wrap .game-item-text p{
             font-size: 15px;
         }
+        #liveGame #PK10 .hero-icon {
+            padding-bottom: 8rem;
+        }
+        #liveGame #PK10 .hero-icon {
+            padding-top: 21rem;
+        }
     }
     @media (min-width: 992px){
         #newsFeed .frame-detail h6 {
@@ -68,6 +79,7 @@ body:lang(SC)
         #newsFeed .frame-detail .frame-date {
             font-size: 25px;
         }
+        
     }
     @media (min-width: 1200px){
     }
@@ -86,6 +98,7 @@ body:lang(TC)
     #allLiveGame .allLiveGame-main .game-item-wrap .game-item-text h2,
     #allLiveGame .allLiveGame-main .game-item-wrap .game-item-text h4,
     #allLiveGame .allLiveGame-main .game-item-wrap .game-item-text p,
+    .blockchain .hero-header .BC-series, 
     #MahjongLuckyWheel .hero-header .GOF-series, #GodofFortuneSicBo .hero-header .GOF-series, #GodofFortuneRoulette .hero-header .GOF-series,
     .live-game-bottom .game-bottom h4,
     .game-platform .game-platforom-icon h6,
@@ -127,6 +140,7 @@ body:lang(SC)
     #allLiveGame .allLiveGame-main .game-item-wrap .game-item-text h2,
     #allLiveGame .allLiveGame-main .game-item-wrap .game-item-text h4,
     #allLiveGame .allLiveGame-main .game-item-wrap .game-item-text p,
+    .blockchain .hero-header .BC-series, 
     #MahjongLuckyWheel .hero-header .GOF-series, #GodofFortuneSicBo .hero-header .GOF-series, #GodofFortuneRoulette .hero-header .GOF-series,
     .live-game-bottom .game-bottom h4,
     .game-platform .game-platforom-icon h6,
@@ -183,5 +197,4 @@ body:lang(EN)
         font-family: $fontFuturaCondensedMedium;
         
     }
-    
 }

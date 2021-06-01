@@ -437,7 +437,7 @@
 }
 
 #liveGame #PK10 .hero-icon {
-    width: 200px;
+    width: 250px;
     height: 60px;
     padding-bottom: 37px;
 }
@@ -503,7 +503,7 @@
         margin-bottom: 0rem;
     }
     #liveGame #PK10 .hero-icon{
-        width: 230px;
+        width: 300px;
     }
     #liveGame .hero-header h1{
         font-size: 80px;
@@ -741,7 +741,9 @@
     #GodofFortuneRoulette .live-game-main #feature3 .feature-text{
         padding-top: 150px;
     }
-    
+    #liveGame #PK10 .hero-icon {
+        width: 400px;
+    }
  }
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
