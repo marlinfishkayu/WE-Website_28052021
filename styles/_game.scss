@@ -649,7 +649,7 @@
     #GodofFortuneRoulette .hero-header,
     #SqueezeBaccarat .hero-header ,
     #MahjongLuckyWheel .hero-header {
-        height: 700px;
+        height: 755px;
     }
     #liveGame #SqueezeBaccarat .hero-header .game-icon {
         width: 169px;
@@ -669,6 +669,11 @@
     .live-game-main {
         margin-top: 13rem!important;
         margin-bottom: -5rem!important;
+        background-image: url(../images/game/livegame_main_bkg_x1.jpg) ,url(../images/game/livegame_main_bkg_x2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        object-fit: cover;
     }
     .game-platform{
         margin-bottom: 6rem;
