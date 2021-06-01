@@ -3722,6 +3722,16 @@ footer {
   padding-bottom: 10px;
 }
 
+#Lotto5 .hero-header,
+#PK10 .hero-header {
+  height: 500px;
+}
+
+#liveGame #Lotto5 .hero-icon,
+#liveGame #PK10 .hero-icon {
+  padding-top: 12rem;
+}
+
 #MahjongLuckyWheel .hero-header {
   height: 444px;
 }
