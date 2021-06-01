@@ -8,6 +8,9 @@
     .hero-header-bkg{
         height: 399px;
     }
+    .hero-header {
+        height: 400px;
+    }
     .privacy-terms{
         font-weight: 100;
         line-height: 1.5;
@@ -343,7 +346,9 @@ select.form-control::-ms-expand {
 }
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
-    
+    #ContactUs .hero-header {
+        height: 700px;
+    }
     #ContactUs .contact-main {
         padding-top: 0;
         margin-top: -7rem;
