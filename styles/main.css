@@ -2054,6 +2054,10 @@ footer {
   padding: 3rem;
 }
 
+#intdexWhatsNews .owl-item {
+  max-width: 1000px;
+}
+
 #intdexWhatsNews .pagedot-counter {
   font-size: 14px;
   color: #979797;
@@ -2433,6 +2437,10 @@ footer {
 
 #diamondCarousel a {
   color: #fff;
+}
+
+#diamondCarousel .diamond-item {
+  max-width: 640px !important;
 }
 
 #diamondCarousel .diamond-item .dia-btn {
@@ -3019,7 +3027,6 @@ footer {
 }
 
 .coming .disable-img {
-  margin-left: 5px;
   -webkit-filter: opacity(30%);
   -o-filter: opacity(30%);
   -moz-filter: opacity(30%);
@@ -4591,7 +4598,7 @@ select.form-control::-ms-expand {
     width: 320px;
   }
   #ContactUs .hero-header::after {
-    top: -85px;
+    top: -84px;
   }
   .social-container {
     width: 230px;
@@ -5322,7 +5329,7 @@ select.form-control::-ms-expand {
     -webkit-transform: translateX(-50%);
             transform: translateX(-50%);
     height: inherit;
-    width: 0.5px;
+    width: 1px;
     background-color: #B0936D;
   }
   #newsFeed .timeline-wrap .timeline::after {
@@ -9255,7 +9262,7 @@ body:lang(SC) #diamondCarousel h3 {
 @media (min-width: 1200px) {
   body:lang(TC) .subnav-arrow,
   body:lang(SC) .subnav-arrow {
-    left: 204px;
+    left: 213px;
   }
 }
 

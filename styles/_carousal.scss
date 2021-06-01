@@ -192,6 +192,9 @@
     width: 90vw;
     padding: 3rem;
 }
+#intdexWhatsNews .owl-item{
+    max-width: 1000px;
+}
 #intdexWhatsNews .pagedot-counter {
     // font-family: $fontBarlowRegular;
     font-size: 14px;
@@ -511,6 +514,9 @@
     a{
         color: #fff;
     }
+}
+#diamondCarousel .diamond-item{
+    max-width: 640px!important;
 }
 #diamondCarousel .diamond-item .dia-btn {
     opacity: 0;

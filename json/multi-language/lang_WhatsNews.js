@@ -71,7 +71,7 @@ var arrLang = {
     'Xmas2020_date' : '25 DEC 2020',
     'Xmas2020_h1' : 'Ho Ho Ho, Happy Holly Days!',
     'Xmas2020_p' : 'WE wish you a Merry Christmas, WE wish you a Merry Christmas, wish you a Merry Christmas and a Happy New Year! May your days be jolly!',
-    'detail-btn' : 'DETAILS',
+    'readmore-btn' : 'Read more',
     //Filter
     'Filter_Games' : 'Games',
     'Filter_Events' : 'Events',
@@ -165,7 +165,7 @@ var arrLang = {
     'Xmas2020_date' : '2020年12月25日',
     'Xmas2020_h1' : '祝大家聖誕快樂！呵呵呵～',
     'Xmas2020_p' : '我們祝你聖誕快樂，我們祝你聖誕快樂，我們祝你聖誕快樂，祝你新年快樂～願您新一年快樂滿滿！',
-    'detail-btn' : '閱讀更多',
+    'readmore-btn' : '了解更多',
     //Filter
     'Filter_Games' : '遊戲',
     'Filter_Events' : '活動',
@@ -259,7 +259,7 @@ var arrLang = {
     'Xmas2020_date' : '2020年12月25日',
     'Xmas2020_h1' : '祝大家圣诞快乐！呵呵呵～',
     'Xmas2020_p' : '我们祝你圣诞快乐，我们祝你圣诞快乐，我们祝你圣诞快乐，祝你新年快乐～愿您新一年快乐满满！',
-    'detail-btn' : '阅读更多',
+    'readmore-btn' : '了解更多',
     //Filter
     'Filter_Games' : '游戏',
     'Filter_Events' : '活动',
