@@ -2945,7 +2945,7 @@ footer {
   display: block;
   position: absolute;
   bottom: 5%;
-  left: 50%;
+  left: 50.5%;
   -webkit-transform: translate(-48%, 27%);
           transform: translate(-48%, 27%);
   -webkit-transition: all 800ms;
@@ -2958,8 +2958,8 @@ footer {
   width: 100%;
   height: auto;
   margin: 0 auto;
-  -webkit-transform: scale(0.7);
-          transform: scale(0.7);
+  -webkit-transform: scale(0.8);
+          transform: scale(0.8);
   -webkit-transition: all 400ms;
   transition: all 400ms;
   -webkit-transition-timing-function: cubic-bezier(0.12, 0.77, 0.51, 1);
