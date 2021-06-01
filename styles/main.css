@@ -9488,10 +9488,6 @@ body:lang(SC) #AboutWE .hero-header .hero-title {
   body:lang(SC) #AboutWE .about-brandStory .about-p {
     padding-top: 1rem;
   }
-  body:lang(TC) #AboutWE .about-brandStory .line-deco-vertical,
-  body:lang(SC) #AboutWE .about-brandStory .line-deco-vertical {
-    bottom: -3%;
-  }
   body:lang(TC) #AboutWE .about-mission .line-deco-vertical,
   body:lang(SC) #AboutWE .about-mission .line-deco-vertical {
     top: -74%;
@@ -9513,7 +9509,7 @@ body:lang(SC) #AboutWE .hero-header .hero-title {
   }
   body:lang(TC) #AboutWE .about-brandStory .about-h2,
   body:lang(SC) #AboutWE .about-brandStory .about-h2 {
-    margin-top: -10rem;
+    margin-top: -163px;
   }
   body:lang(TC) #AboutWE .about-brandStory .line-deco,
   body:lang(SC) #AboutWE .about-brandStory .line-deco {
@@ -9524,10 +9520,6 @@ body:lang(SC) #AboutWE .hero-header .hero-title {
     top: -26%;
     -webkit-transform: scaleY(1);
     transform: scaleY(1);
-  }
-  body:lang(TC) #AboutWE .about-brandStory .line-deco-vertical,
-  body:lang(SC) #AboutWE .about-brandStory .line-deco-vertical {
-    bottom: 2%;
   }
   body:lang(TC) #AboutWE .Dynamic-frame-2,
   body:lang(SC) #AboutWE .Dynamic-frame-2 {
@@ -9544,7 +9536,7 @@ body:lang(SC) #AboutWE .hero-header .hero-title {
   }
   body:lang(TC) #AboutWE .about-brandStory .line-deco-vertical,
   body:lang(SC) #AboutWE .about-brandStory .line-deco-vertical {
-    bottom: -10%;
+    bottom: 8%;
   }
   body:lang(TC) #AboutWE .about-slogan,
   body:lang(SC) #AboutWE .about-slogan {
@@ -9575,7 +9567,7 @@ body:lang(SC) #AboutWE .hero-header .hero-title {
   }
   body:lang(TC) #AboutWE .about-brandStory .line-deco-vertical,
   body:lang(SC) #AboutWE .about-brandStory .line-deco-vertical {
-    bottom: 1%;
+    bottom: 6%;
   }
   body:lang(TC) #AboutWE .about-mission .about-h4,
   body:lang(SC) #AboutWE .about-mission .about-h4 {
