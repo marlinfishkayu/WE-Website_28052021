@@ -3865,14 +3865,11 @@ footer {
   .live-game-main {
     padding-bottom: 5rem;
   }
-  .bottom-container {
-    margin-bottom: -5rem;
-  }
 }
 
-@media all and (min--moz-device-pixel-ratio: 0) and (min-width: 576px) {
+@media (min-width: 576px) and (max-width: 767px) {
   .bottom-container {
-    margin-bottom: 0rem;
+    margin-bottom: -3rem;
   }
 }
 
