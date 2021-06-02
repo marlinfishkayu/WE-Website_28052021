@@ -207,7 +207,7 @@ $("#slider-area").owlCarousel({
     margin: 10,
     lazyLoad: true,
     touchDrag: true,
-    mouseDrag: false,
+    mouseDrag: true,
     autoPlay: 8000,
     smartSpeed: 1000, // duration of change of 1 slide
     paginationSpeed: 700,
