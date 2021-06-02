@@ -8490,6 +8490,8 @@ select.form-control::-ms-expand {
 
 .pp-link a {
   color: #b0936d;
+  text-decoration: none;
+  font-weight: 100;
 }
 
 @media (min-width: 768px) {
@@ -9171,8 +9173,10 @@ body:lang(SC) #wrapper .nav_links .nav-link {
   font-weight: 400;
 }
 
+body:lang(TC) .pp-link a,
 body:lang(TC) #AboutWE .about-p,
 body:lang(TC) .hero-header .hero-intro2, body:lang(TC) p,
+body:lang(SC) .pp-link a,
 body:lang(SC) #AboutWE .about-p,
 body:lang(SC) .hero-header .hero-intro2,
 body:lang(SC) p {
