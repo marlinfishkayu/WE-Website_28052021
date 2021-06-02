@@ -168,8 +168,8 @@
     font-size: 13px;
     letter-spacing: 3px;
     color: #B0936D;
-    margin-left: 3px;
-    margin-top: -7rem;
+    margin-left: 0px;
+    margin-top: 1rem;
     &:after{
         content: "";
         position: absolute;
@@ -380,7 +380,8 @@
     }
 }
 .timeline-detail {
-    display: none;
+    display: block;
+   
 }
 #newsFeed  .timeline-bottom{
     margin-bottom: 5rem;
@@ -1235,12 +1236,3 @@
     }
   }
 
-//   @media only screen and (min-width: 768px) and (max-width: 991px){ 
-//     #news-carousel .update-content .update-event{
-//         padding-top: 14px;
-//     }
-//     #news-carousel .update-content .update-date {
-//         padding-top: 0rem;
-//     }
-    
-// }

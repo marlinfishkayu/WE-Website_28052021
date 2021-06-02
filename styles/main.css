@@ -531,12 +531,6 @@ button:focus {
   text-decoration: none;
 }
 
-@media only screen and (min-device-width: 300px) and (max-device-width: 576px) {
-  .max-width-text {
-    width: 350px;
-  }
-}
-
 @media (min-width: 768px) {
   .hero-intro1 {
     font-size: 22px;
@@ -4864,8 +4858,8 @@ select.form-control::-ms-expand {
   font-size: 13px;
   letter-spacing: 3px;
   color: #B0936D;
-  margin-left: 3px;
-  margin-top: -7rem;
+  margin-left: 0px;
+  margin-top: 1rem;
 }
 
 #News_Games .text-gold-btn:after {
@@ -5113,7 +5107,7 @@ select.form-control::-ms-expand {
 }
 
 .timeline-detail {
-  display: none;
+  display: block;
 }
 
 #newsFeed .timeline-bottom {
