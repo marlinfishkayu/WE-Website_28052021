@@ -4645,6 +4645,13 @@ select.form-control::-ms-expand {
   #ContactUs .contact-main {
     margin-top: -15rem;
   }
+  #ContactUs .hero-header {
+    height: 705px;
+  }
+  #ContactUs .hero-header::after {
+    top: -77px;
+    height: 100%;
+  }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1999px) {

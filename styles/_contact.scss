@@ -405,6 +405,13 @@ select.form-control::-ms-expand {
     #ContactUs .contact-main {
         margin-top: -15rem;
     }
+    #ContactUs .hero-header {
+        height: 705px;
+    }
+    #ContactUs .hero-header::after {
+        top: -77px;
+        height: 100%;
+    }
  }
 // Extra large devices (large desktops, 1200px and up)
 
