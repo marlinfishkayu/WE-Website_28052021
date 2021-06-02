@@ -274,7 +274,7 @@
                 top: -63px;
                 right: -13px;
                 z-index: -1;
-                width: 85px;
+                width: 88px;
                 height: 88px;
                 font-family: "Barlow Light", sans-serif, Arial, Helvetica;
                 font-size: 60px;
@@ -285,6 +285,8 @@
                 -webkit-background-clip: text;
                 color: transparent;
                 -webkit-text-fill-color: transparent;
+                overflow: hidden;
+                border:transparent;
             }
         }
         h6 {
