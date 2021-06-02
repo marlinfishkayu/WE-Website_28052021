@@ -533,7 +533,7 @@ button:focus {
 
 @media only screen and (min-device-width: 300px) and (max-device-width: 576px) {
   .max-width-text {
-    max-width: 350px;
+    width: 350px;
   }
 }
 
