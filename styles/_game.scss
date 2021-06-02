@@ -414,7 +414,7 @@
 #MahjongLuckyWheel .hero-header::after , 
 #GodofFortuneSicBo .hero-header::after , 
 #GodofFortuneRoulette .hero-header::after{
-    bottom: 0px;
+    bottom: -1px;
     top: inherit;
 }
 
@@ -511,7 +511,7 @@
     }
     #GodofFortuneSicBo .hero-header::after,
     #GodofFortuneRoulette .hero-header::after {
-        top: 0px;
+        top: 1px;
     }
     .blockchain .hero-header .BC-series,
     #MahjongLuckyWheel .hero-header .GOF-series , 
