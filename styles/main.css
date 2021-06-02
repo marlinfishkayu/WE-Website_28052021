@@ -4831,7 +4831,7 @@ select.form-control::-ms-expand {
   position: absolute;
   width: 28px;
   height: 20px;
-  right: 60%;
+  right: 40%;
   margin-top: -10px;
   -webkit-transition: all 200ms ease-in-out;
   transition: all 200ms ease-in-out;
@@ -4886,7 +4886,7 @@ select.form-control::-ms-expand {
 }
 
 #News_Games .text-gold-btn:hover::after {
-  right: -60%;
+  right: -50%;
 }
 
 #news-carousel .update-detail-btn:hover::after {
