@@ -288,7 +288,7 @@ var arrLang = {
     'EN': [{
         //WE Logo
         'WE_logo': 'images/icon/en/logo.svg',
-        //UI
+        //UI       
         'UI': ' images/game/game_Blockchain_SpeedBaccarat/en/game_UI_BC_SpeedBaccarat_x1.png 500w, ./images/game/game_Blockchain_SpeedBaccarat/en/game_UI_BC_SpeedBaccarat_x2.png 1000w',
         //Feature
         'feature1': 'images/game/game_Blockchain_SpeedBaccarat/en/game_BC_SpeedBaccarat_feature1_1x.png 500w, images/game/game_Blockchain_SpeedBaccarat/en/game_BC_SpeedBaccarat_feature1_2x.png 1000w',

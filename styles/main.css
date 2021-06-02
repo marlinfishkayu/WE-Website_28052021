@@ -531,6 +531,12 @@ button:focus {
   text-decoration: none;
 }
 
+@media only screen and (min-device-width: 300px) and (max-device-width: 576px) {
+  .max-width-text {
+    width: 350px;
+  }
+}
+
 @media (min-width: 768px) {
   .hero-intro1 {
     font-size: 22px;
@@ -1052,6 +1058,7 @@ button:focus {
 .language-tap.active::after {
   content: "";
   position: absolute;
+  display: none;
   left: -1px;
   width: 13px;
   height: 26px;
@@ -1254,6 +1261,7 @@ button:focus {
   font-family: "Barlow Regular", sans-serif, Arial, Helvetica;
   font-weight: 100;
   color: #A1A1A1;
+  margin-left: 25px;
 }
 
 .sidebar a:hover {
@@ -1261,7 +1269,7 @@ button:focus {
 }
 
 .sidebar .side-item {
-  border-bottom: 0.5px solid #B0936D;
+  border-bottom: 1px solid #1F253A;
   position: relative;
   padding: 0.2rem;
 }
@@ -1269,10 +1277,9 @@ button:focus {
 .sidebar .side-item a {
   font-family: "Barlow Regular", sans-serif, Arial, Helvetica;
   font-size: 16px;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
   line-height: 60px;
   color: #D8D8D8;
-  padding-left: 25px;
 }
 
 .sidebar .side-item a:hover {
@@ -1280,25 +1287,23 @@ button:focus {
 }
 
 .sidebar .side-item .game-item {
-  padding-left: 1rem;
+  padding-left: 3rem;
 }
 
-.sidebar .side-item .game-item a {
-  font-family: "Futura-Medium", Futura-pt, Arial, sans-serif;
-  text-transform: uppercase;
-  font-weight: 500;
-  letter-spacing: 3px;
+.sidebar .side-item ul a {
+  padding: 0;
+  margin: 0;
 }
 
 .sidebar .side-item .game-sub-item {
   padding-left: 2rem;
 }
 
-.sidebar .side-item .game-sub-item a {
+.sidebar .side-item .game-sub-item li {
   font-family: "Futura-Light", Futura-pt, Arial, sans-serif;
   text-transform: uppercase;
   font-size: 14px;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
   font-weight: 100;
   color: #B4B4B4;
 }
