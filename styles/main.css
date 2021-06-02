@@ -4831,7 +4831,7 @@ select.form-control::-ms-expand {
   position: absolute;
   width: 28px;
   height: 20px;
-  right: 40%;
+  right: 60%;
   margin-top: -10px;
   -webkit-transition: all 200ms ease-in-out;
   transition: all 200ms ease-in-out;
@@ -4848,7 +4848,7 @@ select.form-control::-ms-expand {
 }
 
 #newsFeed .frame-detail h6 {
-  padding-top: 20px;
+  margin-top: 1rem;
 }
 
 #News_Games .text-gold-btn {
@@ -4858,8 +4858,8 @@ select.form-control::-ms-expand {
   font-size: 13px;
   letter-spacing: 3px;
   color: #B0936D;
-  margin-left: 0px;
-  margin-top: 1rem;
+  margin-left: 3px;
+  margin-top: -7rem;
 }
 
 #News_Games .text-gold-btn:after {
@@ -4867,7 +4867,7 @@ select.form-control::-ms-expand {
   position: absolute;
   width: 28px;
   height: 20px;
-  right: -50%;
+  right: 20%;
   margin-top: -10px;
   -webkit-transition: all 200ms ease-in-out;
   transition: all 200ms ease-in-out;
@@ -4878,7 +4878,7 @@ select.form-control::-ms-expand {
 }
 
 #newsFeed .timeline-wrap .timeline ul li.right-frame .text-gold-btn {
-  margin-left: 0.7rem;
+  margin-left: 0rem;
 }
 
 #News_Games a:hover {
@@ -4886,7 +4886,7 @@ select.form-control::-ms-expand {
 }
 
 #News_Games .text-gold-btn:hover::after {
-  right: -50%;
+  right: 0%;
 }
 
 #news-carousel .update-detail-btn:hover::after {
@@ -4982,7 +4982,7 @@ select.form-control::-ms-expand {
   top: -63px;
   right: -13px;
   z-index: -1;
-  width: 88px;
+  width: 85px;
   height: 88px;
   font-family: "Barlow Light", sans-serif, Arial, Helvetica;
   font-size: 60px;
@@ -4993,8 +4993,6 @@ select.form-control::-ms-expand {
   -webkit-background-clip: text;
   color: transparent;
   -webkit-text-fill-color: transparent;
-  overflow: hidden;
-  border: transparent;
 }
 
 #newsFeed .frame-detail h6 {
@@ -5326,7 +5324,7 @@ select.form-control::-ms-expand {
   #newsFeed .timeline-detail {
     display: block;
     position: absolute;
-    bottom: -65px;
+    bottom: -23px;
     left: 7px;
   }
   #newsFeed .news-filter-wrap .news-filter .filter-item a {
@@ -5373,10 +5371,22 @@ select.form-control::-ms-expand {
     right: -124px;
     -webkit-transform: translate(50%, -50%);
             transform: translate(50%, -50%);
-    bottom: 137px;
+    bottom: 155px;
   }
   #newsFeed .timeline-wrap .timeline ul li.left-frame:before {
     right: -118px;
+  }
+  #newsFeed .timeline-wrap .timeline ul li.left-frame:first-child:before {
+    bottom: 133px;
+  }
+  #newsFeed .timeline-wrap .timeline ul li.left-frame:first-child:after {
+    bottom: 124px;
+  }
+  #News_Games .right-frame .text-gold-btn:after {
+    right: 20%;
+  }
+  #News_Games .right-frame .text-gold-btn:hover::after {
+    right: 10%;
   }
   #newsFeed .timeline-wrap .timeline .left-frame .frame-right {
     position: absolute;
@@ -5457,9 +5467,6 @@ select.form-control::-ms-expand {
     padding: 20px 0px;
     font-size: 14px;
     color: #B0936D;
-  }
-  #newsFeed .frame-detail .text-gold-btn {
-    padding-top: 2.5rem;
   }
   #newsFeed .frame-detail h2 {
     font-family: "Futura-Medium", Futura-pt, Arial, sans-serif;
@@ -5576,6 +5583,15 @@ select.form-control::-ms-expand {
   }
   #news-carousel .update-content .update-date {
     padding-top: 0rem;
+  }
+  #newsFeed .timeline-wrap .timeline ul li.right-frame .text-gold-btn {
+    margin-left: 1rem;
+  }
+  #News_Games .text-gold-btn:after {
+    right: -50%;
+  }
+  #News_Games .text-gold-btn:hover::after {
+    right: -60%;
   }
 }
 
@@ -5703,11 +5719,11 @@ select.form-control::-ms-expand {
     width: 0%;
   }
   #newsFeed .timeline-wrap .timeline ul li.left-frame:before {
-    bottom: 146px;
+    bottom: 164px;
     width: 170px;
   }
   #newsFeed .timeline-wrap .timeline ul li.right-frame:before {
-    bottom: 154px;
+    bottom: 142px;
     width: 180px;
   }
   #newsFeed .frame-detail .frame-right:after {
@@ -5751,7 +5767,7 @@ select.form-control::-ms-expand {
   }
   #newsFeed .timeline-wrap .timeline ul li.right-frame:after {
     left: -100px;
-    bottom: 144px;
+    bottom: 132px;
   }
   #newsFeed .news-filter-wrap .news-filter .filter-item a.active:after {
     bottom: -21px;
