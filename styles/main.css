@@ -4847,12 +4847,15 @@ select.form-control::-ms-expand {
   transition: 300ms all ease;
 }
 
+#newsFeed .frame-detail h6 {
+  padding-top: 20px;
+}
+
 #News_Games .text-gold-btn {
   position: relative;
   font-family: "Barlow Medium", sans-serif, Arial, Helvetica;
   text-transform: uppercase;
   font-size: 13px;
-  padding-top: 3.5rem;
   letter-spacing: 3px;
   color: #B0936D;
   margin-left: 3px;
@@ -5453,6 +5456,9 @@ select.form-control::-ms-expand {
     font-size: 14px;
     color: #B0936D;
   }
+  #newsFeed .frame-detail .text-gold-btn {
+    padding-top: 2.5rem;
+  }
   #newsFeed .frame-detail h2 {
     font-family: "Futura-Medium", Futura-pt, Arial, sans-serif;
     font-size: 16px;
@@ -5672,7 +5678,6 @@ select.form-control::-ms-expand {
     margin: inherit;
   }
   #newsFeed .frame-detail {
-    height: 173px;
     margin: inherit;
     max-width: 500px;
   }
