@@ -4756,8 +4756,8 @@ select.form-control::-ms-expand {
   top: 0;
   left: 0;
   z-index: -1;
-  -webkit-filter: grayscale(0.5) brightness(0.8);
-          filter: grayscale(0.5) brightness(0.8);
+  -webkit-filter: grayscale(0.5) brightness(0.6) blur(10px);
+          filter: grayscale(0.5) brightness(0.6) blur(10px);
 }
 
 #news-carousel .update-wrapper {
@@ -5563,6 +5563,12 @@ select.form-control::-ms-expand {
   #news-carousel .update-detail-btn:hover::after {
     right: 40%;
   }
+  #news-carousel .update-content .update-event {
+    padding-top: 14px;
+  }
+  #news-carousel .update-content .update-date {
+    padding-top: 0rem;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -6040,7 +6046,7 @@ select.form-control::-ms-expand {
 .service-item {
   text-align: center;
   width: 100%;
-  padding: 2rem 3rem;
+  padding: 2rem 1.7rem;
 }
 
 .service-img {
@@ -6085,6 +6091,9 @@ select.form-control::-ms-expand {
     width: 132px;
     height: 132px;
   }
+  .service-item {
+    padding: 2rem 1.6rem;
+  }
 }
 
 @media (min-width: 992px) {
@@ -6101,7 +6110,7 @@ select.form-control::-ms-expand {
     max-width: 1200px;
   }
   .service-item {
-    padding: 5px 4rem;
+    padding: 5px 5rem;
   }
   #services .hero-header {
     height: 500px;
@@ -7810,7 +7819,7 @@ select.form-control::-ms-expand {
   }
   #AboutWE .about-mission {
     padding-top: 13rem;
-    margin-bottom: 6rem;
+    margin-bottom: 9rem;
   }
   #AboutWE .about-mission .about-h2 {
     padding-left: 0rem;

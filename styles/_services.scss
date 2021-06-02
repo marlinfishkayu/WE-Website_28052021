@@ -22,8 +22,7 @@
 .service-item{
     text-align: center;
     width: 100%;
-    padding: 2rem 3rem;
-    
+    padding: 2rem 1.7rem;
 }
 .service-img{
     width: 132px;
@@ -70,6 +69,9 @@
         width: 132px;
         height: 132px;
     }
+    .service-item{
+        padding: 2rem 1.6rem;
+    }
 }
 
 // Large devices (desktops, 992px and up)
@@ -88,7 +90,7 @@
         max-width: 1200px;
     }
     .service-item {
-        padding: 5px 4rem;
+        padding: 5px 5rem;
     }
     #services .hero-header {
         height: 500px;
