@@ -4066,7 +4066,7 @@ footer {
   }
   .live-game-main {
     margin-top: 13rem !important;
-    margin-bottom: -5rem !important;
+    margin-bottom: -6rem !important;
     background-image: url(../images/game/livegame_main_bkg_x1.jpg), url(../images/game/livegame_main_bkg_x2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
