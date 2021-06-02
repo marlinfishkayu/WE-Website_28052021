@@ -5881,10 +5881,10 @@ select.form-control::-ms-expand {
 
 @media (min-width: 1200px) {
   #news-carousel .update-content .update-detail-btn:after {
-    right: 50%;
+    right: 60%;
   }
   #news-carousel .update-detail-btn:hover::after {
-    right: 40%;
+    right: 55%;
   }
   #news-carousel .update-img:after {
     content: '';
