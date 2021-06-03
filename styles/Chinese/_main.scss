@@ -80,6 +80,12 @@ body:lang(SC)
         #newsFeed .frame-detail .frame-date {
             font-size: 25px;
         }
+        #News_Games .right-frame .text-gold-btn:after {
+            right: 8%;
+        }
+        #News_Games .right-frame .text-gold-btn:hover::after {
+            right: 0%;
+        }
         
     }
     @media (min-width: 1200px){

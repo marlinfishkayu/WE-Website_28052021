@@ -5552,6 +5552,7 @@ select.form-control::-ms-expand {
   }
   #news-carousel .update-content h6 {
     padding-top: 21px;
+    font-weight: 500;
   }
   #news-carousel .update-content {
     height: 420px;
@@ -9315,6 +9316,14 @@ body:lang(SC) #thankyou-popup .secondaryBtn {
   body:lang(TC) #newsFeed .frame-detail .frame-date,
   body:lang(SC) #newsFeed .frame-detail .frame-date {
     font-size: 25px;
+  }
+  body:lang(TC) #News_Games .right-frame .text-gold-btn:after,
+  body:lang(SC) #News_Games .right-frame .text-gold-btn:after {
+    right: 8%;
+  }
+  body:lang(TC) #News_Games .right-frame .text-gold-btn:hover::after,
+  body:lang(SC) #News_Games .right-frame .text-gold-btn:hover::after {
+    right: 0%;
   }
 }
 
