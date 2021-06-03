@@ -4839,13 +4839,10 @@ select.form-control::-ms-expand {
   transition: 300ms all ease;
 }
 
-#newsFeed .frame-detail h6 {
-  margin-top: 1rem;
-}
-
 #News_Games .text-gold-btn {
   position: relative;
   font-family: "Barlow Medium", sans-serif, Arial, Helvetica;
+  font-weight: 500;
   text-transform: uppercase;
   font-size: 13px;
   letter-spacing: 3px;
@@ -4990,7 +4987,10 @@ select.form-control::-ms-expand {
 #newsFeed .frame-detail h6 {
   padding: 20px 0px;
   font-size: 14px;
-  color: #89663D;
+  color: #B0936D;
+  margin-top: 1rem;
+  letter-spacing: 1px;
+  font-family: "Futura-Medium", Futura-pt, Arial, sans-serif;
 }
 
 #newsFeed .frame-detail h2 {
@@ -9344,6 +9344,7 @@ body:lang(TC) #allLiveGame .allLiveGame-main .game-item-wrap .game-item-text h4,
 body:lang(TC) #allLiveGame .allLiveGame-main .game-item-wrap .game-item-text p,
 body:lang(TC) .blockchain .hero-header .BC-series,
 body:lang(TC) #BaccaratType p,
+body:lang(TC) #newsFeed .frame-detail h6,
 body:lang(TC) #MahjongLuckyWheel .hero-header .GOF-series, body:lang(TC) #GodofFortuneSicBo .hero-header .GOF-series, body:lang(TC) #GodofFortuneRoulette .hero-header .GOF-series,
 body:lang(TC) .live-game-bottom .game-bottom h4,
 body:lang(TC) .game-platform .game-platforom-icon h6,
@@ -9386,6 +9387,7 @@ body:lang(SC) #allLiveGame .allLiveGame-main .game-item-wrap .game-item-text h4,
 body:lang(SC) #allLiveGame .allLiveGame-main .game-item-wrap .game-item-text p,
 body:lang(SC) .blockchain .hero-header .BC-series,
 body:lang(SC) #BaccaratType p,
+body:lang(SC) #newsFeed .frame-detail h6,
 body:lang(SC) #MahjongLuckyWheel .hero-header .GOF-series, body:lang(SC) #GodofFortuneSicBo .hero-header .GOF-series, body:lang(SC) #GodofFortuneRoulette .hero-header .GOF-series,
 body:lang(SC) .live-game-bottom .game-bottom h4,
 body:lang(SC) .game-platform .game-platforom-icon h6,
