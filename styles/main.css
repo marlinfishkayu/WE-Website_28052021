@@ -2603,9 +2603,6 @@ footer {
   #diamondCarousel .dia-3d-layer {
     top: 50%;
   }
-  #diamondCarousel #diaGodofFortuneSicBo .dia-3d-layer {
-    top: 49%;
-  }
   #diamondCarousel .dia-3d-layer {
     pointer-events: none;
   }
@@ -4671,7 +4668,7 @@ select.form-control::-ms-expand {
   display: block;
   content: "";
   position: absolute;
-  bottom: -40%;
+  bottom: -52%;
   left: 0;
   width: 100%;
   height: 500px;
@@ -4821,6 +4818,7 @@ select.form-control::-ms-expand {
 
 #news-carousel .update-content .update-detail-btn:after {
   content: "";
+  display: none;
   position: absolute;
   width: 28px;
   height: 20px;
@@ -5534,7 +5532,7 @@ select.form-control::-ms-expand {
   #news-carousel .update-content .update-event,
   #news-carousel .update-content .update-detail {
     width: 318px;
-    max-height: 130px;
+    max-height: 172px;
     overflow: hidden;
   }
   #news-carousel .update-content .update-detail-btn {
@@ -5874,10 +5872,11 @@ select.form-control::-ms-expand {
 
 @media (min-width: 1200px) {
   #news-carousel .update-content .update-detail-btn:after {
-    right: 60%;
+    right: 45%;
+    display: block;
   }
   #news-carousel .update-detail-btn:hover::after {
-    right: 55%;
+    right: 35%;
   }
   #news-carousel .update-img:after {
     content: '';
@@ -5906,6 +5905,9 @@ select.form-control::-ms-expand {
     -webkit-box-direction: reverse;
         -ms-flex-direction: row-reverse;
             flex-direction: row-reverse;
+  }
+  #news-carousel #slider-area::after {
+    height: 150px;
   }
   #news-carousel .update-content {
     margin: initial;

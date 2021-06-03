@@ -8,7 +8,7 @@
             display: block;
             content: "";
             position: absolute;
-            bottom: -40%;
+            bottom: -52%;
             left: 0;
             width: 100%;
             height: 500px;
@@ -135,6 +135,7 @@
             color: #B0936D;
             &:after{
                 content: "";
+                display: none;
                 position: absolute;
                 width: 28px;
                 height: 20px;
@@ -763,7 +764,7 @@
     #news-carousel .update-content .update-event,
     #news-carousel .update-content .update-detail {
         width: 318px;
-        max-height: 130px;
+        max-height: 172px;
         overflow: hidden;
     }
     #news-carousel .update-content .update-detail-btn{
@@ -1108,10 +1109,11 @@
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
     #news-carousel .update-content .update-detail-btn:after {
-        right: 60%;
+        right: 45%;
+        display: block;
     }
     #news-carousel .update-detail-btn:hover::after{
-        right: 55%;
+        right: 35%;
     }
     #news-carousel .update-img:after {
         content: '';
@@ -1133,6 +1135,9 @@
         display: inline-flex;
         display: flex;
         flex-direction: row-reverse;
+    }
+    #news-carousel #slider-area::after {
+        height: 150px;
     }
     #news-carousel .update-content {
         margin: initial;
