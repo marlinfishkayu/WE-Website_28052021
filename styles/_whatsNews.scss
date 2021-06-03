@@ -99,7 +99,7 @@
         margin-top: 0rem;
         padding: 0 2rem;
         padding-top: 1rem;
-        max-width: 500px;
+        max-width: 400px;
         margin: auto;
         a{
             color: #fff;
@@ -1213,7 +1213,7 @@
         bottom: 14%;
     }
     #news-carousel .news-slider-bkg {
-        filter: grayscale(0.5) brightness(0.8);
+        filter: grayscale(0.5) brightness(0.6) blur(5px);
     }
 }
 
