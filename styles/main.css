@@ -9453,6 +9453,10 @@ body:lang(EN) #allLiveGame .allLiveGame-main .game-item-wrap .game-item-text h4 
   font-family: "Open Sans Condensed", sans-serif;
 }
 
+body:lang(EN) #diamondCarousel #diaGodofFortuneSicBo .dia-3d-layer {
+  top: 49%;
+}
+
 body:lang(TC) .deco-content,
 body:lang(SC) .deco-content {
   font-weight: 100;
