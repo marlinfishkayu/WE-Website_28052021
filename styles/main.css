@@ -361,6 +361,18 @@ button:focus {
   color: #B0936D;
 }
 
+#intdexWhatsNews .text-gold-btn,
+#news-carousel .update-content .text-gold-btn,
+#newsFeed .timeline-wrap .text-gold-btn {
+  color: #89663D;
+}
+
+#intdexWhatsNews .text-gold-btn:hover,
+#news-carousel .update-content .text-gold-btn:hover,
+#newsFeed .timeline-wrap .text-gold-btn:hover {
+  color: #B0936D;
+}
+
 .lg-break-only {
   display: none;
 }
@@ -2109,7 +2121,6 @@ footer {
 
 #intdexWhatsNews .text-gold-btn {
   text-decoration: none;
-  color: #B0936D;
   padding-top: 30px;
 }
 
@@ -4822,7 +4833,6 @@ select.form-control::-ms-expand {
   font-size: 13px;
   padding-top: 3.5rem;
   letter-spacing: 3px;
-  color: #B0936D;
 }
 
 #news-carousel .update-content .update-detail-btn:after {
@@ -4842,7 +4852,6 @@ select.form-control::-ms-expand {
 }
 
 #news-carousel .update-content .update-detail-btn h6:hover {
-  color: #fff;
   -webkit-transition: 300ms all ease;
   transition: 300ms all ease;
 }
@@ -5889,6 +5898,9 @@ select.form-control::-ms-expand {
   #News_Games .text-gold-btn:after {
     right: -77%;
     display: block;
+  }
+  #News_Games .text-gold-btn:hover::after {
+    right: -90%;
   }
   #News_Games .right-frame .text-gold-btn:after {
     right: -23%;

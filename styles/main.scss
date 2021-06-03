@@ -264,7 +264,16 @@ button:focus {
 .main-button:hover span{
   color: #B0936D;
 }
-
+#intdexWhatsNews .text-gold-btn,
+#news-carousel .update-content .text-gold-btn,
+#newsFeed .timeline-wrap .text-gold-btn{
+    color: #89663D;
+}
+#intdexWhatsNews .text-gold-btn:hover,
+#news-carousel .update-content .text-gold-btn:hover,
+#newsFeed .timeline-wrap .text-gold-btn:hover{
+    color: #B0936D;
+}
 .lg-break-only{
   display: none;
 }

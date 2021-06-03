@@ -132,7 +132,6 @@
             font-size: 13px;
             padding-top: 3.5rem;
             letter-spacing: 3px;
-            color: #B0936D;
             &:after{
                 content: "";
                 display: none;
@@ -150,7 +149,6 @@
             }
             h6{
                 &:hover{
-                    color: #fff;
                     transition: 300ms all ease;
                 }
                 
@@ -326,15 +324,13 @@
                 cursor: pointer;
                 transition: 200ms all ease-out;
                 position: relative;
-                &:hover{
-                    text-decoration: none;
-                    color: #fff;
-                .active{
-                    color: #fff;
+                    &:hover{
+                        text-decoration: none;
+                        color: #fff;
+                    .active{
+                        color: #fff;
+                    }
                 }
-                }
-
-                
             }
             .filter-item a.active{
                 color: #ffffff;
@@ -521,6 +517,7 @@
 #day31::after{
     content: '31';
 }
+
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {
@@ -1121,6 +1118,9 @@
     #News_Games .text-gold-btn:after {
         right: -77%;
         display: block;
+    }
+    #News_Games .text-gold-btn:hover::after {
+        right: -90%;
     }
     #News_Games .right-frame .text-gold-btn:after{
         right: -23%;
