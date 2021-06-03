@@ -4857,6 +4857,7 @@ select.form-control::-ms-expand {
   content: "";
   position: absolute;
   width: 28px;
+  display: none;
   height: 20px;
   right: 20%;
   margin-top: -10px;
@@ -5578,9 +5579,6 @@ select.form-control::-ms-expand {
   #newsFeed .timeline-wrap .timeline ul li.right-frame .text-gold-btn {
     margin-left: 1rem;
   }
-  #News_Games .text-gold-btn:after {
-    right: -50%;
-  }
   #News_Games .text-gold-btn:hover::after {
     right: -60%;
   }
@@ -5626,6 +5624,7 @@ select.form-control::-ms-expand {
 @media (max-width: 991px) {
   #newsFeed .news-filter-wrap {
     padding: 3rem 5rem;
+    margin-bottom: 5rem;
   }
   #news-carousel .update-wrapper .square-frame {
     max-width: 340px;
@@ -5730,7 +5729,7 @@ select.form-control::-ms-expand {
     bottom: 140px;
   }
   #newsFeed .right-frame .timeline-detail {
-    left: 57px;
+    left: 51px;
     width: 154px;
   }
   #newsFeed .timeline-wrap .timeline .left-frame .frame-right {
@@ -5867,6 +5866,16 @@ select.form-control::-ms-expand {
   }
   #news-carousel .update-content {
     padding-top: 10rem;
+  }
+  #News_Games .text-gold-btn:after {
+    right: -50%;
+    display: block;
+  }
+  #News_Games .right-frame .text-gold-btn:after {
+    right: -23%;
+  }
+  #News_Games .right-frame .text-gold-btn:hover::after {
+    right: -33%;
   }
 }
 
