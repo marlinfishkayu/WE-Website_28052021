@@ -175,7 +175,7 @@
         content: "";
         position: absolute;
         width: 28px;
-        display: none;
+        // display: none;
         height: 20px;
         right: 20%;
         margin-top: -10px;
@@ -617,10 +617,10 @@
         bottom: 124px;
     }
     #News_Games .right-frame .text-gold-btn:after{
-        right: 20%;
+        right: -57%;
     }
     #News_Games .right-frame .text-gold-btn:hover::after{
-        right: 10%;
+        right: -60%;
     }
     #newsFeed .timeline-wrap .timeline .left-frame .frame-right {
         position: absolute;
@@ -851,6 +851,10 @@
     }
     #news-carousel .update-detail-btn:hover::after{
         right: 50%;
+    }
+    #News_Games .text-gold-btn:after {
+        right: -50%;
+        display: block;
     }
 }
 

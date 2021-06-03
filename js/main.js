@@ -13,22 +13,6 @@ window.addEventListener("scroll", function() {
     header.classList.toggle("sticky", window.scrollY < 100);
 });
 
-
-// window.onscroll = function() {scrollFunction()};
-
-// const navbarColor = document.getElementById("nav-area");
-
-// function scrollFunction() {
-//     console.log(window.scrollY)
-//   if (document.body.scrollTop > 60 || document.documentElement.scrollTop > 60) {
-//     console.log("scrolling-top");
-//     navbarColor.style.background = "transparent";
-//   } else {
-//     console.log("scrolling-donwn");
-//     navbarColor.style.backgroundImage="linear-gradient(to bottom, rgba(6, 11, 26, 100%) ,rgba(0, 0, 0, 0))" ;
-//   }
-// }
-
 /*--  Hide Header on on scroll down --*/
 
 var didScroll;
@@ -582,25 +566,6 @@ $(".thanyou-close-btn").click(function() {
     $("#thankyou-popup").removeClass("show");
 });
 
-
-// const myList = document.querySelector('#mce-error');
-// const myerror = document.querySelector('#myerror');
-
-// const observer = new MutationObserver( mutations => {
-//    mutations.forEach(record => {
-//        if(record.addedNodes.length > 0) {
-//            myerror.classList.add("show-error");
-//        } else{
-//            myerror.removeClass("show-error");
-//        }
-//    });
-// });
-
-// observer.observe(myList, {
-//    childList: true
-// });
-
-
 const myList = document.querySelector('#mce-EMAIL');
 const observer = new MutationObserver(mutations => {
     mutations.forEach(record => {
@@ -613,8 +578,6 @@ const observer = new MutationObserver(mutations => {
         }
     });
 });
-
-
 
 
 /*--  cookie popup --*/
