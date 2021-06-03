@@ -98,7 +98,7 @@ var arrLang = {
     'LiceCert_p1' : 'Our studio and games is under international law, which made us reliable, trustworthy and professional.',
     'GLI' : 'GLI certification',
     //Dedicated your own table
-    'Dedicated' : 'your own table',
+    'Dedicated' : 'Your Dedicated Table',
     'Dedicated_p1' : 'Crossing over the Asian and the Western elements into Live Game hot picks, our Live Game will be your best business option. WE enable licensees to carry your branding elements inside our Game Lobby and available to configure betting limits.',
     'Dedicated_p2' : 'You’re welcome to visit our studio in the Philippines. Connect with our salesperson for further information.',
     'Talk' : "LET'S TALK",

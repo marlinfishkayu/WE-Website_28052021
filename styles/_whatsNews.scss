@@ -162,7 +162,6 @@
 
 #News_Games .text-gold-btn {
     position: relative;
-    font-family: $fontBarlowMedium;
     font-weight: 500;
     text-transform: uppercase;
     font-size: 13px;
@@ -1120,7 +1119,7 @@
         padding-top: 10rem;
     }
     #News_Games .text-gold-btn:after {
-        right: -50%;
+        right: -77%;
         display: block;
     }
     #News_Games .right-frame .text-gold-btn:after{
@@ -1213,6 +1212,12 @@
     }
     #newsFeed .frame-detail {
         max-width: 300px;
+    }
+    #newsFeed .timeline-wrap .timeline ul li.left-frame:first-child:before {
+        bottom: 157px;
+    }
+    #newsFeed .timeline-wrap .timeline ul li.left-frame:first-child:after {
+        bottom: 149px;
     }
 }
 @media (max-width: 576px){
