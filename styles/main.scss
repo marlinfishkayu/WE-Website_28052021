@@ -414,8 +414,9 @@ button:focus {
   color: $hyperlinkColor;
 }
 .link:hover {
-  color: #debf83;
+  color: #efd8ac;
   text-decoration: none;
+  transition: 0.5s ease;
 }
 
 
