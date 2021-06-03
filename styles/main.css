@@ -2948,9 +2948,9 @@ footer {
   display: block;
   position: absolute;
   bottom: 5%;
-  left: 50.5%;
-  -webkit-transform: translate(-48%, 27%);
-          transform: translate(-48%, 27%);
+  left: 50%;
+  -webkit-transform: translate(-53%, 27%);
+          transform: translate(-53%, 27%);
   -webkit-transition: all 800ms;
   transition: all 800ms;
   -webkit-transition-timing-function: cubic-bezier(0.12, 0.77, 0.51, 1);
@@ -2963,6 +2963,7 @@ footer {
   margin: 0 auto;
   -webkit-transform: scale(0.8);
           transform: scale(0.8);
+  padding-right: 12px;
   -webkit-transition: all 400ms;
   transition: all 400ms;
   -webkit-transition-timing-function: cubic-bezier(0.12, 0.77, 0.51, 1);
@@ -3058,8 +3059,13 @@ footer {
 }
 
 .active .expand-deco {
-  -webkit-transform: translate(-48%, -18%);
-          transform: translate(-48%, -18%);
+  -webkit-transform: translate(-53%, -18%);
+          transform: translate(-53%, -18%);
+}
+
+.our-games .active .expand-deco {
+  -webkit-transform: translate(-57%, -18%);
+          transform: translate(-57%, -18%);
 }
 
 .active .expand-deco .expand-icon {
@@ -3324,12 +3330,21 @@ footer {
   #intdexWhatsNews .news-item-text .text-gold {
     margin-top: 6rem;
   }
+  .our-gamaes .expand-deco .expand-icon {
+    -webkit-transform: scale(0.6);
+            transform: scale(0.6);
+    margin-right: 0;
+  }
 }
 
 @media (min-width: 1200px) {
   .our-gamaes .expand-deco .expand-icon {
     -webkit-transform: scale(0.8);
-            transform: scale(0.8);
+    transform: scale(0.8);
+  }
+  .our-gamaes .active .expand-deco .expand-icon {
+    -webkit-transform: scale(1);
+            transform: scale(1);
   }
   .our-gamaes {
     margin-top: 7rem;
@@ -3339,13 +3354,6 @@ footer {
     width: 108%;
     height: 108%;
     background-size: contain;
-  }
-}
-
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .our-gamaes .expand-deco .expand-icon {
-    -webkit-transform: scale(0.85);
-            transform: scale(0.85);
   }
 }
 
