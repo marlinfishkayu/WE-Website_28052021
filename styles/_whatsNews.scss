@@ -606,17 +606,18 @@
         &:after {
             right: -124px;
             transform: translate(50%, -50%);
-            bottom: 155px;
+            bottom: 136px;
         }
         &:before {
             right: -118px;
+            bottom: 136px;
         }
     }
     #newsFeed .timeline-wrap .timeline ul li.left-frame:first-child:before{
         bottom: 133px;
     }
     #newsFeed .timeline-wrap .timeline ul li.left-frame:first-child:after {
-        bottom: 124px;
+        bottom: 133px;
     }
     #News_Games .right-frame .text-gold-btn:after{
         right: -57%;
@@ -903,6 +904,12 @@
     }
     #news-carousel .update-content .update-detail-btn h6:after {
         top: 20px;
+    }
+    #newsFeed .timeline-wrap .timeline ul li.left-frame:after {
+        bottom: 154px;
+    }
+    #newsFeed .timeline-wrap .timeline ul li.left-frame:first-child:after {
+        bottom: 124px;
     }
     #news-carousel .update-wrapper{
         top: 50%;
