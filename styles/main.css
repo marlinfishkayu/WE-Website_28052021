@@ -523,11 +523,11 @@ button:focus {
 }
 
 .link {
-  color: #a1a1a1;
+  color: #B0936D;
 }
 
 .link:hover {
-  color: #B0936D;
+  color: #debf83;
   text-decoration: none;
 }
 
