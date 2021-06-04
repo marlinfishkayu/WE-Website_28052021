@@ -37,6 +37,9 @@ body:lang(SC)
     #liveGame .lottery .header-deco {
         width: 190px;
     }
+    #liveGame #SqueezeBaccarat .hero-intro1 {
+        margin-top: -3rem;
+    }
     #NewsDetail .hero-title,
     .gametab-game-title h4,
     #intdexWhatsNews .news-slider-link p,
@@ -194,6 +197,9 @@ body:lang(EN)
     .main-footer li
     {
         font-family: $fontBarlowLight;
+    }
+    #liveGame #SqueezeBaccarat .hero-intro1 {
+        margin-top: -1rem;
     }
     #AboutWE .about-h2, #AboutWE .about-h4,
     .main-footer h6,

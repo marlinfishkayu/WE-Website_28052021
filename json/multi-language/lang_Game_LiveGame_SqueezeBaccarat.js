@@ -40,6 +40,9 @@ var arrLang = {
       'GodofFortune': 'God of Fortune',
       'Lotto5': 'Lotto 5',
       'PK10': 'PK10 Racing',
+      'Squeeze': 'Squeeze',
+      'Baccarat': 'Baccarat',
+      
       //Game Slogan
       'Baccarat_slogan': 'WE play beyond classic.',
       'Roulette_slogan': 'Ultimate European classic.',
@@ -134,6 +137,8 @@ var arrLang = {
       'GodofFortune': '財神',
       'Lotto5': '時時彩',
       'PK10': '北京賽車',
+      'Squeeze': '共咪百家樂',
+      'Baccarat': '',
       //Game Slogan
       'Baccarat_slogan': '保留經典，再創高峰！',
       'Roulette_slogan': '歐洲輪盤之巔。',
@@ -228,6 +233,8 @@ var arrLang = {
       'GodofFortune': '财神',
       'Lotto5': '时时彩',
       'PK10': '北京赛车',
+      'Squeeze': '共咪百家乐',
+      'Baccarat': '',
       //Game Slogan
       'Baccarat_slogan': '保留经典，再创高峰！',
       'Roulette_slogan': '欧洲轮盘之巅。',

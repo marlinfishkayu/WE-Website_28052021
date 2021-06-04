@@ -9305,6 +9305,11 @@ body:lang(SC) #liveGame .lottery .header-deco {
   width: 190px;
 }
 
+body:lang(TC) #liveGame #SqueezeBaccarat .hero-intro1,
+body:lang(SC) #liveGame #SqueezeBaccarat .hero-intro1 {
+  margin-top: -3rem;
+}
+
 body:lang(TC) #NewsDetail .hero-title,
 body:lang(TC) .gametab-game-title h4,
 body:lang(TC) #intdexWhatsNews .news-slider-link p,
@@ -9485,6 +9490,10 @@ body:lang(EN) #ContactUs .hyperlink {
 body:lang(EN) #AboutWE .about-p,
 body:lang(EN) .main-footer li {
   font-family: "Barlow Light", sans-serif, Arial, Helvetica;
+}
+
+body:lang(EN) #liveGame #SqueezeBaccarat .hero-intro1 {
+  margin-top: -1rem;
 }
 
 body:lang(EN) #AboutWE .about-h2, body:lang(EN) #AboutWE .about-h4,
