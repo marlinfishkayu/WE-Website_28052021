@@ -697,6 +697,7 @@
             padding: 20px 0px;
             font-size: 14px;
             color: #B0936D;
+            letter-spacing: 3px;
         }
         h2 {
             font-family: $fontFuturaMedium;
@@ -1116,11 +1117,11 @@
         padding-top: 10rem;
     }
     #News_Games .text-gold-btn:after {
-        right: -77%;
+        right: -40%;
         display: block;
     }
     #News_Games .text-gold-btn:hover::after {
-        right: -90%;
+        right: -50%;
     }
     #News_Games .right-frame .text-gold-btn:after{
         right: -23%;
@@ -1132,11 +1133,11 @@
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
     #news-carousel .update-content .update-detail-btn:after {
-        right: 45%;
+        right: 48%;
         display: block;
     }
     #news-carousel .update-detail-btn:hover::after{
-        right: 35%;
+        right: 40%;
     }
     #news-carousel .update-img:after {
         content: '';
