@@ -1,24 +1,22 @@
 @import "./reset";
 @import "./variables";
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@100;300;400;500;700;900&family=Noto+Sans+TC:wght@100;300;400;500;700;900&family=Open+Sans+Condensed:wght@300;700&display=swap');
+
 @font-face {
   font-family: "Futura-Medium";
-  src: url("./fonts/FuturaMedium.eot"); /* IE9 Compat Modes */
-  src: url("./fonts/FuturaMedium.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-    url("./fonts/FuturaMedium.svg") format("svg");/* Legacy iOS */
+  src: local('Futura Medium') ,
+       local('Futura-Medium') ,
+        url('FuturaMedium.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'Futura-Light';
-  src:  url("./fonts/Futura-Light.eot?#iefix") format("embedded-opentype"),
-      url('./fonts/Futura-Light.woff2') format('woff2'),
-      url('./fonts/Futura-Light.woff') format('woff');
+  src:  url('Futura-Light.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
-
 * {
     margin: 0;
     padding: 0;

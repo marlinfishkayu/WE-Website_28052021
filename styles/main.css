@@ -51,17 +51,14 @@ table {
 
 @font-face {
   font-family: "Futura-Medium";
-  src: url("./fonts/FuturaMedium.eot");
-  /* IE9 Compat Modes */
-  src: url("./fonts/FuturaMedium.eot?#iefix") format("embedded-opentype"), url("./fonts/FuturaMedium.svg") format("svg");
-  /* Legacy iOS */
+  src: local("Futura Medium"), local("Futura-Medium"), url("FuturaMedium.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Futura-Light';
-  src: url("./fonts/Futura-Light.eot?#iefix") format("embedded-opentype"), url("./fonts/Futura-Light.woff2") format("woff2"), url("./fonts/Futura-Light.woff") format("woff");
+  src: url("Futura-Light.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -4872,7 +4869,7 @@ select.form-control::-ms-expand {
   position: absolute;
   width: 28px;
   height: 20px;
-  right: 20%;
+  right: 1%;
   margin-top: -10px;
   -webkit-transition: all 200ms ease-in-out;
   transition: all 200ms ease-in-out;
@@ -5118,6 +5115,10 @@ select.form-control::-ms-expand {
 
 #newsFeed .timeline-bottom {
   margin-bottom: 5rem;
+}
+
+#newsFeed .frame-detail .frame-left h6 {
+  letter-spacing: 3px;
 }
 
 #newsFeed .showmore-deco-wrap {

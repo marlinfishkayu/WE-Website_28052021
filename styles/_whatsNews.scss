@@ -171,9 +171,8 @@
         content: "";
         position: absolute;
         width: 28px;
-        // display: none;
         height: 20px;
-        right: 20%;
+        right: 1%;
         margin-top: -10px;
         transition: all 200ms ease-in-out;
         background-repeat: no-repeat;
@@ -381,6 +380,9 @@
 }
 #newsFeed  .timeline-bottom{
     margin-bottom: 5rem;
+}
+#newsFeed .frame-detail .frame-left h6{
+    letter-spacing: 3px;
 }
 #newsFeed .showmore-deco-wrap {
     display: none;
@@ -693,6 +695,7 @@
         margin: auto;
         padding: 2rem 0;
         text-transform: uppercase;
+        
         h6 {
             padding: 20px 0px;
             font-size: 14px;
