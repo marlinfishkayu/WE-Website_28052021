@@ -1,6 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@100;300;400;500;700;900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@100;300;400;500;700;900&family=Noto+Sans+TC:wght@100;300;400;500;700;900&family=Open+Sans+Condensed:wght@300;700&display=swap");
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -9387,6 +9385,17 @@ body:lang(SC) #news-carousel .update-content .update-detail-btn h6 {
   body:lang(TC) #News_Games .right-frame .text-gold-btn:hover::after,
   body:lang(SC) #News_Games .right-frame .text-gold-btn:hover::after {
     right: 0%;
+  }
+}
+
+@media (min-width: 1200px) {
+  body:lang(TC) #news-carousel .update-content .update-detail-btn:after,
+  body:lang(SC) #news-carousel .update-content .update-detail-btn:after {
+    right: 65%;
+  }
+  body:lang(TC) #news-carousel .update-content .update-detail-btn:hover:after,
+  body:lang(SC) #news-carousel .update-content .update-detail-btn:hover:after {
+    right: 60%;
   }
 }
 

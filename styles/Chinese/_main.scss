@@ -95,6 +95,12 @@ body:lang(SC)
         
     }
     @media (min-width: 1200px){
+        #news-carousel .update-content .update-detail-btn:after {
+            right: 65%;
+        }
+        #news-carousel .update-content .update-detail-btn:hover:after {
+            right: 60%;
+        }
     }
 }
 
