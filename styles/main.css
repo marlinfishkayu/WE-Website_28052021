@@ -7716,6 +7716,8 @@ select.form-control::-ms-expand {
 
 #AboutWE .hero-header .hero-intro1 h3 {
   padding-bottom: 10px;
+  font-family: "Barlow Regular", sans-serif, Arial, Helvetica;
+  font-weight: 100;
 }
 
 #frame_svg {
@@ -9286,7 +9288,9 @@ body:lang(SC) .break_Chi {
   display: block;
 }
 
+body:lang(TC) #AboutWE .hero-header .hero-intro1 h3,
 body:lang(TC) .hero-title,
+body:lang(SC) #AboutWE .hero-header .hero-intro1 h3,
 body:lang(SC) .hero-title {
   font-weight: 400;
 }
@@ -9384,6 +9388,7 @@ body:lang(TC) body, body:lang(TC) h1, body:lang(TC) h2, body:lang(TC) h3, body:l
 body:lang(TC) .feature-flexbox h2,
 body:lang(TC) .live-game-main .feature-header,
 body:lang(TC) #AboutWE .about-h2, body:lang(TC) #AboutWE .about-h4, body:lang(TC) #AboutWE .about-p,
+body:lang(TC) #AboutWE .hero-header .hero-intro1 h3,
 body:lang(TC) #diamondCarousel h5,
 body:lang(TC) #NewsDetail .hero-title,
 body:lang(TC) #intdexWhatsNews .news-slider-link p,
@@ -9427,6 +9432,7 @@ body:lang(SC) body, body:lang(SC) h1, body:lang(SC) h2, body:lang(SC) h3, body:l
 body:lang(SC) .feature-flexbox h2,
 body:lang(SC) .live-game-main .feature-header,
 body:lang(SC) #AboutWE .about-h2, body:lang(SC) #AboutWE .about-h4, body:lang(SC) #AboutWE .about-p,
+body:lang(SC) #AboutWE .hero-header .hero-intro1 h3,
 body:lang(SC) #diamondCarousel h5,
 body:lang(SC) #NewsDetail .hero-title,
 body:lang(SC) #intdexWhatsNews .news-slider-link p,
