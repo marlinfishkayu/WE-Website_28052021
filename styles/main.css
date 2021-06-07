@@ -596,49 +596,49 @@ button:focus {
 }
 
 @font-face {
-  font-family: 'Noto Sans SC';
-  src: url("./fonts/NotoSansSC/NotoSansSC-Black.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Noto Sans SC';
-  src: url("./fonts/NotoSansSC/NotoSansSC-Bold.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Noto Sans SC';
-  src: url("./fonts/NotoSansSC/NotoSansSC-Medium.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Noto Sans SC';
-  src: url("./fonts/NotoSansSC/NotoSansSC-Regular.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Noto Sans SC';
-  src: url("./fonts/NotoSansSC/NotoSansSC-Light.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Noto Sans SC';
+  font-family: 'NotoSansSC';
   src: url("./fonts/NotoSansSC/NotoSansSC-Thin.woff") format("woff");
-  font-weight: normal;
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'NotoSansSC';
+  src: url("./fonts/NotoSansSC/NotoSansSC-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'NotoSansSC';
+  src: url("./fonts/NotoSansSC/NotoSansSC-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'NotoSansSC';
+  src: url("./fonts/NotoSansSC/NotoSansSC-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'NotoSansSC';
+  src: url("./fonts/NotoSansSC/NotoSansSC-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'NotoSansSC';
+  src: url("./fonts/NotoSansSC/NotoSansSC-Black.woff") format("woff");
+  font-weight: 900;
   font-style: normal;
   font-display: swap;
 }
@@ -646,7 +646,7 @@ button:focus {
 @font-face {
   font-family: 'Noto Sans TC';
   src: url("./fonts/NotoSansTC/NotoSansTC-Thin.woff") format("woff");
-  font-weight: normal;
+  font-weight: 100;
   font-style: normal;
   font-display: swap;
 }
@@ -654,7 +654,7 @@ button:focus {
 @font-face {
   font-family: 'Noto Sans TC';
   src: url("./fonts/NotoSansTC/NotoSansTC-Light.woff") format("woff");
-  font-weight: normal;
+  font-weight: 300;
   font-style: normal;
   font-display: swap;
 }
@@ -662,7 +662,7 @@ button:focus {
 @font-face {
   font-family: 'Noto Sans TC';
   src: url("./fonts/NotoSansTC/NotoSansTC-Regular.woff") format("woff");
-  font-weight: normal;
+  font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
@@ -670,7 +670,7 @@ button:focus {
 @font-face {
   font-family: 'Noto Sans TC';
   src: url("./fonts/NotoSansTC/NotoSansTC-Medium.woff") format("woff");
-  font-weight: normal;
+  font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
@@ -678,7 +678,7 @@ button:focus {
 @font-face {
   font-family: 'Noto Sans TC';
   src: url("./fonts/NotoSansTC/NotoSansTC-Bold.woff") format("woff");
-  font-weight: normal;
+  font-weight: 700;
   font-style: normal;
   font-display: swap;
 }
@@ -686,7 +686,7 @@ button:focus {
 @font-face {
   font-family: 'Noto Sans TC';
   src: url("./fonts/NotoSansTC/NotoSansTC-Black.woff") format("woff");
-  font-weight: normal;
+  font-weight: 900;
   font-style: normal;
   font-display: swap;
 }
@@ -9658,7 +9658,7 @@ body:lang(SC) #liveStudio .livestudio-hightlight-wrap .large-text h1,
 body:lang(SC) #liveStudio .livestudio-hightlight-wrap .large-text h6,
 body:lang(SC) .main-footer .footer-bottom .footer-TC .TC,
 body:lang(SC) #wrapper .nav_links .nav-link {
-  font-family: "Noto Sans SC", "segoe ui", "microsoft jhenghei", "microsoft mhei", sans-serif;
+  font-family: "NotoSansSC", "segoe ui", "microsoft jhenghei", "microsoft mhei", sans-serif;
 }
 
 body:lang(SC) #newsFeed .frame-detail h6 {
@@ -9756,14 +9756,14 @@ body:lang(TC) #intdexWhatsNews .news-item-header {
 }
 
 body:lang(SC) .deco-content {
-  font-family: "Noto Sans SC", "segoe ui", "microsoft jhenghei", "microsoft mhei", sans-serif;
+  font-family: "NotoSansSC", "segoe ui", "microsoft jhenghei", "microsoft mhei", sans-serif;
 }
 
 body:lang(SC) #intdexWhatsNews .text-gold-btn,
 body:lang(SC) #intdexWhatsNews .news-item-text .text-gold,
 body:lang(SC) .coming .disable-text h4,
 body:lang(SC) #intdexWhatsNews .news-item-header {
-  font-family: "Noto Sans SC", "segoe ui", "microsoft jhenghei", "microsoft mhei", sans-serif;
+  font-family: "NotoSansSC", "segoe ui", "microsoft jhenghei", "microsoft mhei", sans-serif;
   font-weight: 500;
 }
 
