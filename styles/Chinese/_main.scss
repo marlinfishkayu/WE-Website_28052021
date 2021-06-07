@@ -41,9 +41,16 @@ body:lang(SC)
         margin-top: -3rem;
     }
     #NewsDetail .hero-title,
+    #newsFeed .frame-detail .frame-date,
     .gametab-game-title h4,
     #intdexWhatsNews .news-slider-link p,
     .blockchain .hero-header .BC-series, 
+    #newsFeed .frame-detail h2,
+    .deco-header,
+    .expand-deco,
+    .more-deco-h4,
+    #diamondCarousel h2,
+    .our-gamaes .expand-deco .more-deco-h4,
     #liveGame .hero-header h1{
         font-weight: 500;
     }
@@ -130,6 +137,9 @@ body:lang(TC)
     #liveStudio .livestudio-hightlight-wrap .large-text h6,
     .main-footer .footer-bottom .footer-TC .TC,
     #news-carousel .update-content .update-event,
+    #newsFeed .frame-detail .frame-date,
+    #newsFeed .frame-detail h2,
+    .our-gamaes .expand-deco .more-deco-h4,
     #wrapper .nav_links .nav-link{
         font-family: $fontNotoSansTC;
     }
@@ -174,6 +184,9 @@ body:lang(SC)
     #liveStudio .livestudio-hightlight-wrap .large-text h6,
     .main-footer .footer-bottom .footer-TC .TC,
     #news-carousel .update-content .update-event,
+    #newsFeed .frame-detail .frame-date,
+    .our-gamaes .expand-deco .more-deco-h4,
+    #newsFeed .frame-detail h2,
     #wrapper .nav_links .nav-link{
         font-family: $fontNotoSansSC;
     }
@@ -213,6 +226,8 @@ body:lang(EN)
     #AboutWE .about-h2, #AboutWE .about-h4,
     .main-footer h6,
     .game-icon-wrap,
+    #newsFeed .frame-detail h2,
+    .more-deco-h4,
     #allLiveGame .allLiveGame-main .game-item-wrap .game-item-text h2,
     #news-carousel .update-content .update-event {
         font-family: $fontFuturaMedium;
@@ -220,7 +235,9 @@ body:lang(EN)
     #allLiveGame .allLiveGame-main .game-item-wrap .game-item-text p,
     .main-footer p, .main-footer .subscribe-form input{
         font-family: $fontBarlowRegular; 
-    
+    }
+    #newsFeed .frame-detail .frame-date {
+        font-family: $fontBarlowMedium; 
     }
     #allLiveGame .allLiveGame-main .game-item-wrap .game-item-text h4{
         font-family: $fontFuturaCondensedMedium;

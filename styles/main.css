@@ -3171,7 +3171,6 @@ footer {
 
 .our-gamaes .expand-deco .more-deco-h4 {
   margin-top: 20px;
-  font-family: "Futura-Medium", Futura-pt, Arial, sans-serif;
   font-size: 12px;
   font-weight: 100;
   letter-spacing: 2px;
@@ -5011,7 +5010,6 @@ select.form-control::-ms-expand {
   padding-top: 0.5rem;
   max-width: 1000px;
   text-transform: uppercase;
-  font-family: "Futura-Medium", Futura-pt, Arial, sans-serif;
 }
 
 #news-carousel .update-content .update-detail-btn {
@@ -5198,8 +5196,8 @@ select.form-control::-ms-expand {
 }
 
 #newsFeed .frame-detail h2 {
-  font-family: "Futura-Medium", Futura-pt, "Trebuchet MS", Arial, sans-serif;
   font-size: 14px;
+  font-weight: 500;
 }
 
 #newsFeed .news-filter-wrap {
@@ -9502,14 +9500,28 @@ body:lang(SC) #liveGame #SqueezeBaccarat .hero-intro1 {
 }
 
 body:lang(TC) #NewsDetail .hero-title,
+body:lang(TC) #newsFeed .frame-detail .frame-date,
 body:lang(TC) .gametab-game-title h4,
 body:lang(TC) #intdexWhatsNews .news-slider-link p,
 body:lang(TC) .blockchain .hero-header .BC-series,
+body:lang(TC) #newsFeed .frame-detail h2,
+body:lang(TC) .deco-header,
+body:lang(TC) .expand-deco,
+body:lang(TC) .more-deco-h4,
+body:lang(TC) #diamondCarousel h2,
+body:lang(TC) .our-gamaes .expand-deco .more-deco-h4,
 body:lang(TC) #liveGame .hero-header h1,
 body:lang(SC) #NewsDetail .hero-title,
+body:lang(SC) #newsFeed .frame-detail .frame-date,
 body:lang(SC) .gametab-game-title h4,
 body:lang(SC) #intdexWhatsNews .news-slider-link p,
 body:lang(SC) .blockchain .hero-header .BC-series,
+body:lang(SC) #newsFeed .frame-detail h2,
+body:lang(SC) .deco-header,
+body:lang(SC) .expand-deco,
+body:lang(SC) .more-deco-h4,
+body:lang(SC) #diamondCarousel h2,
+body:lang(SC) .our-gamaes .expand-deco .more-deco-h4,
 body:lang(SC) #liveGame .hero-header h1 {
   font-weight: 500;
 }
@@ -9616,6 +9628,9 @@ body:lang(TC) #liveStudio .livestudio-hightlight-wrap .large-text h1,
 body:lang(TC) #liveStudio .livestudio-hightlight-wrap .large-text h6,
 body:lang(TC) .main-footer .footer-bottom .footer-TC .TC,
 body:lang(TC) #news-carousel .update-content .update-event,
+body:lang(TC) #newsFeed .frame-detail .frame-date,
+body:lang(TC) #newsFeed .frame-detail h2,
+body:lang(TC) .our-gamaes .expand-deco .more-deco-h4,
 body:lang(TC) #wrapper .nav_links .nav-link {
   font-family: "Noto Sans TC", "segoe ui", "microsoft jhenghei", "microsoft mhei", sans-serif;
 }
@@ -9661,6 +9676,9 @@ body:lang(SC) #liveStudio .livestudio-hightlight-wrap .large-text h1,
 body:lang(SC) #liveStudio .livestudio-hightlight-wrap .large-text h6,
 body:lang(SC) .main-footer .footer-bottom .footer-TC .TC,
 body:lang(SC) #news-carousel .update-content .update-event,
+body:lang(SC) #newsFeed .frame-detail .frame-date,
+body:lang(SC) .our-gamaes .expand-deco .more-deco-h4,
+body:lang(SC) #newsFeed .frame-detail h2,
 body:lang(SC) #wrapper .nav_links .nav-link {
   font-family: "NotoSansSC", "segoe ui", "microsoft jhenghei", "microsoft mhei", sans-serif;
 }
@@ -9705,6 +9723,8 @@ body:lang(EN) #liveGame #SqueezeBaccarat .hero-intro1 {
 body:lang(EN) #AboutWE .about-h2, body:lang(EN) #AboutWE .about-h4,
 body:lang(EN) .main-footer h6,
 body:lang(EN) .game-icon-wrap,
+body:lang(EN) #newsFeed .frame-detail h2,
+body:lang(EN) .more-deco-h4,
 body:lang(EN) #allLiveGame .allLiveGame-main .game-item-wrap .game-item-text h2,
 body:lang(EN) #news-carousel .update-content .update-event {
   font-family: "Futura-Medium", Futura-pt, Arial, sans-serif;
@@ -9713,6 +9733,10 @@ body:lang(EN) #news-carousel .update-content .update-event {
 body:lang(EN) #allLiveGame .allLiveGame-main .game-item-wrap .game-item-text p,
 body:lang(EN) .main-footer p, body:lang(EN) .main-footer .subscribe-form input {
   font-family: "Barlow Regular", sans-serif, Arial, Helvetica;
+}
+
+body:lang(EN) #newsFeed .frame-detail .frame-date {
+  font-family: "Barlow Medium", sans-serif, Arial, Helvetica;
 }
 
 body:lang(EN) #allLiveGame .allLiveGame-main .game-item-wrap .game-item-text h4 {
