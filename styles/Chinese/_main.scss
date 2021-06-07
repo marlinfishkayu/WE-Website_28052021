@@ -1,10 +1,6 @@
 body:lang(TC),
 body:lang(SC)
 {
-    h1,h2,h3, a, 
-    #wrapper .nav_links .nav-link{
-        font-weight: 300;
-    }
     .pp-link a,
     #AboutWE .about-p,
     .hero-header .hero-intro2, p{
@@ -17,23 +13,22 @@ body:lang(SC)
     #AboutWE .about-brandStory .about-h2{
         font-size: 36px;
     }
+    .break_Chi{
+        display: block;
+    }
     #NewsDetail .detail-content-wrap .Event-Detail-main .lang,
     .deco-content{
         font-weight: 100;
     } 
-    .game-icon-wrap h4{
-        font-weight: 500;
+    h1,h2,h3, a, 
+    #wrapper .nav_links .nav-link{
+        font-weight: 300;
     }
-    .break_Chi{
-        display: block;
-    }  
     #AboutWE .hero-header .hero-intro1 h3,
     .hero-title {
         font-weight: 400;
-    }  
-    .game-icon-container h4{
-        font-weight: 500;
-    }
+    } 
+    
     #liveGame .lottery .header-deco {
         width: 190px;
     }
@@ -51,6 +46,11 @@ body:lang(SC)
     .more-deco-h4,
     #diamondCarousel h2,
     .our-gamaes .expand-deco .more-deco-h4,
+    .service-title,
+    .game-icon-container h4,
+    .game-icon-wrap h4,
+    #news-carousel .update-content .update-event,
+    #news-carousel .update-content .update-detail-btn h6,
     #liveGame .hero-header h1{
         font-weight: 500;
     }
@@ -67,10 +67,6 @@ body:lang(SC)
     }
     #thankyou-popup .secondaryBtn{
         font-size: 15px;
-    }
-    #news-carousel .update-content .update-event,
-    #news-carousel .update-content .update-detail-btn h6{
-        font-weight: 500;
     }
     
     @media (min-width: 768px){
@@ -119,6 +115,7 @@ body:lang(TC)
     .live-game-main .feature-header,
     #AboutWE .about-h2, #AboutWE .about-h4, #AboutWE .about-p,
     #AboutWE .hero-header .hero-intro1 h3,
+    .service-title,
     #diamondCarousel h5,
     #NewsDetail .hero-title,
     #intdexWhatsNews .news-slider-link p,
@@ -146,6 +143,7 @@ body:lang(TC)
     .secondaryBtn,
     .live-game-bottom .game-bottom h4,
     .main-footer .footer-subscribe h6,
+    #allLiveGame .allLiveGame-main .game-item-wrap .game-item-text h2
     #newsFeed .frame-detail h6 {
         font-weight: 500;
     }
@@ -166,6 +164,7 @@ body:lang(SC)
     .live-game-main .feature-header,
     #AboutWE .about-h2, #AboutWE .about-h4, #AboutWE .about-p,
     #AboutWE .hero-header .hero-intro1 h3,
+    .service-title
     #diamondCarousel h5,
     #NewsDetail .hero-title,
     #intdexWhatsNews .news-slider-link p,
@@ -228,6 +227,7 @@ body:lang(EN)
     .game-icon-wrap,
     #newsFeed .frame-detail h2,
     .more-deco-h4,
+    .service-title,
     #allLiveGame .allLiveGame-main .game-item-wrap .game-item-text h2,
     #news-carousel .update-content .update-event {
         font-family: $fontFuturaMedium;
