@@ -61,6 +61,7 @@ body:lang(SC)
     #thankyou-popup .secondaryBtn{
         font-size: 15px;
     }
+    #news-carousel .update-content .update-event,
     #news-carousel .update-content .update-detail-btn h6{
         font-weight: 500;
     }
@@ -128,6 +129,7 @@ body:lang(TC)
     #liveStudio .livestudio-hightlight-wrap .large-text h1,
     #liveStudio .livestudio-hightlight-wrap .large-text h6,
     .main-footer .footer-bottom .footer-TC .TC,
+    #news-carousel .update-content .update-event,
     #wrapper .nav_links .nav-link{
         font-family: $fontNotoSansTC;
     }
@@ -171,6 +173,7 @@ body:lang(SC)
     #liveStudio .livestudio-hightlight-wrap .large-text h1,
     #liveStudio .livestudio-hightlight-wrap .large-text h6,
     .main-footer .footer-bottom .footer-TC .TC,
+    #news-carousel .update-content .update-event,
     #wrapper .nav_links .nav-link{
         font-family: $fontNotoSansSC;
     }
@@ -210,8 +213,8 @@ body:lang(EN)
     #AboutWE .about-h2, #AboutWE .about-h4,
     .main-footer h6,
     .game-icon-wrap,
-    #allLiveGame .allLiveGame-main .game-item-wrap .game-item-text h2
-    {
+    #allLiveGame .allLiveGame-main .game-item-wrap .game-item-text h2,
+    #news-carousel .update-content .update-event {
         font-family: $fontFuturaMedium;
     }
     #allLiveGame .allLiveGame-main .game-item-wrap .game-item-text p,

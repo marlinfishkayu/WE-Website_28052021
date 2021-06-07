@@ -84,7 +84,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  font-family: "Barlow", sans-serif, Arial, sans-serif;
+  font-family: "Barlow", sans-serif, Arial, Helvetica;
   color: #fff;
   background-color: #060B1A;
   -webkit-transition: all 0.5s ease;
@@ -126,7 +126,7 @@ h3 {
 }
 
 h4 {
-  font-family: "Barlow Regular", sans-serif, Arial, sans-serif;
+  font-family: "Barlow Regular", sans-serif, Arial, Helvetica;
   font-size: 18px;
   font-style: normal;
   font-variant: normal;
@@ -176,7 +176,7 @@ img {
 }
 
 .hero-intro1 {
-  font-family: "Barlow Regular", sans-serif, Arial, sans-serif;
+  font-family: "Barlow Regular", sans-serif, Arial, Helvetica;
   font-size: 18px;
   font-weight: 100;
   color: #D8D8D8;
@@ -184,7 +184,7 @@ img {
 }
 
 .hero-intro2 {
-  font-family: "Barlow Light", sans-serif, Arial, sans-serif;
+  font-family: "Barlow Light", sans-serif, Arial, Helvetica;
   font-weight: 100;
   color: #979797;
   line-height: 1.5;
@@ -1170,7 +1170,7 @@ button:focus {
   color: #979797;
   font-size: 16px;
   font-weight: 100;
-  font-family: "Barlow Light", sans-serif, Arial, sans-serif;
+  font-family: "Barlow Light", sans-serif, Arial, Helvetica;
   -webkit-transition: 200ms all ease-in-out;
   transition: 200ms all ease-in-out;
 }
@@ -1452,7 +1452,7 @@ button:focus {
 }
 
 .sidebar a {
-  font-family: "Barlow Regular", sans-serif, Arial, sans-serif;
+  font-family: "Barlow Regular", sans-serif, Arial, Helvetica;
   font-weight: 100;
   color: #A1A1A1;
   margin-left: 25px;
@@ -1469,7 +1469,7 @@ button:focus {
 }
 
 .sidebar .side-item a {
-  font-family: "Barlow Regular", sans-serif, Arial, sans-serif;
+  font-family: "Barlow Regular", sans-serif, Arial, Helvetica;
   font-size: 16px;
   letter-spacing: 2px;
   line-height: 60px;
@@ -1894,7 +1894,7 @@ footer {
 
 .main-footer .footer-bottom .footer-TC {
   display: inline-block;
-  font-family: "Barlow Regular", sans-serif, Arial, sans-serif;
+  font-family: "Barlow Regular", sans-serif, Arial, Helvetica;
   font-size: 12px;
   font-weight: 100;
   color: #545454;
@@ -1944,7 +1944,7 @@ footer {
   color: #EE2E2E !important;
   font-size: 16px;
   font-weight: 100;
-  font-family: "Barlow Light", sans-serif, Arial, sans-serif;
+  font-family: "Barlow Light", sans-serif, Arial, Helvetica;
   background-color: transparent !important;
   padding: 5px 0;
   padding-bottom: 0px;
@@ -2558,7 +2558,7 @@ footer {
 }
 
 #diamondCarousel h3 {
-  font-family: "Barlow Regular", sans-serif, Arial, sans-serif;
+  font-family: "Barlow Regular", sans-serif, Arial, Helvetica;
   font-size: 14px;
   letter-spacing: 1px;
   font-weight: 100;
@@ -2574,7 +2574,7 @@ footer {
 
 #diamondCarousel .dia-cat h5 {
   pointer-events: none;
-  font-family: "Barlow Medium", sans-serif, Arial, sans-serif;
+  font-family: "Barlow Medium", sans-serif, Arial, Helvetica;
   font-size: 16px;
   font-weight: 100;
   letter-spacing: 2px;
@@ -2610,7 +2610,7 @@ footer {
 
 #diamondCarousel .dia-p {
   padding-top: 2rem;
-  font-family: "Barlow Light", sans-serif, Arial, sans-serif;
+  font-family: "Barlow Light", sans-serif, Arial, Helvetica;
   font-size: 16px;
   font-weight: 100;
   letter-spacing: 0.5px;
@@ -3304,7 +3304,7 @@ footer {
 }
 
 .deco-cat {
-  font-family: "Barlow-Thin", sans-serif, Arial, sans-serif;
+  font-family: "Barlow-Thin", sans-serif, Arial, Helvetica;
   font-size: 18px;
   font-weight: 100;
   color: #E1E1E1;
@@ -3622,7 +3622,7 @@ footer {
 
 #liveGame .header-deco h4 {
   margin-top: 7rem;
-  font-family: "Barlow Medium", sans-serif, Arial, sans-serif;
+  font-family: "Barlow Medium", sans-serif, Arial, Helvetica;
   letter-spacing: 2;
   font-size: 16px;
   color: #B0936D;
@@ -3849,7 +3849,7 @@ footer {
 }
 
 .game-platform .game-platforom-icon h6 {
-  font-family: "Barlow Light", sans-serif, Arial, sans-serif;
+  font-family: "Barlow Light", sans-serif, Arial, Helvetica;
   font-size: 16px;
   font-weight: 100;
   text-align: center;
@@ -4011,7 +4011,7 @@ footer {
 
 #BaccaratType p {
   margin-top: 1rem;
-  font-family: "Barlow Light", sans-serif, Arial, sans-serif;
+  font-family: "Barlow Light", sans-serif, Arial, Helvetica;
   font-size: 16px;
   font-weight: 100;
   color: #979797;
@@ -4440,7 +4440,7 @@ footer {
 
 #ContactUs .with-errors .list-unstyled li {
   color: #EE2E2E;
-  font-family: "Barlow Regular", sans-serif, Arial, sans-serif;
+  font-family: "Barlow Regular", sans-serif, Arial, Helvetica;
   margin-top: 5px;
 }
 
@@ -5016,7 +5016,7 @@ select.form-control::-ms-expand {
 
 #news-carousel .update-content .update-detail-btn {
   position: relative;
-  font-family: "Barlow Medium", sans-serif, Arial, sans-serif;
+  font-family: "Barlow Medium", sans-serif, Arial, Helvetica;
   text-transform: uppercase;
   font-size: 13px;
   padding-top: 3.5rem;
@@ -5677,7 +5677,7 @@ select.form-control::-ms-expand {
     overflow: hidden;
   }
   #newsFeed .frame-detail .frame-date {
-    font-family: "Barlow Medium", sans-serif, Arial, sans-serif;
+    font-family: "Barlow Medium", sans-serif, Arial, Helvetica;
     font-size: 18px;
   }
   #newsFeed .frame-detail .frame-left {
@@ -5697,7 +5697,7 @@ select.form-control::-ms-expand {
     z-index: -1;
     width: 85px;
     height: 88px;
-    font-family: "Barlow Light", sans-serif, Arial, sans-serif;
+    font-family: "Barlow Light", sans-serif, Arial, Helvetica;
     font-size: 70px;
     background: #89663d;
     background: -webkit-gradient(linear, left top, left bottom, color-stop(15%, #89663d), color-stop(48%, #4a3d2b), to(#060b1a));
@@ -6333,7 +6333,7 @@ select.form-control::-ms-expand {
 }
 
 .services-detail {
-  font-family: "Barlow Light", sans-serif, Arial, sans-serif;
+  font-family: "Barlow Light", sans-serif, Arial, Helvetica;
   font-size: 16px;
   letter-spacing: 1px;
   color: #979797;
@@ -6571,7 +6571,7 @@ select.form-control::-ms-expand {
 
 #liveStudio .room-des {
   color: #979797;
-  font-family: "Barlow Light", sans-serif, Arial, sans-serif;
+  font-family: "Barlow Light", sans-serif, Arial, Helvetica;
   font-size: 15px;
   font-weight: 100;
   letter-spacing: 1px;
@@ -6736,7 +6736,7 @@ select.form-control::-ms-expand {
   font-size: 80px;
   font-weight: 100;
   color: #B0936D;
-  font-family: "Barlow Light", sans-serif, Arial, sans-serif;
+  font-family: "Barlow Light", sans-serif, Arial, Helvetica;
 }
 
 #liveStudio .livestudio-hightlight-wrap .large-text h6 {
@@ -6744,7 +6744,7 @@ select.form-control::-ms-expand {
   padding-left: 0.5rem;
   font-size: 25px;
   color: #B0936D;
-  font-family: "Barlow Light", sans-serif, Arial, sans-serif;
+  font-family: "Barlow Light", sans-serif, Arial, Helvetica;
 }
 
 #liveStudio .livestudio-hightlight-wrap .large-text p {
@@ -7298,7 +7298,7 @@ select.form-control::-ms-expand {
 }
 
 #allLiveGame .allLiveGame-main .game-item-wrap .game-item-text p {
-  font-family: "Barlow Regular", sans-serif, Arial, sans-serif;
+  font-family: "Barlow Regular", sans-serif, Arial, Helvetica;
   font-size: 12px;
   letter-spacing: 1px;
   color: #979797;
@@ -7907,7 +7907,7 @@ select.form-control::-ms-expand {
 
 #AboutWE .hero-header .hero-intro1 h3 {
   padding-bottom: 10px;
-  font-family: "Barlow Regular", sans-serif, Arial, sans-serif;
+  font-family: "Barlow Regular", sans-serif, Arial, Helvetica;
   font-weight: 100;
 }
 
@@ -8270,11 +8270,11 @@ select.form-control::-ms-expand {
   color: #B0936D;
   font-size: 16px;
   letter-spacing: 1px;
-  font-family: "Barlow Medium", sans-serif, Arial, sans-serif;
+  font-family: "Barlow Medium", sans-serif, Arial, Helvetica;
 }
 
 #NewsDetail .event-info h6 {
-  font-family: "Barlow Light", sans-serif, Arial, sans-serif;
+  font-family: "Barlow Light", sans-serif, Arial, Helvetica;
   padding-top: 15px;
   font-size: 16px;
   letter-spacing: 1px;
@@ -8379,14 +8379,14 @@ select.form-control::-ms-expand {
   padding: 0;
   margin: 0 auto;
   margin-top: 2rem;
-  font-family: "Barlow Light", sans-serif, Arial, sans-serif;
+  font-family: "Barlow Light", sans-serif, Arial, Helvetica;
   font-size: 20px;
   letter-spacing: 1px;
 }
 
 #NewsDetail .detail-content-wrap h2 {
   font-size: 20px;
-  font-family: "Barlow Regular", sans-serif, Arial, sans-serif;
+  font-family: "Barlow Regular", sans-serif, Arial, Helvetica;
   padding-bottom: 2rem;
   line-height: 1.5;
 }
@@ -8631,7 +8631,7 @@ select.form-control::-ms-expand {
 }
 
 #searchResult .result-header h4 {
-  font-family: "Barlow Regular", sans-serif, Arial, sans-serif;
+  font-family: "Barlow Regular", sans-serif, Arial, Helvetica;
   color: #979797;
   font-weight: 100;
   font-size: 24px;
@@ -8658,7 +8658,7 @@ select.form-control::-ms-expand {
 
 #searchResult .result-item h4 {
   color: #052749;
-  font-family: "Barlow", sans-serif, Arial, sans-serif;
+  font-family: "Barlow", sans-serif, Arial, Helvetica;
 }
 
 #searchResult .result-item .date {
@@ -8705,7 +8705,7 @@ select.form-control::-ms-expand {
 }
 
 .cookie-container p {
-  font-family: "Barlow Light", sans-serif, Arial, sans-serif;
+  font-family: "Barlow Light", sans-serif, Arial, Helvetica;
   font-size: 16px;
   font-weight: 100;
   letter-spacing: 0.5px;
@@ -8824,7 +8824,7 @@ select.form-control::-ms-expand {
 }
 
 #thankyou-popup p {
-  font-family: "Barlow Regular", sans-serif, Arial, sans-serif;
+  font-family: "Barlow Regular", sans-serif, Arial, Helvetica;
   color: #A1A1A1;
   padding-top: 20px;
   margin: 0 auto;
@@ -8982,7 +8982,7 @@ select.form-control::-ms-expand {
 #privacyPolicy .privacy-wrap p,
 #privacyPolicy .privacy-wrap ul li {
   color: #979797;
-  font-family: "Barlow Light", sans-serif, Arial, sans-serif;
+  font-family: "Barlow Light", sans-serif, Arial, Helvetica;
   font-weight: 100;
   font-size: 16px;
   font-weight: 100;
@@ -9210,7 +9210,7 @@ select.form-control::-ms-expand {
 }
 
 #error .error-header p {
-  font-family: "Barlow Light", sans-serif, Arial, sans-serif;
+  font-family: "Barlow Light", sans-serif, Arial, Helvetica;
   padding-top: 30px;
   font-size: 16px;
   max-width: 300px;
@@ -9236,7 +9236,7 @@ select.form-control::-ms-expand {
 
 #error .error-content p {
   font-size: 16px;
-  font-family: "Barlow Light", sans-serif, Arial, sans-serif;
+  font-family: "Barlow Light", sans-serif, Arial, Helvetica;
 }
 
 #error .error-content .error-col {
@@ -9537,7 +9537,9 @@ body:lang(SC) #thankyou-popup .secondaryBtn {
   font-size: 15px;
 }
 
+body:lang(TC) #news-carousel .update-content .update-event,
 body:lang(TC) #news-carousel .update-content .update-detail-btn h6,
+body:lang(SC) #news-carousel .update-content .update-event,
 body:lang(SC) #news-carousel .update-content .update-detail-btn h6 {
   font-weight: 500;
 }
@@ -9613,6 +9615,7 @@ body:lang(TC) #NewsDetail .detail-content-wrap .Event-Detail-main .lang,
 body:lang(TC) #liveStudio .livestudio-hightlight-wrap .large-text h1,
 body:lang(TC) #liveStudio .livestudio-hightlight-wrap .large-text h6,
 body:lang(TC) .main-footer .footer-bottom .footer-TC .TC,
+body:lang(TC) #news-carousel .update-content .update-event,
 body:lang(TC) #wrapper .nav_links .nav-link {
   font-family: "Noto Sans TC", "segoe ui", "microsoft jhenghei", "microsoft mhei", sans-serif;
 }
@@ -9657,6 +9660,7 @@ body:lang(SC) #NewsDetail .detail-content-wrap .Event-Detail-main .lang,
 body:lang(SC) #liveStudio .livestudio-hightlight-wrap .large-text h1,
 body:lang(SC) #liveStudio .livestudio-hightlight-wrap .large-text h6,
 body:lang(SC) .main-footer .footer-bottom .footer-TC .TC,
+body:lang(SC) #news-carousel .update-content .update-event,
 body:lang(SC) #wrapper .nav_links .nav-link {
   font-family: "NotoSansSC", "segoe ui", "microsoft jhenghei", "microsoft mhei", sans-serif;
 }
@@ -9691,7 +9695,7 @@ body:lang(EN) #ContactUs .hyperlink {
 
 body:lang(EN) #AboutWE .about-p,
 body:lang(EN) .main-footer li {
-  font-family: "Barlow Light", sans-serif, Arial, sans-serif;
+  font-family: "Barlow Light", sans-serif, Arial, Helvetica;
 }
 
 body:lang(EN) #liveGame #SqueezeBaccarat .hero-intro1 {
@@ -9701,13 +9705,14 @@ body:lang(EN) #liveGame #SqueezeBaccarat .hero-intro1 {
 body:lang(EN) #AboutWE .about-h2, body:lang(EN) #AboutWE .about-h4,
 body:lang(EN) .main-footer h6,
 body:lang(EN) .game-icon-wrap,
-body:lang(EN) #allLiveGame .allLiveGame-main .game-item-wrap .game-item-text h2 {
+body:lang(EN) #allLiveGame .allLiveGame-main .game-item-wrap .game-item-text h2,
+body:lang(EN) #news-carousel .update-content .update-event {
   font-family: "Futura-Medium", Futura-pt, Arial, sans-serif;
 }
 
 body:lang(EN) #allLiveGame .allLiveGame-main .game-item-wrap .game-item-text p,
 body:lang(EN) .main-footer p, body:lang(EN) .main-footer .subscribe-form input {
-  font-family: "Barlow Regular", sans-serif, Arial, sans-serif;
+  font-family: "Barlow Regular", sans-serif, Arial, Helvetica;
 }
 
 body:lang(EN) #allLiveGame .allLiveGame-main .game-item-wrap .game-item-text h4 {
