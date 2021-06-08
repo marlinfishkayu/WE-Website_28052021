@@ -973,9 +973,8 @@ button:focus {
 }
 
 #wrapper .nav_links .nav-game-link {
-  font-family: Futura Medium,Trebuchet MS,Arial,sans-serif;
   letter-spacing: 3px;
-  font-weight: 100;
+  font-weight: 400;
   font-size: 16px;
   color: #979797;
   text-decoration: none;
@@ -7564,6 +7563,10 @@ select.form-control::-ms-expand {
   background: transparent;
 }
 
+#AboutWE .hero-header .hero-title {
+  font-size: 60px;
+}
+
 #AboutWE .hero-header-bkg .game-hero-D {
   position: relative;
 }
@@ -9606,6 +9609,7 @@ body:lang(SC) #thankyou-popup .secondaryBtn {
 body:lang(TC) body, body:lang(TC) h1, body:lang(TC) h2, body:lang(TC) h3, body:lang(TC) h4, body:lang(TC) h5, body:lang(TC) h6, body:lang(TC) p, body:lang(TC) span, body:lang(TC) .secondaryBtn,
 body:lang(TC) .feature-flexbox h2,
 body:lang(TC) .live-game-main .feature-header,
+body:lang(TC) #wrapper .nav_links .nav-game-link,
 body:lang(TC) #AboutWE .about-h2, body:lang(TC) #AboutWE .about-h4, body:lang(TC) #AboutWE .about-p,
 body:lang(TC) #AboutWE .hero-header .hero-intro1 h3,
 body:lang(TC) .service-title,
@@ -9656,6 +9660,7 @@ body:lang(TC) .game-platform .game-platforom-icon h6 {
 body:lang(SC) body, body:lang(SC) h1, body:lang(SC) h2, body:lang(SC) h3, body:lang(SC) h4, body:lang(SC) h5, body:lang(SC) h6, body:lang(SC) p, body:lang(SC) span, body:lang(SC) .secondaryBtn,
 body:lang(SC) .feature-flexbox h2,
 body:lang(SC) .live-game-main .feature-header,
+body:lang(SC) #wrapper .nav_links .nav-game-link,
 body:lang(SC) #AboutWE .about-h2, body:lang(SC) #AboutWE .about-h4, body:lang(SC) #AboutWE .about-p,
 body:lang(SC) #AboutWE .hero-header .hero-intro1 h3,
 body:lang(SC) .service-title
@@ -9727,6 +9732,7 @@ body:lang(EN) .game-icon-wrap,
 body:lang(EN) #newsFeed .frame-detail h2,
 body:lang(EN) .more-deco-h4,
 body:lang(EN) .service-title,
+body:lang(EN) #wrapper .nav_links .nav-game-link,
 body:lang(EN) #allLiveGame .allLiveGame-main .game-item-wrap .game-item-text h2,
 body:lang(EN) #news-carousel .update-content .update-event {
   font-family: "Futura-Medium", Futura-pt, Arial, sans-serif;
@@ -9814,11 +9820,6 @@ body:lang(TC) #AboutWE .hero-header .hero-intro1,
 body:lang(SC) #AboutWE .hero-header .hero-intro1 {
   font-size: 26px;
   line-height: 40px;
-}
-
-body:lang(TC) #AboutWE .hero-header .hero-title,
-body:lang(SC) #AboutWE .hero-header .hero-title {
-  font-size: 34px;
 }
 
 @media (min-width: 768px) {

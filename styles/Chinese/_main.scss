@@ -113,6 +113,7 @@ body:lang(TC)
     body,h1,h2,h3,h4, h5, h6, p, span, .secondaryBtn,
     .feature-flexbox h2,
     .live-game-main .feature-header,
+    #wrapper .nav_links  .nav-game-link,
     #AboutWE .about-h2, #AboutWE .about-h4, #AboutWE .about-p,
     #AboutWE .hero-header .hero-intro1 h3,
     .service-title,
@@ -162,6 +163,7 @@ body:lang(SC)
     body,h1,h2,h3,h4, h5, h6, p, span, .secondaryBtn,
     .feature-flexbox h2,
     .live-game-main .feature-header,
+    #wrapper .nav_links  .nav-game-link,
     #AboutWE .about-h2, #AboutWE .about-h4, #AboutWE .about-p,
     #AboutWE .hero-header .hero-intro1 h3,
     .service-title
@@ -228,6 +230,7 @@ body:lang(EN)
     #newsFeed .frame-detail h2,
     .more-deco-h4,
     .service-title,
+    #wrapper .nav_links .nav-game-link,
     #allLiveGame .allLiveGame-main .game-item-wrap .game-item-text h2,
     #news-carousel .update-content .update-event {
         font-family: $fontFuturaMedium;
