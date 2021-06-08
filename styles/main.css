@@ -7595,7 +7595,7 @@ select.form-control::-ms-expand {
 
 #AboutWE .about-main {
   padding-bottom: 3rem;
-  padding-top: 25rem;
+  padding-top: 19rem;
 }
 
 #AboutWE .hero-intro2 {
@@ -9513,6 +9513,7 @@ body:lang(TC) .our-gamaes .expand-deco .more-deco-h4,
 body:lang(TC) .service-title,
 body:lang(TC) .game-icon-container h4,
 body:lang(TC) .game-icon-wrap h4,
+body:lang(TC) #AboutWE .about-h4,
 body:lang(TC) #news-carousel .update-content .update-event,
 body:lang(TC) #news-carousel .update-content .update-detail-btn h6,
 body:lang(TC) #liveGame .hero-header h1,
@@ -9530,6 +9531,7 @@ body:lang(SC) .our-gamaes .expand-deco .more-deco-h4,
 body:lang(SC) .service-title,
 body:lang(SC) .game-icon-container h4,
 body:lang(SC) .game-icon-wrap h4,
+body:lang(SC) #AboutWE .about-h4,
 body:lang(SC) #news-carousel .update-content .update-event,
 body:lang(SC) #news-carousel .update-content .update-detail-btn h6,
 body:lang(SC) #liveGame .hero-header h1 {
