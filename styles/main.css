@@ -7106,7 +7106,7 @@ select.form-control::-ms-expand {
 }
 
 #allLiveGame .bottom-deco {
-  margin-top: 15rem;
+  margin-top: 26rem;
   font-weight: 500;
 }
 
@@ -7544,9 +7544,6 @@ select.form-control::-ms-expand {
   }
   .allLiveGame-main .bottom-deco {
     width: 294px;
-  }
-  #allLiveGame .bottom-deco {
-    margin-top: 8rem;
   }
 }
 
