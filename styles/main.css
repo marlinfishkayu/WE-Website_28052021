@@ -177,7 +177,7 @@ img {
 
 .hero-intro1 {
   font-family: "Barlow Regular", sans-serif, Arial, Helvetica;
-  font-size: 18px;
+  font-size: 24px;
   font-weight: 100;
   color: #D8D8D8;
   letter-spacing: 0;
@@ -6760,6 +6760,10 @@ select.form-control::-ms-expand {
   padding-bottom: 6rem;
 }
 
+#liveStudio .livestudio-hightlight-wrap .Highlights-container p {
+  font-size: 20px;
+}
+
 #liveStudio .livestudio-hightlight-wrap .cert-wrap {
   position: relative;
   text-align: center;
@@ -6833,7 +6837,7 @@ select.form-control::-ms-expand {
   position: relative;
   text-align: center;
   padding-top: 40px;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 #liveStudio .studio-bottom-main .studio-bottom-btn-wrap {
@@ -7102,7 +7106,7 @@ select.form-control::-ms-expand {
 }
 
 #allLiveGame .bottom-deco {
-  margin-top: 26rem;
+  margin-top: 15rem;
   font-weight: 500;
 }
 
@@ -7540,6 +7544,9 @@ select.form-control::-ms-expand {
   }
   .allLiveGame-main .bottom-deco {
     width: 294px;
+  }
+  #allLiveGame .bottom-deco {
+    margin-top: 8rem;
   }
 }
 
@@ -9722,7 +9729,8 @@ body:lang(EN) #ContactUs .hyperlink {
 }
 
 body:lang(EN) #AboutWE .about-p,
-body:lang(EN) .main-footer li {
+body:lang(EN) .main-footer li,
+body:lang(EN) .Highlights-container p {
   font-family: "Barlow Light", sans-serif, Arial, Helvetica;
 }
 

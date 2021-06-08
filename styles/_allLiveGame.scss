@@ -9,7 +9,7 @@
         padding: 5rem 3rem;
     }
     .bottom-deco{
-        margin-top: 26rem;
+        margin-top: 15rem;
         font-weight: 500;
     }
     .allLiveGame-bkg{
@@ -367,6 +367,9 @@
     }
     .allLiveGame-main .bottom-deco {
         width: 294px;
+    }
+    #allLiveGame .bottom-deco {
+        margin-top: 8rem;
     }
 }
 // Large devices (desktops, 992px and up)
