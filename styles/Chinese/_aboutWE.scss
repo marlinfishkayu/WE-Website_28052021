@@ -29,7 +29,7 @@ body:lang(SC)
         }
         #AboutWE .about-cert,
         #AboutWE .about-brandStory {
-            margin-top: 5rem;
+            margin-top: -5rem;
         }
         #AboutWE .about-slogan{
             margin-top: 15rem;
@@ -103,7 +103,7 @@ body:lang(SC)
             bottom: 8%;
         }
         #AboutWE .about-slogan {
-            margin-top: 6rem;
+            margin-top: 2rem;
         }
         #AboutWE .service-item {
             padding: 5px 2rem;
@@ -111,7 +111,7 @@ body:lang(SC)
     }
     @media (min-width: 1200px){
         #AboutWE .about-brandStory .about-h2 {
-            margin-top: -2rem;
+            margin-top: -1.5rem;
         }
         #AboutWE .Dynamic-frame{
             top: 18%;

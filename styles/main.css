@@ -8209,8 +8209,10 @@ select.form-control::-ms-expand {
   #AboutWE .about-brandStory .line-deco-vertical {
     bottom: 111px;
   }
-  #AboutWE .about-brandStory, #AboutWE .about-mission, #AboutWE .about-slogan {
-    margin-top: 3rem;
+  #AboutWE .about-brandStory,
+  #AboutWE .about-mission,
+  #AboutWE .about-slogan {
+    margin-top: 1rem;
   }
   #AboutWE #Dynamic-frame-outer-m,
   #AboutWE #Dynamic-frame-m {
@@ -9835,7 +9837,7 @@ body:lang(SC) #AboutWE .hero-header .hero-intro1 {
   body:lang(TC) #AboutWE .about-brandStory,
   body:lang(SC) #AboutWE .about-cert,
   body:lang(SC) #AboutWE .about-brandStory {
-    margin-top: 5rem;
+    margin-top: -5rem;
   }
   body:lang(TC) #AboutWE .about-slogan,
   body:lang(SC) #AboutWE .about-slogan {
@@ -9936,7 +9938,7 @@ body:lang(SC) #AboutWE .hero-header .hero-intro1 {
   }
   body:lang(TC) #AboutWE .about-slogan,
   body:lang(SC) #AboutWE .about-slogan {
-    margin-top: 6rem;
+    margin-top: 2rem;
   }
   body:lang(TC) #AboutWE .service-item,
   body:lang(SC) #AboutWE .service-item {
@@ -9947,7 +9949,7 @@ body:lang(SC) #AboutWE .hero-header .hero-intro1 {
 @media (min-width: 1200px) {
   body:lang(TC) #AboutWE .about-brandStory .about-h2,
   body:lang(SC) #AboutWE .about-brandStory .about-h2 {
-    margin-top: -2rem;
+    margin-top: -1.5rem;
   }
   body:lang(TC) #AboutWE .Dynamic-frame,
   body:lang(SC) #AboutWE .Dynamic-frame {
