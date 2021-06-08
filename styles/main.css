@@ -9943,7 +9943,7 @@ body:lang(SC) #AboutWE .hero-header .hero-intro1 {
 @media (min-width: 1200px) {
   body:lang(TC) #AboutWE .about-brandStory .about-h2,
   body:lang(SC) #AboutWE .about-brandStory .about-h2 {
-    margin-top: -1.5rem;
+    margin-top: -1.3rem;
   }
   body:lang(TC) #AboutWE .Dynamic-frame,
   body:lang(SC) #AboutWE .Dynamic-frame {
