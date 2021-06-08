@@ -8212,7 +8212,7 @@ select.form-control::-ms-expand {
   #AboutWE .about-brandStory,
   #AboutWE .about-mission,
   #AboutWE .about-slogan {
-    margin-top: 1rem;
+    margin-top: -5rem;
   }
   #AboutWE #Dynamic-frame-outer-m,
   #AboutWE #Dynamic-frame-m {
@@ -9832,12 +9832,6 @@ body:lang(SC) #AboutWE .hero-header .hero-intro1 {
   body:lang(TC) #AboutWE .about-brandStory .line-deco-vertical,
   body:lang(SC) #AboutWE .about-brandStory .line-deco-vertical {
     bottom: -20%;
-  }
-  body:lang(TC) #AboutWE .about-cert,
-  body:lang(TC) #AboutWE .about-brandStory,
-  body:lang(SC) #AboutWE .about-cert,
-  body:lang(SC) #AboutWE .about-brandStory {
-    margin-top: -5rem;
   }
   body:lang(TC) #AboutWE .about-slogan,
   body:lang(SC) #AboutWE .about-slogan {
